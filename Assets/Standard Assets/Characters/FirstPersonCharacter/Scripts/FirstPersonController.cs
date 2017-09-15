@@ -94,43 +94,41 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
-            float speed;
-            GetInput(out speed);
-            // always move along the camera forward as it is the direction that it being aimed at
-            Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
+			if (m_Camera.enabled == true) {
+				float speed;
+				GetInput (out speed);
+				// always move along the camera forward as it is the direction that it being aimed at
+				Vector3 desiredMove = transform.forward * m_Input.y + transform.right * m_Input.x;
 
-            // get a normal for the surface that is being touched to move along it
-            RaycastHit hitInfo;
-            Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-                               m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
-            desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
+				// get a normal for the surface that is being touched to move along it
+				RaycastHit hitInfo;
+				Physics.SphereCast (transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
+					m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+				desiredMove = Vector3.ProjectOnPlane (desiredMove, hitInfo.normal).normalized;
 
-            m_MoveDir.x = desiredMove.x*speed;
-            m_MoveDir.z = desiredMove.z*speed;
+				m_MoveDir.x = desiredMove.x * speed;
+				m_MoveDir.z = desiredMove.z * speed;
 
 
-            if (m_CharacterController.isGrounded)
-            {
-                m_MoveDir.y = -m_StickToGroundForce;
+				if (m_CharacterController.isGrounded) {
+					m_MoveDir.y = -m_StickToGroundForce;
 
-                if (m_Jump)
-                {
-                    m_MoveDir.y = m_JumpSpeed;
-                    PlayJumpSound();
-                    m_Jump = false;
-                    m_Jumping = true;
-                }
-            }
-            else
-            {
-                m_MoveDir += Physics.gravity*m_GravityMultiplier*Time.fixedDeltaTime;
-            }
-            m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
+					if (m_Jump) {
+						m_MoveDir.y = m_JumpSpeed;
+						PlayJumpSound ();
+						m_Jump = false;
+						m_Jumping = true;
+					}
+				} else {
+					m_MoveDir += Physics.gravity * m_GravityMultiplier * Time.fixedDeltaTime;
+				}
+				m_CollisionFlags = m_CharacterController.Move (m_MoveDir * Time.fixedDeltaTime);
 
-            ProgressStepCycle(speed);
-            UpdateCameraPosition(speed);
+				ProgressStepCycle (speed);
+				UpdateCameraPosition (speed);
 
-            m_MouseLook.UpdateCursorLock();
+				m_MouseLook.UpdateCursorLock ();
+			}
         }
 
 
@@ -199,6 +197,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             m_Camera.transform.localPosition = newCameraPosition;
         }
+
+//		public void MoveCameraToScreen() {
+//			m_Camera.transform.Translate(1, 1, 1);
+//		}
 
 
         private void GetInput(out float speed)
