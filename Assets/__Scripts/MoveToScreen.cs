@@ -27,6 +27,7 @@ public class MoveToScreen : MonoBehaviour {
 			playerCamera.enabled = false;
 			screenCamera.enabled = true;
 			screenUI.SetActive(true);
+            AkSoundEngine.PostEvent("Computer_startup", gameObject);
 			//other.MoveCameraToScreen();
 			//playerCamera.transform.position = lockCameraPosition; 
 		}
