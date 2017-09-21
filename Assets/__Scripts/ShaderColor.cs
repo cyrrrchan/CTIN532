@@ -16,12 +16,12 @@ public class ShaderColor : MonoBehaviour {
 	[SerializeField] AudioSource audio;
 	private bool isPlaying;
 
-	private RawImage rend;
+	private Image rend;
 
 
 	// Use this for initialization
 	void Start () {
-		rend = GetComponent<RawImage> ();
+		rend = GetComponent<Image> ();
 		audio = gameObject.GetComponent<AudioSource> ();
 		isPlaying = false;
 		//audio.Play ();
