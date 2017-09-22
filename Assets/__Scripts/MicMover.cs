@@ -6,24 +6,27 @@ public class MicMover : MonoBehaviour
 {
 
     public GameObject audioInputObject; //microphoneInput object
-    public float threshold;
+    public float lThreshold;
+	public float dbThreshold;
     //public GameObject objectToMove;
     MicrophoneInput micIn;
     public float sensitivity;
     public float speed;
-    public float maxHeight;
-    public float minHeight;
+    //public float maxHeight;
+    //public float minHeight;
     public float maxFreq;
     public float minFreq;
+	public float matchFreq;
 
-    [SerializeField] AnimationCurve _sweetSpotCurve;
-    [SerializeField] Color currentColor;
-    [SerializeField] Color desiredColor;
+    //[SerializeField] AnimationCurve _sweetSpotCurve;
+    //[SerializeField] Color currentColor;
+    //[SerializeField] Color desiredColor;
 
     //private Rigidbody rb;
     private RawImage rend;
     private float lowerF;
-    float l;
+    float l; // frequency
+	float db; // volume
 
     void Start()
     {
@@ -40,18 +43,20 @@ public class MicMover : MonoBehaviour
     void Update()
     {
         l = micIn.frequency;
+		db = micIn.loudness;
+
         //Vector3 newPosition = rb.transform.position;
         lowerF = minFreq * sensitivity;
 
-        if (l > threshold)
+		if (l > lThreshold && db > dbThreshold)
         {
-
+			AkSoundEngine.PostEvent("Charging", gameObject);
             //Mathf.Clamp(l, minFreq, maxFreq);
 
-            float proportion = MathHelpers.LinMapTo01(minFreq, maxFreq, l);
-            float curveValue = _sweetSpotCurve.Evaluate(proportion);
-            Color tempColor = Color.Lerp(desiredColor, currentColor, curveValue);
-            rend.material.SetColor("_TintColor", tempColor);
+            //float proportion = MathHelpers.LinMapTo01(minFreq, maxFreq, l);
+            //float curveValue = _sweetSpotCurve.Evaluate(proportion);
+            //Color tempColor = Color.Lerp(desiredColor, currentColor, curveValue);
+            //rend.material.SetColor("_TintColor", tempColor);
 
             /*float moveVertical = l;
             Vector2 movement = new Vector2(0, moveVertical);
@@ -87,6 +92,10 @@ public class MicMover : MonoBehaviour
             rb.transform.position = newPosition;
         }*/
         }
+
+		if (l < lThreshold) {
+			AkSoundEngine.PostEvent ("Charging_Pause", gameObject);
+		}
     }
 
 }

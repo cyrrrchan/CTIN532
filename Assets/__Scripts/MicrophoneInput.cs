@@ -28,6 +28,8 @@ public class MicrophoneInput : MonoBehaviour {
 	void Update() {
 		loudness = GetAveragedVolume() * sensitivity;
 		frequency = GetFundamentalFrequency();
+
+		Debug.Log (loudness);
 	}
 
 	float GetAveragedVolume() { 

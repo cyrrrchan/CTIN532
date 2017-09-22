@@ -1185,39 +1185,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioInputObject: {fileID: 1974856934}
-  threshold: 0
+  lThreshold: 0
+  dbThreshold: 0
   sensitivity: 0
   speed: 0
-  maxHeight: 0
-  minHeight: 0
   maxFreq: 300
   minFreq: 50
-  _sweetSpotCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.76924884
-      value: 0.7561065
-      inSlope: -0.04094633
-      outSlope: -0.04094633
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1.0107915
-      value: 0.01002508
-      inSlope: -3.3711338
-      outSlope: -3.3711338
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  currentColor: {r: 1, g: 1, b: 1, a: 0.49019608}
-  desiredColor: {r: 0, g: 0, b: 0, a: 0}
+  matchFreq: 0
 --- !u!114 &426156100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2387,7 +2361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &915078530
 Transform:
   m_ObjectHideFlags: 0
@@ -2499,45 +2473,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 965284462}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec4ab92a58794e642b7d85694a3cfa89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioInputObject: {fileID: 1974856934}
-  threshold: 0
+  lThreshold: 100
+  dbThreshold: 0.5
   sensitivity: 0.5
   speed: 10
-  maxHeight: 8
-  minHeight: 0.5
   maxFreq: 300
   minFreq: 50
-  _sweetSpotCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.74779475
-      value: 0.74693173
-      inSlope: 3.2449186
-      outSlope: 3.2449186
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1.0232544
-      value: -0.008594513
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  currentColor: {r: 0, g: 0, b: 0, a: 0}
-  desiredColor: {r: 0, g: 0, b: 0, a: 0}
+  matchFreq: 0
 --- !u!23 &965284464
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5629,7 +5577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da0fb4a5a8ba3450bbd8b2384f7c3a4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 0
+  sensitivity: 100
   loudness: 0
   frequency: 0
   samplerate: 11024
@@ -6100,7 +6048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2111506930
 Transform:
   m_ObjectHideFlags: 0
@@ -6319,36 +6267,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioInputObject: {fileID: 1974856934}
-  threshold: 0
+  lThreshold: 0
+  dbThreshold: 0
   sensitivity: 0
   speed: 0
-  maxHeight: 0
-  minHeight: 0
   maxFreq: 300
   minFreq: 50
-  _sweetSpotCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.76924884
-      value: 0.7561065
-      inSlope: -0.04094633
-      outSlope: -0.04094633
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1.0107915
-      value: 0.01002508
-      inSlope: -3.3711338
-      outSlope: -3.3711338
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  currentColor: {r: 1, g: 1, b: 1, a: 0.49019608}
-  desiredColor: {r: 0, g: 0, b: 0, a: 0}
+  matchFreq: 0
