@@ -6,3 +6,4 @@ Found Assets
 Office chairs from Turbosquid (Royalty free license)
 One of the scripts, "math helper" was passed down from Julian Ceipek. 
 Audio files from Freesound.org (Creative Commons license).
+Fonts: VT323 (Google Fonts, SIL Open Font License, Version 1.1)
