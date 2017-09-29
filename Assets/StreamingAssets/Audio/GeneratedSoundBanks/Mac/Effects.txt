@@ -1,11 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	164228631	Charging_Stop			\Default Work Unit\Charging_Stop	
 	889600460	Computer_startup			\Default Work Unit\Computer_startup	
 	3111569007	Charging_Pause			\Default Work Unit\Charging_Pause	
 	3625060726	Success			\Default Work Unit\Success	
 	3828622232	Charging			\Default Work Unit\Charging	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	536370990	Success	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Mac\SFX\Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Success		354604
-	878457488	Computer_8bit	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Mac\SFX\Computer_8bit_B0F8BA02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer_8bit		144682
-	906311439	RISE_100	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Mac\SFX\RISE_100_4CFAD411.wem		\Actor-Mixer Hierarchy\Default Work Unit\RISE_100		12215188
+	536370990	Success	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Success		354604
+	878457488	Computer_8bit	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Computer_8bit_B0F8BA02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer_8bit		144682
+	906311439	RISE_100	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\RISE_100_0A263776.wem		\Actor-Mixer Hierarchy\Default Work Unit\RISE_100		12215188
 

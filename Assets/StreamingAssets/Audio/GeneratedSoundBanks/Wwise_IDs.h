@@ -13,9 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CHARGING = 3828622232U;
+        static const AkUniqueID CHARGING_PAUSE = 3111569007U;
+        static const AkUniqueID CHARGING_STOP = 164228631U;
         static const AkUniqueID COMPUTER_STARTUP = 889600460U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID JUMP = 3833651337U;
+        static const AkUniqueID LANDING = 2548270042U;
         static const AkUniqueID ROOM = 2077253480U;
+        static const AkUniqueID SUCCESS = 3625060726U;
     } // namespace EVENTS
 
     namespace BANKS

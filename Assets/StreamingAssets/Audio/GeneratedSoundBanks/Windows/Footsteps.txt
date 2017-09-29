@@ -4,8 +4,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3833651337	Jump			\Default Work Unit\Jump	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	112455662	Footstep2	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Windows\SFX\Footstep2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep2		43072
-	227438200	Footstep3	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Windows\SFX\Footstep3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep3		51264
-	265015511	Footstep1	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Windows\SFX\Footstep1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep1		51264
-	376076176	Footstep4	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Windows\SFX\Footstep4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep4		62528
+	112455662	Footstep2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Footstep2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep2		43072
+	227438200	Footstep3	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Footstep3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep3		51264
+	265015511	Footstep1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Footstep1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep1		51264
+	376076176	Footstep4	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Footstep4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Landing\Footstep4		62528
 

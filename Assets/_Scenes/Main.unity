@@ -387,7 +387,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 93387190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 374b801e76fce4811b3ceb41f73e17a9, type: 3}
   m_Name: 
@@ -1362,14 +1362,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frequencyThings: []
   audioInputObject: {fileID: 1974856934}
-  lThreshold: 0
+  humUI: {fileID: 0}
   dbThreshold: 0
-  sensitivity: 0
-  speed: 0
   maxFreq: 300
   minFreq: 50
-  matchFreq: 0
-  _sweetSpotCurve:
+  sweetSpotCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -2731,60 +2728,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _frequencyThings:
-  - maxFreq: 300
-    minFreq: 50
+  - maxFreq: 130
+    minFreq: 30
     sweetSpotCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0
+        value: 0.0033950806
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
+        time: 0.5093775
+        value: 1.005223
+        inSlope: -0.007239869
+        outSlope: -0.007239869
+        tangentMode: 0
+      - serializedVersion: 2
         time: 1
-        value: 1
+        value: -0.0014324188
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-  - maxFreq: 4
-    minFreq: 3
+  - maxFreq: 250
+    minFreq: 150
     sweetSpotCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0
-        value: 1
+        time: -0.0017700195
+        value: 0.9235687
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 1
-        value: 1
+        time: 0.50356114
+        value: 1.0005035
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.99816895
+        value: 0.9237976
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 0
-  - maxFreq: 2
-    minFreq: 1
+  - maxFreq: 200
+    minFreq: 100
     sweetSpotCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
+        time: 0.001789093
+        value: 0.005012512
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 1
-        value: 1
+        time: 0.5123309
+        value: 0.9999771
+        inSlope: -0.37007603
+        outSlope: -0.37007603
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0008545
+        value: 0.0075187683
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2792,37 +2807,16 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 0
   audioInputObject: {fileID: 1974856934}
-  lThreshold: 100
-  dbThreshold: 0.5
-  sensitivity: 0.5
-  speed: 10
+  humUI: {fileID: 93387190}
+  dbThreshold: 1
   maxFreq: 300
-  minFreq: 50
-  matchFreq: 0
-  _sweetSpotCurve:
+  minFreq: 0
+  sweetSpotCurve:
     serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.4874878
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: -0.0062499996
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   desiredColor: {r: 1, g: 0, b: 0, a: 1}
   rend: {fileID: 93387192}
@@ -5371,8 +5365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
+  defaultPoolSize: 8192
+  lowerPoolSize: 8192
   streamingPoolSize: 1024
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
@@ -5690,6 +5684,34 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1823434816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1586893949}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1823434817}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1823434817
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1586893949}
+  m_GameObject: {fileID: 1823434816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1864341950 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ec505f73967a98c48a090df01f10c44b, type: 2}
@@ -6772,14 +6794,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frequencyThings: []
   audioInputObject: {fileID: 1974856934}
-  lThreshold: 0
+  humUI: {fileID: 0}
   dbThreshold: 0
-  sensitivity: 0
-  speed: 0
   maxFreq: 300
   minFreq: 50
-  matchFreq: 0
-  _sweetSpotCurve:
+  sweetSpotCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2

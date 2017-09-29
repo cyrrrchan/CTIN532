@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\</ProjectRoot>
-		<SourceFilesRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\</ProjectRoot>
+		<SourceFilesRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -45,6 +45,7 @@
 			<IncludedEvents>
 				<Event Id="3828622232" Name="Charging" ObjectPath="\Events\Default Work Unit\Charging"/>
 				<Event Id="3111569007" Name="Charging_Pause" ObjectPath="\Events\Default Work Unit\Charging_Pause" MaxAttenuation="0.000000"/>
+				<Event Id="164228631" Name="Charging_Stop" ObjectPath="\Events\Default Work Unit\Charging_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="889600460" Name="Computer_startup" ObjectPath="\Events\Default Work Unit\Computer_startup"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
@@ -59,7 +60,7 @@
 				</File>
 				<File Id="906311439" Language="SFX">
 					<ShortName>RISE_100.wav</ShortName>
-					<Path>SFX\RISE_100_4CFAD411.wem</Path>
+					<Path>SFX\RISE_100_0A263776.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
