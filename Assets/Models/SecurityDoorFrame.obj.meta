@@ -1,23 +1,17 @@
 fileFormatVersion: 2
-guid: 8d07dca094b8d044b9a4f1988da76b90
-timeCreated: 1505839182
+guid: 42452d9313079d845b3d3a6c3df17091
+timeCreated: 1506623148
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Camera
-    100002: Desk
-    100004: Lamp
-    100006: //RootNode
-    400000: Camera
-    400002: Desk
-    400004: Lamp
-    400006: //RootNode
-    2000000: Camera
-    2300000: Desk
-    3300000: Desk
-    4300000: Desk
-    10800000: Lamp
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2300000: default
+    3300000: default
+    4300000: default
   materials:
     importMaterials: 1
     materialName: 0
@@ -45,12 +39,12 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 2.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
+    importCameras: 1
     importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -62,7 +56,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
