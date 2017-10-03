@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 786e29daff729a24ba372ec07aaf52e8, type: 3}
-  m_Name: AkWwiseProjectData
+  m_Name: AkWwiseProjectData 3
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
   EventWwu:
@@ -178,19 +178,14 @@ MonoBehaviour:
     m_lastTimePsrt1: -574490112
     m_lastTimePart2: -1999306652
     List: []
-  ExpandedItems:
-  - /CTIN532_Wwise
-  - /CTIN532_Wwise/Events
-  - /CTIN532_Wwise/Events/Default Work Unit
-  - /CTIN532_Wwise/SoundBanks
-  - /CTIN532_Wwise/SoundBanks/Default Work Unit
+  ExpandedItems: []
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
-  basePath: Audio\GeneratedSoundBanks
+  basePath: Audio/GeneratedSoundBanks
   language: English(US)
-  defaultPoolSize: 8192
-  lowerPoolSize: 8192
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
   streamingPoolSize: 1024
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
