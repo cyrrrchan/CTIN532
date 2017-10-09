@@ -17,10 +17,18 @@ namespace AK
         static const AkUniqueID CHARGING_PAUSE = 3111569007U;
         static const AkUniqueID CHARGING_STOP = 164228631U;
         static const AkUniqueID COMPUTER_STARTUP = 889600460U;
+        static const AkUniqueID ENDING_VO = 3117861378U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID HUM_VO = 2789119461U;
+        static const AkUniqueID INTRO_VO = 2737701265U;
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LANDING = 2548270042U;
+        static const AkUniqueID OUTAGE_VO = 3314038558U;
         static const AkUniqueID ROOM = 2077253480U;
+        static const AkUniqueID ROOM1_VO = 4270548401U;
+        static const AkUniqueID ROOM2_VO = 1561562992U;
+        static const AkUniqueID ROOM3_VO = 3606975451U;
+        static const AkUniqueID SCAN_VO = 2032329656U;
         static const AkUniqueID SUCCESS = 3625060726U;
     } // namespace EVENTS
 

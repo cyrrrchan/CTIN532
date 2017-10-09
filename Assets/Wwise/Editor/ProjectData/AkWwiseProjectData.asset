@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{408076C9-3094-43A1-B3C8-8A5B72236B2A}'
-    m_lastTimePsrt1: 2124246272
-    m_lastTimePart2: -1999304855
+    m_lastTimePsrt1: -896160768
+    m_lastTimePart2: -1999302960
     List:
     - Name: Charging
-      Path: Default Work Unit/Charging
+      Path: Default Work Unit\Charging
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -30,7 +30,7 @@ MonoBehaviour:
       Guid: 27bdd9e4e55efe4d9be4dd63349c509c
       maxAttenuation: 0
     - Name: Charging_Pause
-      Path: Default Work Unit/Charging_Pause
+      Path: Default Work Unit\Charging_Pause
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -40,7 +40,7 @@ MonoBehaviour:
       Guid: 89126d36a629d94e8743cb83a5aff310
       maxAttenuation: 0
     - Name: Charging_Stop
-      Path: Default Work Unit/Charging_Stop
+      Path: Default Work Unit\Charging_Stop
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -50,7 +50,7 @@ MonoBehaviour:
       Guid: e69332bfeef4fe49aaef97d84b7133ea
       maxAttenuation: 0
     - Name: Computer_startup
-      Path: Default Work Unit/Computer_startup
+      Path: Default Work Unit\Computer_startup
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -59,8 +59,18 @@ MonoBehaviour:
       ID: 889600460
       Guid: 30904934ade606438cc25b5b17dab38a
       maxAttenuation: 0
+    - Name: Ending_VO
+      Path: Default Work Unit\Ending_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ending_VO
+        ObjectType: 3
+      ID: -1177105918
+      Guid: 58f3acb39120cb409d16947f2ecf97c4
+      maxAttenuation: 0
     - Name: Footsteps
-      Path: Default Work Unit/Footsteps
+      Path: Default Work Unit\Footsteps
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -69,8 +79,28 @@ MonoBehaviour:
       ID: -1909339098
       Guid: 7fe9c1d20e64cd4fb8567dfb40811855
       maxAttenuation: 0
+    - Name: Hum_VO
+      Path: Default Work Unit\Hum_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hum_VO
+        ObjectType: 3
+      ID: -1505847835
+      Guid: 0a3216d4984a5a4982071093326f2aaa
+      maxAttenuation: 0
+    - Name: Intro_VO
+      Path: Default Work Unit\Intro_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Intro_VO
+        ObjectType: 3
+      ID: -1557266031
+      Guid: 9057e2d4b197344a9f18a47c3b0d6b7d
+      maxAttenuation: 0
     - Name: Jump
-      Path: Default Work Unit/Jump
+      Path: Default Work Unit\Jump
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -80,7 +110,7 @@ MonoBehaviour:
       Guid: 280fac76b4338540be6f89b80bc71cd2
       maxAttenuation: 0
     - Name: Landing
-      Path: Default Work Unit/Landing
+      Path: Default Work Unit\Landing
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -89,8 +119,18 @@ MonoBehaviour:
       ID: -1746697254
       Guid: 9dd9874c6e6032408e61a0f21645e9a4
       maxAttenuation: 0
+    - Name: Outage_VO
+      Path: Default Work Unit\Outage_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Outage_VO
+        ObjectType: 3
+      ID: -980928738
+      Guid: ceeef486f886dc46929d1f95b9452bd7
+      maxAttenuation: 0
     - Name: Room
-      Path: Default Work Unit/Room
+      Path: Default Work Unit\Room
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -99,8 +139,48 @@ MonoBehaviour:
       ID: 2077253480
       Guid: c4c25caccd91084aa15453b1e6a3779a
       maxAttenuation: 0
+    - Name: Room1_VO
+      Path: Default Work Unit\Room1_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room1_VO
+        ObjectType: 3
+      ID: -24418895
+      Guid: 33f1a7bbfd4b4d42b0aa3dc6b8bd916a
+      maxAttenuation: 0
+    - Name: Room2_VO
+      Path: Default Work Unit\Room2_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room2_VO
+        ObjectType: 3
+      ID: 1561562992
+      Guid: 2c364d6e2c60554cadf7ec1918093f10
+      maxAttenuation: 0
+    - Name: Room3_VO
+      Path: Default Work Unit\Room3_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room3_VO
+        ObjectType: 3
+      ID: -687991845
+      Guid: aaeec0fa493c484b83ce9bf75a747997
+      maxAttenuation: 0
+    - Name: Scan_VO
+      Path: Default Work Unit\Scan_VO
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Scan_VO
+        ObjectType: 3
+      ID: 2032329656
+      Guid: b2dd69c83119a747b8a5d60f375c4bea
+      maxAttenuation: 0
     - Name: Success
-      Path: Default Work Unit/Success
+      Path: Default Work Unit\Success
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -110,35 +190,35 @@ MonoBehaviour:
       Guid: d9da78a74fb712438cc49f1ca2ef9979
       maxAttenuation: 0
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}'
-    m_lastTimePsrt1: -614490112
-    m_lastTimePart2: -1999306652
+    m_lastTimePsrt1: -2013347838
+    m_lastTimePart2: -1999304980
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E4B16B60-5144-4116-8F0C-64436BA305D0}'
-    m_lastTimePsrt1: -574490112
-    m_lastTimePart2: -1999306652
+    m_lastTimePsrt1: -2003606284
+    m_lastTimePart2: -1999304980
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{467A528F-55D4-4357-A29E-4676B601F1F4}'
-    m_lastTimePsrt1: -574490112
-    m_lastTimePart2: -1999306652
+    m_lastTimePsrt1: -2003565902
+    m_lastTimePart2: -1999304980
     List: []
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FF29D6AE-91C0-4B0C-9F1A-4860507E29E5}'
-    m_lastTimePsrt1: -2100721024
-    m_lastTimePart2: -1999304855
+    m_lastTimePsrt1: -609811023
+    m_lastTimePart2: -1999302960
     List:
     - Name: Ambience
-      Path: Default Work Unit/Ambience
+      Path: Default Work Unit\Ambience
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -147,7 +227,7 @@ MonoBehaviour:
       ID: 85412153
       Guid: 9c0441047f2ebf4dab45c6980a82e651
     - Name: Effects
-      Path: Default Work Unit/Effects
+      Path: Default Work Unit\Effects
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -156,7 +236,7 @@ MonoBehaviour:
       ID: 1942696649
       Guid: 2db3850d0d89fe43b20fe0c413126e60
     - Name: Footsteps
-      Path: Default Work Unit/Footsteps
+      Path: Default Work Unit\Footsteps
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -165,18 +245,18 @@ MonoBehaviour:
       ID: -1909339098
       Guid: 3338657a06bbcf44a5569ff4e7dba008
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{32AAB2E8-B4D5-413F-A144-1DAB3B75B616}'
-    m_lastTimePsrt1: -634490112
-    m_lastTimePart2: -1999306652
+    m_lastTimePsrt1: -2020855161
+    m_lastTimePart2: -1999304980
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{CF0953D7-5C84-499B-8FAC-E14D64A72673}'
-    m_lastTimePsrt1: -574490112
-    m_lastTimePart2: -1999306652
+    m_lastTimePsrt1: -2003541035
+    m_lastTimePart2: -1999304980
     List: []
   ExpandedItems:
   - /CTIN532_Wwise
