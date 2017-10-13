@@ -13,9 +13,10 @@ public class LevelManager : MonoBehaviour {
     public GameObject audioInputObject; //microphoneInput object
     MicrophoneInput micIn;
     public Image humUI;
-    public GameObject humText;
     public GameObject chargedUI;
     public GameObject chargedText;
+	public GameObject instructionText;
+	public string levelName;
 
     public float dbThreshold;
     public float humTime;
@@ -29,7 +30,6 @@ public class LevelManager : MonoBehaviour {
     private float meterFilled = 0.0f;
 
     private bool charged;
-    private bool humMode; //toggle humming UI on/off
 
     void Start()
     {
@@ -38,20 +38,16 @@ public class LevelManager : MonoBehaviour {
         micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
 
         humUI.fillAmount = 0.0f;
-        humText.SetActive(false);
         chargedUI.SetActive(false);
         chargedText.SetActive(false);
 
         charged = false;
-        humMode = false;
     }
 
     void Update()
     {
         db = micIn.loudness; //set db to be volume from player input
 
-        if (humMode == true)
-        {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
                 AkSoundEngine.PostEvent("Charging", gameObject);
@@ -71,7 +67,6 @@ public class LevelManager : MonoBehaviour {
                 AkSoundEngine.PostEvent("Charging_Stop", gameObject);
                 AkSoundEngine.PostEvent("Success", gameObject);
 
-                humText.SetActive(false);
                 humUI.fillAmount = 0.0f;
                 chargedText.SetActive(true);
                 chargedUI.SetActive(true);
@@ -87,38 +82,21 @@ public class LevelManager : MonoBehaviour {
                 {
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
+					instructionText.SetActive (false);
                     count = 0.0f;
                     t = 0.0f;
-                    humMode = false;
                     charged = false;
+					black.fillAmount = 1.0f;
 
                     StartCoroutine(Fading());
                 }
             }
-        }
-    }
-
-    private void OnTriggerEnter(Collider other) //turn on UI when inside collider
-    {
-        count = 0.0f;
-        humMode = true;
-        humText.SetActive(true);
-        humUI.fillAmount = meterFilled;
-    }
-
-    private void OnTriggerExit(Collider other) // turn off UI when outside of collider
-    {
-        humText.SetActive(false);
-        humUI.fillAmount = 0.0f;
-        humMode = false;
-
-        AkSoundEngine.PostEvent("Charging_Stop", gameObject);
-    }
+    }		
 
     IEnumerator Fading()
     {
         anim.SetBool("Fade", true);
         yield return new WaitUntil(() => black.color.a == 1);
-        SceneManager.LoadScene("Main");
+		SceneManager.LoadScene(levelName);
     }
 }
