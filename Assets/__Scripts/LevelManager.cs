@@ -85,7 +85,6 @@ public class LevelManager : MonoBehaviour {
 					instructionText.SetActive (false);
                     count = 0.0f;
                     t = 0.0f;
-                    charged = false;
 					black.fillAmount = 1.0f;
 
                     StartCoroutine(Fading());

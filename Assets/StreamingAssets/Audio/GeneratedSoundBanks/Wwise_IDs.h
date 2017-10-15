@@ -18,6 +18,9 @@ namespace AK
         static const AkUniqueID CHARGING_STOP = 164228631U;
         static const AkUniqueID COMPUTER_STARTUP = 889600460U;
         static const AkUniqueID ENDING_VO = 3117861378U;
+        static const AkUniqueID EYESCAN_DONE = 3794852078U;
+        static const AkUniqueID EYESCAN_START = 964212030U;
+        static const AkUniqueID EYESCAN_STOP = 2908058974U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID HUM_VO = 2789119461U;
         static const AkUniqueID INTRO_VO = 2737701265U;

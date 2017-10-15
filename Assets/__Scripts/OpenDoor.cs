@@ -27,6 +27,7 @@ public class OpenDoor : MonoBehaviour {
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
 
+    private bool activated; //check if eye scanner is activated
     private bool charged;
     private bool humMode; //toggle humming UI on/off
     private bool doorOpened;
@@ -42,6 +43,7 @@ public class OpenDoor : MonoBehaviour {
         chargedUI.SetActive(false);
         chargedText.SetActive(false);
 
+        activated = false;
         charged = false;
         humMode = false;
         doorOpened = false;
@@ -51,7 +53,12 @@ public class OpenDoor : MonoBehaviour {
     {
         db = micIn.loudness; //set db to be volume from player input
 
-        if (humMode == true)
+        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
+            activated = true;
+        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
+            activated = false;
+
+        if (humMode == true && activated == true)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
@@ -120,10 +127,13 @@ public class OpenDoor : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-        count = 0.0f;
-        humMode = true;
-        humText.SetActive(true);
-        humUI.fillAmount = meterFilled;
+        if(activated)
+        {
+            count = 0.0f;
+            humMode = true;
+            humText.SetActive(true);
+            humUI.fillAmount = meterFilled;
+        }
     }
 
     private void OnTriggerExit(Collider other) // turn off UI when outside of collider

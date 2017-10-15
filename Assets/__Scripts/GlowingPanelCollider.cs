@@ -11,8 +11,6 @@ public class GlowingPanelCollider : MonoBehaviour {
 	[SerializeField] Material glowingScreenMat;
 	[SerializeField] float duration;
 
-	public GameObject audioInputObject; //microphoneInput object
-	MicrophoneInput micIn;
 	public Image humUI;
 	public GameObject humText;
 	public GameObject chargedUI;
@@ -29,6 +27,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 	float durationUI = 1.0f; //how many seconds before UI disappears
 	private float meterFilled = 0.0f;
 
+    public bool activated; //check if player has scanned eyes
 	private bool charged;
 	private bool humMode; //toggle humming UI on/off
 
@@ -39,15 +38,12 @@ public class GlowingPanelCollider : MonoBehaviour {
 		glowingPanelRenderer = glowingPanel.GetComponent<Renderer> ();
 		glowingPanelRenderer.material = plainScreenMat;
 
-		if (audioInputObject == null)
-			audioInputObject = GameObject.Find(Microphone.devices[0]);
-		micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
-
 		humUI.fillAmount = 0.0f;
 		humText.SetActive(false);
 		chargedUI.SetActive(false);
 		chargedText.SetActive(false);
 
+        activated = false;
 		charged = false;
 		humMode = false;
 		
@@ -55,69 +51,56 @@ public class GlowingPanelCollider : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		db = micIn.loudness; //set db to be volume from player input
 
-		if (humMode == true)
-		{
-			if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
-			{
-				AkSoundEngine.PostEvent("Charging", gameObject);
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit))
+            if (hit.collider.tag == "WallScanner")
+                humMode = true;
+            if(hit.collider.tag != "WallScanner")
+                humMode = false;
 
-				humUI.fillAmount += Time.deltaTime / humTime;
-			}
+        if (humMode == true && activated == false)
+        {
+            AkSoundEngine.PostEvent("EyeScan_Start", gameObject);
+            humUI.fillAmount += Time.deltaTime / humTime;
 
-			if (db < dbThreshold && charged == false) // pause sound and cooldown UI if too soft
-			{
-				AkSoundEngine.PostEvent("Charging_Pause", gameObject);
+            if (humUI.fillAmount == 1.0f) // done charging
+            {
+                AkSoundEngine.PostEvent("EyeScan_Done", gameObject);
 
-				humUI.fillAmount -= Time.deltaTime / cooldownTime;
-			}
+                humText.SetActive(false);
+                humUI.fillAmount = 0.0f;
+                chargedText.SetActive(true);
+                chargedUI.SetActive(true);
 
-			if (humUI.fillAmount == 1.0f) // done charging
-			{
-				AkSoundEngine.PostEvent("Charging_Stop", gameObject);
-				AkSoundEngine.PostEvent("Success", gameObject);
+                activated = true;
+                charged = true;
+            }
+        }
+            if (charged == true) // activate UI
+            {
+                activated = true;
+                count += Time.deltaTime;
 
-				humText.SetActive(false);
-				humUI.fillAmount = 0.0f;
-				chargedText.SetActive(true);
-				chargedUI.SetActive(true);
+                if (count >= durationUI)
+                {
+                    chargedText.SetActive(false);
+                    chargedUI.SetActive(false);
+                    count = 0.0f;
+                    t = 0.0f;
+                    humMode = false;
+                    charged = false;
+                }
+            }
 
-				charged = true;
-			}
-
-			if (charged == true) // open the door
-			{
-				count += Time.deltaTime;
-
-				if (count >= durationUI)
-				{
-					chargedText.SetActive(false);
-					chargedUI.SetActive(false);
-					count = 0.0f;
-					t = 0.0f;
-					humMode = false;
-					charged = false;
-				}
-			}
-
-			if (charged == true) // close the door
-			{
-				count += Time.deltaTime;
-
-				if (count >= durationUI)
-				{
-					chargedText.SetActive(false);
-					chargedUI.SetActive(false);
-					count = 0.0f;
-					t = 0.0f;
-					humMode = false;
-					charged = false;
-				}
-			}
-		}
-		
+        if (humMode == false)
+        {
+            AkSoundEngine.PostEvent("EyeScan_Stop", gameObject);
+            humUI.fillAmount -= Time.deltaTime / cooldownTime;
+        }
 	}
+		
 
 	//this is going to switch which material the glowing panel uses
 	void OnTriggerEnter(Collider other){
@@ -127,10 +110,12 @@ public class GlowingPanelCollider : MonoBehaviour {
 //			glowingPanelRenderer.material.Lerp (plainScreenMat, glowingScreenMat, lerp);
 			glowingPanelRenderer.material = glowingScreenMat;
 
-			count = 0.0f;
-			humMode = true;
-			humText.SetActive(true);
-			humUI.fillAmount = meterFilled;
+            if(activated == false)
+            {
+                count = 0.0f;
+                humText.SetActive(true);
+                humUI.fillAmount = meterFilled;
+            }
 		}
 	}
 
@@ -142,7 +127,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 			humUI.fillAmount = 0.0f;
 			humMode = false;
 
-			AkSoundEngine.PostEvent("Charging_Stop", gameObject);
+			AkSoundEngine.PostEvent("EyeScan_Stop", gameObject);
 		}
 	}
 }
