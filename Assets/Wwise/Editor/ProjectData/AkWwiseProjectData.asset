@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{408076C9-3094-43A1-B3C8-8A5B72236B2A}'
-    m_lastTimePsrt1: -217146884
-    m_lastTimePart2: -1999301786
+    m_lastTimePsrt1: 1221824642
+    m_lastTimePart2: -1999301364
     List:
     - Name: Charging
       Path: Default Work Unit\Charging
@@ -223,29 +223,29 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}'
-    m_lastTimePsrt1: -2013347838
-    m_lastTimePart2: -1999304980
+    m_lastTimePsrt1: 1227994995
+    m_lastTimePart2: -1999301364
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{E4B16B60-5144-4116-8F0C-64436BA305D0}'
-    m_lastTimePsrt1: -2003606284
-    m_lastTimePart2: -1999304980
+    m_lastTimePsrt1: 1235835443
+    m_lastTimePart2: -1999301364
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{467A528F-55D4-4357-A29E-4676B601F1F4}'
-    m_lastTimePsrt1: -2003565902
-    m_lastTimePart2: -1999304980
+    m_lastTimePsrt1: 1235845444
+    m_lastTimePart2: -1999301364
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FF29D6AE-91C0-4B0C-9F1A-4860507E29E5}'
-    m_lastTimePsrt1: -64683465
-    m_lastTimePart2: -1999301795
+    m_lastTimePsrt1: 1235835443
+    m_lastTimePart2: -1999301364
     List:
     - Name: Ambience
       Path: Default Work Unit\Ambience
@@ -278,15 +278,15 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{32AAB2E8-B4D5-413F-A144-1DAB3B75B616}'
-    m_lastTimePsrt1: -2020855161
-    m_lastTimePart2: -1999304980
+    m_lastTimePsrt1: 1221824642
+    m_lastTimePart2: -1999301364
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{CF0953D7-5C84-499B-8FAC-E14D64A72673}'
-    m_lastTimePsrt1: -2003541035
-    m_lastTimePart2: -1999304980
+    m_lastTimePsrt1: 1235845444
+    m_lastTimePart2: -1999301364
     List: []
   ExpandedItems:
   - /CTIN532_Wwise
