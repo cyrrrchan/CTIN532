@@ -85,6 +85,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 
                 if (count >= durationUI)
                 {
+                    AkSoundEngine.PostEvent("VO_HumIntro", gameObject); 
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
                     count = 0.0f;

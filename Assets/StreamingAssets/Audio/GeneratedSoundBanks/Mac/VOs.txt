@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1011784067	VO_HumIntro			\Default Work Unit\VO_HumIntro	
+	3234679781	VO_Welcome			\Default Work Unit\VO_Welcome	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	166131356	VO_eyeScan	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_eyeScan_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_welcomeSeq\VO_eyeScan		2544640
+	357555149	VO_humIntro1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_humIntro_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro1		7188144
+	724181308	VO_humIntro2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_humIntro2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro2		1706096
+	803865876	VO_welcome	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_welcome_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_welcomeSeq\VO_welcome		3496360
+

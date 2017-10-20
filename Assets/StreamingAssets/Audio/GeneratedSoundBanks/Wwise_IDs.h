@@ -24,9 +24,7 @@ namespace AK
         static const AkUniqueID LANDING = 2548270042U;
         static const AkUniqueID ROOM = 2077253480U;
         static const AkUniqueID SUCCESS = 3625060726U;
-        static const AkUniqueID VO_EYESCAN = 1113929969U;
         static const AkUniqueID VO_HUMINTRO = 1011784067U;
-        static const AkUniqueID VO_HUMINTRO2 = 1924901131U;
         static const AkUniqueID VO_WELCOME = 3234679781U;
     } // namespace EVENTS
 

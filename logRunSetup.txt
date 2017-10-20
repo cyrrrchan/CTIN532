@@ -1,29 +1,32 @@
 
-LICENSE SYSTEM [20171016 20:27:41] No start/stop license dates set
+LICENSE SYSTEM [20171019 23:13:42] No start/stop license dates set
 
-LICENSE SYSTEM [20171016 20:27:41] Next license update check is after 2017-10-18T03:12:17
+LICENSE SYSTEM [20171019 23:13:42] Next license update check is after 2017-10-21T05:04:50
+
+
+LICENSE SYSTEM [20171019 23:13:42] 00380-00000-00001-AA020 != 00380-00000-00001-AA276
 
 Built from '2017.1/release' branch; Version is '2017.1.1f1 (5d30cf096e79) revision 6107343'; Using compiler version '160040219'
-OS: 'Windows 7 Service Pack 1 (6.1.7601) 64bit' Language: 'en' Physical Memory: 16326 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16341 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-E:\Program Files (x86)\Editor\Unity.exe
+C:\Program Files\Unity_2017.1.1f1\Editor\Unity.exe
 -batchmode
 -nographics
 -logFile
 logRunSetup.txt
 -projectPath
-E:\Unity Projects\Obsidian_WwiseIntegrationTemp
+F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp
 -executeMethod
 WwiseSetupWizard.RunModify
-Successfully changed project path to: E:\Unity Projects\Obsidian_WwiseIntegrationTemp
-E:/Unity Projects/Obsidian_WwiseIntegrationTemp
-Loading GUID <-> Path mappings...0.000043 seconds
-Loading Asset Database...0.006876 seconds
+Successfully changed project path to: F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp
+F:/School/USC/CTIN 532/GitHub/CTIN532_WwiseIntegrationTemp
+Loading GUID <-> Path mappings...0.000050 seconds
+Loading Asset Database...0.007713 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.019761 seconds
-Refreshing native plugins compatible for Editor in 16.49 ms, found 1 plugins.
+AssetDatabase consistency checks...0.023885 seconds
+Refreshing native plugins compatible for Editor in 21.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2017.1.1f1 (5d30cf096e79)
 Forcing GfxDevice: Null
@@ -32,362 +35,292 @@ NullGfxDevice:
     Renderer: Null Device
     Vendor:   Unity Technologies
 Initialize mono
-Mono path[0] = 'E:/Program Files (x86)/Editor/Data/Managed'
-Mono path[1] = 'E:/Program Files (x86)/Editor/Data/Mono/lib/mono/2.0'
-Mono config path = 'E:/Program Files (x86)/Editor/Data/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56552
+Mono path[0] = 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56404
 Begin MonoManager ReloadAssembly
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll (this message is harmless)
-Fallback handler could not load library E:/Program Files (x86)/Editor/Data/Mono/lib/libc
-Fallback handler could not load library E:/Program Files (x86)/Editor/Data/Mono/lib/.\libc
-Fallback handler could not load library E:/Program Files (x86)/Editor/Data/Mono/lib/libc
-Fallback handler could not load library E:/Program Files (x86)/Editor/Data/Mono/lib/libc
-Fallback handler could not load library E:/Program Files (x86)/Editor/Data/Mono/lib/.\libc
-Fallback handler could not load library E:/Program Files (x86)/Editor/Data/Mono/lib/libc
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll (this message is harmless)
 Initializing Unity.PackageManager (PackageManager) v2017.1.1 for Unity v2017.1.1f1
-Setting Android:Android v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer
-Setting tvOS:tvOS v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport
-Setting Unknown:MetroPlayer v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport
-Setting Standalone:StandaloneLinux v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
-Setting Standalone:StandaloneOSXIntel v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport
-Setting Metro:WSAPlayer v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport
-Setting SamsungTV:SamsungTV v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer
-Setting Tizen:Tizen v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer
-Setting WebGL:WebGL v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport
-Setting Standalone:StandaloneWindows v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport
-Setting Advertisements v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Advertisements
+Setting Android:Android v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer
+Setting Unknown:MetroPlayer v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport
+Setting Standalone:StandaloneOSXIntel v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport
+Setting WebGL:WebGL v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport
+Setting Standalone:StandaloneWindows v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport
+Setting Advertisements v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Advertisements
   UnityEngine.Advertisements.dll (Extension) GUID: 739bbd9f364b4268874f9fd86ab3beef
   Editor/UnityEditor.Advertisements.dll (Extension) GUID: 97decbdab0634cdd991f8d23ddf0dead
-Setting GUISystem v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem
+Setting GUISystem v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem
   UnityEngine.UI.dll (Extension) GUID: f5f67c52d1564df4a8936ccd202a3bd8
   Standalone/UnityEngine.UI.dll (Extension) GUID: f70555f144d8491a825f0804e09c671c
   Editor/UnityEditor.UI.dll (Extension) GUID: 80a3616ca19596e4da0f10f14d241e9f
-Setting UNetHLAPI v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking
+Setting UNetHLAPI v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking
   UnityEngine.Networking.dll (Extension) GUID: 870353891bb340e2b2a9c8707e7419ba
   Standalone/UnityEngine.Networking.dll (Extension) GUID: dc443db3e92b4983b9738c1131f555cb
   Editor/UnityEditor.Networking.dll (Extension) GUID: 5f32cd94baa94578a686d4b9d6b660f7
-Setting TestRunner v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner
+Setting TestRunner v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner
   Editor/UnityEditor.TestRunner.dll (Extension) GUID: 4113173d5e95493ab8765d7b08371de4
   UnityEngine.TestRunner.dll (Extension) GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
   net35/unity-custom/nunit.framework.dll (Extension) GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
   portable/nunit.framework.dll (Extension) GUID: 405b9b51bb344a128608d968297df79c
-Setting Timeline v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline
+Setting Timeline v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline
   RuntimeEditor/UnityEngine.Timeline.dll (Extension) GUID: 844F815391DB42D49455CBF1A7BFC434
   Runtime/UnityEngine.Timeline.dll (Extension) GUID: 6a10b2909283487f913b00d94cd3faf5
   Editor/UnityEditor.Timeline.dll (Extension) GUID: 7668179ede524d6396c8b7d84461ea29
-Setting TreeEditor v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TreeEditor
+Setting TreeEditor v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TreeEditor
   Editor/UnityEditor.TreeEditor.dll (Extension) GUID: adebbd281f1a4ef3a30be7f21937e02f
-Setting UnityAnalytics v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics
+Setting UnityAnalytics v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics
   UnityEngine.Analytics.dll (Extension) GUID: 852E56802EB941638ACBB491814497B0
   Editor/UnityEditor.Analytics.dll (Extension) GUID: 86f4de9468454445ac2f39e207fafa3a
-Setting UnityHoloLens v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens
+Setting UnityHoloLens v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens
   Editor/UnityEditor.HoloLens.dll (Extension) GUID: 12fd8a0055b84bb59e84c9835a37e333
   Runtime/UnityEngine.HoloLens.dll (Extension) GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
   RuntimeEditor/UnityEngine.HoloLens.dll (Extension) GUID: 1c6d1fbb51834b64847b1b73a75bfc77
-Setting UnityPurchasing v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityPurchasing
+Setting UnityPurchasing v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing
   UnityEngine.Purchasing.dll (Extension) GUID: 8E0CD8ED44D4412CBE0642067ABC9E44
   Editor/UnityEditor.Purchasing.dll (Extension) GUID: 8382B2BB260241859771B69B7F377A8D
-Setting UnityVR v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR
+Setting UnityVR v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR
   Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b1b0f
 Registering precompiled unity dll's ...
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/Program Files (x86)/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer/UnityEditor.Tizen.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer/UnityEditor.SamsungTV.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001926 seconds.
-Platform assembly: E:\Program Files (x86)\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.AppleTV.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.AppleTV.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer\UnityEditor.Tizen.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer\UnityEditor.Tizen.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer\UnityEditor.SamsungTV.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer\UnityEditor.SamsungTV.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\ExCSS.Unity.dll (this message is harmless)
-Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 45.47 ms.
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.Legacy.NRefactory.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
+Register platform support module: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity_2017.1.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003260 seconds.
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\ExCSS.Unity.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 1.22 ms.
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.Legacy.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
 Mono: successfully reloaded assembly
-- Completed reload, in  0.566 seconds
+- Completed reload, in  0.638 seconds
 Registering platform support modules:
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
-Registered platform support modules in: 0.0689495s.
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
+Registered platform support modules in: 0.0776981s.
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Native extension for SamsungTV target not found
-Native extension for Tizen target not found
-Native extension for Metro target not found
-Loading native library: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native at E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport\x86_64\UnityEditor.iOS.Native.dll
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for tvOS target not found
-Loading native library: iOSSupport\x86_64\UnityEditor.iOS.Native at E:/Program Files (x86)/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
-[usbmuxd] Send listen message
+Loading native library: iOSSupport\x86_64\UnityEditor.iOS.Native at C:/Program Files/Unity_2017.1.1f1/Editor/Data/PlaybackEngines/iOSSupport\x86_64\UnityEditor.iOS.Native.dll
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
 Begin MonoManager ReloadAssembly
-System.Threading.ThreadAbortException: Thread was being aborted
-  at (wrapper managed-to-native) System.Threading.WaitHandle:WaitOne_internal (intptr,int,bool)
-  at System.Threading.WaitHandle.WaitOne (Int32 millisecondsTimeout, Boolean exitContext) [0x00032] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Threading/WaitHandle.cs:353 
-  at System.Diagnostics.Process.WaitForExit (Int32 milliseconds) [0x00000] in <filename unknown>:0 
-  at System.Diagnostics.Process.WaitForExit () [0x00000] in <filename unknown>:0 
-  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process:WaitForExit ()
-  at Mono.CSharp.CSharpCodeCompiler.CompileFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
-  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
-  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFile (System.CodeDom.Compiler.CompilerParameters options, System.String fileName) [0x00000] in <filename unknown>:0 
-  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
-  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 
-System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\ADMINI~1\AppData\Local\Temp\434d3a9\116da372.dll".
-  at System.IO.File.Delete (System.String path) [0x00084] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/File.cs:173 
-  at System.CodeDom.Compiler.TempFileCollection.Delete () [0x00000] in <filename unknown>:0 
-  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
-  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFile (System.CodeDom.Compiler.CompilerParameters options, System.String fileName) [0x00000] in <filename unknown>:0 
-  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
-  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEditor.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.Locator.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\I18N.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\I18N.West.dll (this message is harmless)
 Registering precompiled user dll's ...
-Registered in 0.313225 seconds.
-Non platform assembly: E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Non platform assembly: E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
-Loading E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
-Non platform assembly: E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll (this message is harmless)
-Loading E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll into Unity Child Domain
-Non platform assembly: E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
-Loading E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
-Non platform assembly: E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-UnityScript.dll (this message is harmless)
-Loading E:\Unity Projects\Obsidian_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll into Unity Child Domain
-Non platform assembly: E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.AppleTV.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.AppleTV.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.WSA.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer\UnityEditor.Tizen.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer\UnityEditor.Tizen.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer\UnityEditor.SamsungTV.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer\UnityEditor.SamsungTV.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\Managed\Mono.Cecil.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
-Loading E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll into Unity Child Domain
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\ExCSS.Unity.dll (this message is harmless)
-Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.Legacy.NRefactory.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Registered in 0.026616 seconds.
+Non platform assembly: F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
+Loading F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll (this message is harmless)
+Loading F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll into Unity Child Domain
+Non platform assembly: F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
+Loading F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll into Unity Child Domain
+Non platform assembly: F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-UnityScript.dll (this message is harmless)
+Loading F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseIntegrationTemp\Library\ScriptAssemblies\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PackageManager\Unity\PackageManager\2017.1.1\Unity.PackageManager.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\RuntimeEditor\UnityEngine.Timeline.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline\Editor\UnityEditor.Timeline.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll into Unity Child Domain
+Non platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEditor.Graphs.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\UnityEditor.WindowsStandalone.Extensions.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll into Unity Child Domain
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
+Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll (this message is harmless)
+Loading C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll into Unity Child Domain
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\ExCSS.Unity.dll (this message is harmless)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.DataContract.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\UnityScript.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.Legacy.NRefactory.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Managed\Unity.IvyParser.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
+Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.Mono.Cecil.dll (this message is harmless)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.678 seconds
+- Completed reload, in  0.591 seconds
 Initializing Unity.PackageManager (PackageManager) v2017.1.1 for Unity v2017.1.1f1
-Setting Android:Android v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\AndroidPlayer
-Setting tvOS:tvOS v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\AppleTVSupport
-Setting Unknown:MetroPlayer v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\iOSSupport
-Setting Standalone:StandaloneLinux v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
-Setting Standalone:StandaloneOSXIntel v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\MacStandaloneSupport
-Setting Metro:WSAPlayer v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\MetroSupport
-Setting SamsungTV:SamsungTV v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\STVPlayer
-Setting Tizen:Tizen v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\TizenPlayer
-Setting WebGL:WebGL v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\WebGLSupport
-Setting Standalone:StandaloneWindows v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\PlaybackEngines\windowsstandalonesupport
-Setting Advertisements v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Advertisements
+Setting Android:Android v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\AndroidPlayer
+Setting Unknown:MetroPlayer v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\iOSSupport
+Setting Standalone:StandaloneOSXIntel v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\MacStandaloneSupport
+Setting WebGL:WebGL v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\WebGLSupport
+Setting Standalone:StandaloneWindows v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\PlaybackEngines\windowsstandalonesupport
+Setting Advertisements v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Advertisements
   UnityEngine.Advertisements.dll (Extension) GUID: 739bbd9f364b4268874f9fd86ab3beef
   Editor/UnityEditor.Advertisements.dll (Extension) GUID: 97decbdab0634cdd991f8d23ddf0dead
-Setting GUISystem v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\GUISystem
+Setting GUISystem v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\GUISystem
   UnityEngine.UI.dll (Extension) GUID: f5f67c52d1564df4a8936ccd202a3bd8
   Standalone/UnityEngine.UI.dll (Extension) GUID: f70555f144d8491a825f0804e09c671c
   Editor/UnityEditor.UI.dll (Extension) GUID: 80a3616ca19596e4da0f10f14d241e9f
-Setting UNetHLAPI v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Networking
+Setting UNetHLAPI v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Networking
   UnityEngine.Networking.dll (Extension) GUID: 870353891bb340e2b2a9c8707e7419ba
   Standalone/UnityEngine.Networking.dll (Extension) GUID: dc443db3e92b4983b9738c1131f555cb
   Editor/UnityEditor.Networking.dll (Extension) GUID: 5f32cd94baa94578a686d4b9d6b660f7
-Setting TestRunner v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TestRunner
+Setting TestRunner v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TestRunner
   Editor/UnityEditor.TestRunner.dll (Extension) GUID: 4113173d5e95493ab8765d7b08371de4
   UnityEngine.TestRunner.dll (Extension) GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
   net35/unity-custom/nunit.framework.dll (Extension) GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
   portable/nunit.framework.dll (Extension) GUID: 405b9b51bb344a128608d968297df79c
-Setting Timeline v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\Timeline
+Setting Timeline v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\Timeline
   RuntimeEditor/UnityEngine.Timeline.dll (Extension) GUID: 844F815391DB42D49455CBF1A7BFC434
   Runtime/UnityEngine.Timeline.dll (Extension) GUID: 6a10b2909283487f913b00d94cd3faf5
   Editor/UnityEditor.Timeline.dll (Extension) GUID: 7668179ede524d6396c8b7d84461ea29
-Setting TreeEditor v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\TreeEditor
+Setting TreeEditor v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\TreeEditor
   Editor/UnityEditor.TreeEditor.dll (Extension) GUID: adebbd281f1a4ef3a30be7f21937e02f
-Setting UnityAnalytics v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityAnalytics
+Setting UnityAnalytics v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityAnalytics
   UnityEngine.Analytics.dll (Extension) GUID: 852E56802EB941638ACBB491814497B0
   Editor/UnityEditor.Analytics.dll (Extension) GUID: 86f4de9468454445ac2f39e207fafa3a
-Setting UnityHoloLens v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityHoloLens
+Setting UnityHoloLens v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityHoloLens
   Editor/UnityEditor.HoloLens.dll (Extension) GUID: 12fd8a0055b84bb59e84c9835a37e333
   Runtime/UnityEngine.HoloLens.dll (Extension) GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
   RuntimeEditor/UnityEngine.HoloLens.dll (Extension) GUID: 1c6d1fbb51834b64847b1b73a75bfc77
-Setting UnityPurchasing v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityPurchasing
+Setting UnityPurchasing v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityPurchasing
   UnityEngine.Purchasing.dll (Extension) GUID: 8E0CD8ED44D4412CBE0642067ABC9E44
   Editor/UnityEditor.Purchasing.dll (Extension) GUID: 8382B2BB260241859771B69B7F377A8D
-Setting UnityVR v2017.1.1 for Unity v2017.1.1f1 to E:\Program Files (x86)\Editor\Data\UnityExtensions\Unity\UnityVR
+Setting UnityVR v2017.1.1 for Unity v2017.1.1f1 to C:\Program Files\Unity_2017.1.1f1\Editor\Data\UnityExtensions\Unity\UnityVR
   Editor/UnityEditor.VR.dll (Extension) GUID: 4ba2329b63d54f0187bcaa12486b1b0f
 Registering platform support modules:
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
-Platform assembly: E:\Program Files (x86)\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
-Registered platform support modules in: 0.0355285s.
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
+Platform assembly: C:\Program Files\Unity_2017.1.1f1\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
+Registered platform support modules in: 0.0487809s.
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Native extension for SamsungTV target not found
-Native extension for Tizen target not found
-Native extension for Metro target not found
-Native extension for tvOS target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Validating Project structure ... 0.014658 seconds.
+Validating Project structure ... 0.013857 seconds.
 Refresh: detecting if any assets need to be imported or removed ... 
-Hashing assets ... 0.674 seconds
-  file open: 0.064 seconds (2214 files)
-  file read: 0.138 seconds (457.158 MB)
-  hash: 0.573 seconds
------ Compute hash(es) for 1107 asset(s).
+Hashing assets ... 0.759 seconds
+  file open: 0.102 seconds (2232 files)
+  file read: 0.125 seconds (459.379 MB)
+  hash: 0.624 seconds
+----- Compute hash(es) for 1116 asset(s).
 ----- Asset named Assets/Audio/NewAudioMixer.mixer is skipped as no actual change.
 ----- Asset named Assets/Audio/RISE_100.mp3 is skipped as no actual change.
 ----- Asset named Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav is skipped as no actual change.
@@ -413,6 +346,8 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/Images/FadeOut.anim is skipped as no actual change.
 ----- Asset named Assets/Images/Image.controller is skipped as no actual change.
 ----- Asset named Assets/Images/ObsidianLogo.png is skipped as no actual change.
+----- Asset named Assets/Images/Paintings/CanvasNormal.png is skipped as no actual change.
+----- Asset named Assets/Images/Paintings/Turner.jpg is skipped as no actual change.
 ----- Asset named Assets/Images/UIGreen.png is skipped as no actual change.
 ----- Asset named Assets/Images/UiTest2.png is skipped as no actual change.
 ----- Asset named Assets/Lighting/Bloom.asset is skipped as no actual change.
@@ -522,6 +457,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/Materials/GlowingPanel/GlowingPanelPlain.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/GlowingText.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/ObsidianLogo.mat is skipped as no actual change.
+----- Asset named Assets/Materials/Paintings/Turner.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/QS/table-low/Materials/QS-Glass 1.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/SciFiTablet/sciFiTablet_baseMaterial.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/SciFiTablet/sciFiTablet_baseMaterial_BlackBrown.mat is skipped as no actual change.
@@ -575,6 +511,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Transparent/MK_Transparent-DiffuseBumpSpec.shader is skipped as no actual change.
 ----- Asset named Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Transparent/MK_Transparent-DiffuseBumped.shader is skipped as no actual change.
 ----- Asset named Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Transparent/MK_Transparent-Glossy.shader is skipped as no actual change.
+----- Asset named Assets/Materials/coffeeTable.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/metal.mat is skipped as no actual change.
 ----- Asset named Assets/Materials/wood.mat is skipped as no actual change.
 ----- Asset named Assets/Models/Cubemap sphere.obj is skipped as no actual change.
@@ -591,6 +528,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/Models/Materials/No Name.mat is skipped as no actual change.
 ----- Asset named Assets/Models/Materials/WallScannerPlastic.mat is skipped as no actual change.
 ----- Asset named Assets/Models/Materials/WallScannerScreen.mat is skipped as no actual change.
+----- Asset named Assets/Models/Materials/defaultMat.mat is skipped as no actual change.
 ----- Asset named Assets/Models/Materials/doorFrameMaterial.mat is skipped as no actual change.
 ----- Asset named Assets/Models/Materials/doorMaterial.mat is skipped as no actual change.
 ----- Asset named Assets/Models/Materials/typeBlinn.mat is skipped as no actual change.
@@ -773,6 +711,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/Models/plants/p1/plantnormal.png is skipped as no actual change.
 ----- Asset named Assets/Models/plants/p1/prefab.prefab is skipped as no actual change.
 ----- Asset named Assets/Models/plants/p1/prex2.png is skipped as no actual change.
+----- Asset named Assets/Models/wallCap.fbx is skipped as no actual change.
 ----- Asset named Assets/Models/wallScannerPlasticBevel.fbx is skipped as no actual change.
 ----- Asset named Assets/Models/wallScannerScreen.fbx is skipped as no actual change.
 ----- Asset named Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute is skipped as no actual change.
@@ -1366,6 +1305,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/Wwise/Editor/ProjectData/AkWwiseProjectData 2.asset is skipped as no actual change.
 ----- Asset named Assets/Wwise/Editor/ProjectData/AkWwiseProjectData 3.asset is skipped as no actual change.
 ----- Asset named Assets/Wwise/Editor/ProjectData/AkWwiseProjectData 4.asset is skipped as no actual change.
+----- Asset named Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset is skipped as no actual change.
 ----- Asset named Assets/Wwise/Editor/WwiseComponents/AkAmbientInspector.cs is skipped as no actual change.
 ----- Asset named Assets/Wwise/Editor/WwiseComponents/AkAudioListenerInspector.cs is skipped as no actual change.
 ----- Asset named Assets/Wwise/Editor/WwiseComponents/AkBankInspector.cs is skipped as no actual change.
@@ -1447,6 +1387,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/_Prefabs/DoorScanner.prefab is skipped as no actual change.
 ----- Asset named Assets/_Prefabs/Materials/sciFiTablet_baseMaterial.mat is skipped as no actual change.
 ----- Asset named Assets/_Prefabs/Materials/sciFiTablet_screenMaterial.mat is skipped as no actual change.
+----- Asset named Assets/_Prefabs/SecurityDoor.prefab is skipped as no actual change.
 ----- Asset named Assets/_Prefabs/SteelDoor.prefab is skipped as no actual change.
 ----- Asset named Assets/_Prefabs/TubeGroup1.prefab is skipped as no actual change.
 ----- Asset named Assets/_Prefabs/TubeLightPrefab.prefab is skipped as no actual change.
@@ -1473,6 +1414,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/__Scripts/CodeGenerators/Editor/UnityAnimationConstantsGenerator.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/CodeGenerators/Editor/UnityConstantsGenerator.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/CubeMovement.cs is skipped as no actual change.
+----- Asset named Assets/__Scripts/GameManager.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/GlowingPanelCollider.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/IES/Editor/IESWizward.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/IES/IESConverter.cs is skipped as no actual change.
@@ -1484,6 +1426,7 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/__Scripts/IES/ParseIES.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/IES/RuntimeIESImporter.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/LevelManager.cs is skipped as no actual change.
+----- Asset named Assets/__Scripts/LightingChanger.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/MathHelpers.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/MicMover.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/MicToUI.cs is skipped as no actual change.
@@ -1494,623 +1437,625 @@ Hashing assets ... 0.674 seconds
 ----- Asset named Assets/__Scripts/ShaderColor.cs is skipped as no actual change.
 ----- Asset named Assets/__Scripts/Sound.cs is skipped as no actual change.
 
-Refresh: elapses 0.879791 seconds
+Refresh: elapses 1.065928 seconds
 Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
- done. [Time: 40.909625 ms] 
+ done. [Time: 55.536472 ms] 
 Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
- done. [Time: 2.003958 ms] 
+ done. [Time: 9.634616 ms] 
 Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 2.651123 ms] 
+ done. [Time: 8.772317 ms] 
 Updating ProjectSettings/NavMeshAreas.asset - GUID: 00000000000000004100000000000000...
- done. [Time: 1.860086 ms] 
+ done. [Time: 10.096219 ms] 
 Updating Library/BuildPlayer.prefs - GUID: 00000000000000005000000000000000...
- done. [Time: 2.458612 ms] 
+ done. [Time: 8.804781 ms] 
 Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
- done. [Time: 1.775607 ms] 
+ done. [Time: 9.968837 ms] 
 Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
 Audio: FMOD Profiler initialized on port 54900
- done. [Time: 21.191064 ms] 
+ done. [Time: 102.793766 ms] 
 Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
- done. [Time: 2.014710 ms] 
+ done. [Time: 9.842074 ms] 
 Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
- done. [Time: 1.759223 ms] 
+ done. [Time: 9.725823 ms] 
 Updating ProjectSettings/ClusterInputManager.asset - GUID: 00000000000000007100000000000000...
- done. [Time: 1.704439 ms] 
+ done. [Time: 10.326866 ms] 
 Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
- done. [Time: 1.764855 ms] 
+ done. [Time: 7.927951 ms] 
 Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
- done. [Time: 2.045430 ms] 
+ done. [Time: 9.518674 ms] 
 Updating ProjectSettings/NetworkManager.asset - GUID: 0000000000000000a000000000000000...
- done. [Time: 9.946575 ms] 
+ done. [Time: 20.069076 ms] 
 Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 1.776887 ms] 
+ done. [Time: 9.175486 ms] 
 Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
- done. [Time: 1.732599 ms] 
+ done. [Time: 8.533941 ms] 
 Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
- done. [Time: 1.746423 ms] 
+ done. [Time: 9.952760 ms] 
 Updating Assets/Images - GUID: 06207bf961e6d45c4afdf59b0f2cd081...
- done. [Time: 1.946358 ms] 
+ done. [Time: 11.492778 ms] 
 Updating Assets/__Scripts - GUID: 0a3723e5369354e6d9b34fcf25455631...
- done. [Time: 2.001654 ms] 
+ done. [Time: 11.973550 ms] 
 Updating Assets/PostProcessing - GUID: 1b6da717b0f916f479bbfc8fa200ce15...
- done. [Time: 2.047478 ms] 
+ done. [Time: 11.971695 ms] 
 Updating Assets/_Prefabs - GUID: 23d74007e13a94ffc97574abd2d9933f...
- done. [Time: 1.968374 ms] 
+ done. [Time: 13.998977 ms] 
 Updating Assets/Lighting - GUID: 25abcae7122f58b4ba9df6f9bc59f668...
- done. [Time: 1.917686 ms] 
+ done. [Time: 11.533898 ms] 
 Updating Assets/Models - GUID: 38ec1df9f7ffd4632a0de18f060a0367...
- done. [Time: 1.918198 ms] 
+ done. [Time: 15.587845 ms] 
 Updating Assets/StreamingAssets - GUID: 59fea8a8751429f46973da6dddc65d3a...
- done. [Time: 2.045430 ms] 
+ done. [Time: 11.777531 ms] 
 Updating Assets/Characters - GUID: 8c32f58513a41ef4dab9cb7704c5fb92...
- done. [Time: 1.954294 ms] 
+ done. [Time: 11.805048 ms] 
 Updating Assets/Shaders - GUID: 8c4a41c313e914633b4d0ea2a6938731...
- done. [Time: 1.957622 ms] 
+ done. [Time: 11.926246 ms] 
 Updating Assets/Wwise - GUID: 941bc6146c2115d4abc5da5a94c468a1...
- done. [Time: 2.452724 ms] 
+ done. [Time: 10.860817 ms] 
 Updating Assets/_Scenes - GUID: 968efb3806f4b461a9f7a344e9332b59...
- done. [Time: 2.161909 ms] 
+ done. [Time: 11.261203 ms] 
 Updating Assets/Documentation - GUID: 9760a29818361423caa34d60d88ce20d...
- done. [Time: 1.960694 ms] 
+ done. [Time: 12.172042 ms] 
 Updating Assets/Textures - GUID: be28055849c3a4c0aa8b0b9e0f966035...
- done. [Time: 2.055414 ms] 
+ done. [Time: 10.924508 ms] 
 Updating Assets/Materials - GUID: c49be148c7d5b46fcb1bd0efba771ba8...
- done. [Time: 2.182645 ms] 
+ done. [Time: 11.236778 ms] 
 Updating Assets/Standard Assets - GUID: cf55f15dd33b14276a0b61a140a29482...
- done. [Time: 2.008822 ms] 
+ done. [Time: 12.802766 ms] 
 Updating Assets/Audio - GUID: ddb0f2ed1005a47a2842be1ef5541e4a...
- done. [Time: 1.916150 ms] 
+ done. [Time: 10.167330 ms] 
 Updating Assets/Resources - GUID: f0823a52623c54bb586a4644ab5d3302...
- done. [Time: 1.954806 ms] 
+ done. [Time: 12.400834 ms] 
 Updating Assets/Wwise/Tools - GUID: 0d777e223316f2e4ca368f17b93855d6...
- done. [Time: 2.103285 ms] 
+ done. [Time: 11.818961 ms] 
 Updating Assets/Textures/WaitingRoomChair - GUID: 152eddc990f5412439ddebda0a46ba57...
- done. [Time: 1.990902 ms] 
+ done. [Time: 11.356430 ms] 
 Updating Assets/Models/Meshes - GUID: 176fd7c01a87ea14c9132f903ee9f170...
- done. [Time: 2.038006 ms] 
+ done. [Time: 10.527523 ms] 
 Updating Assets/Models/Materials - GUID: 18726c8f5ccd61f4aaca7cd007a95217...
- done. [Time: 2.269940 ms] 
+ done. [Time: 12.700119 ms] 
 Updating Assets/Models/plants - GUID: 26431abed9af276459561bfed27bb7bd...
- done. [Time: 1.984758 ms] 
+ done. [Time: 12.062593 ms] 
 Updating Assets/Wwise/Deployment - GUID: 3d22b423e77930047b60bfd9363782b4...
- done. [Time: 1.945334 ms] 
+ done. [Time: 12.207598 ms] 
 Updating Assets/Standard Assets/Utility - GUID: 4539eb30e895bbb41b5eae6df2dde978...
- done. [Time: 1.927670 ms] 
+ done. [Time: 11.176797 ms] 
 Updating Assets/PostProcessing/Utilities - GUID: 478d405e757b044f2bd9c4b777026b7e...
- done. [Time: 2.035190 ms] 
+ done. [Time: 12.007869 ms] 
 Updating Assets/PostProcessing/Runtime - GUID: 4b79d54138d9d1a498085393504c7d02...
- done. [Time: 2.087925 ms] 
+ done. [Time: 12.225221 ms] 
 Updating Assets/PostProcessing/Resources - GUID: 52380717b4884c04ebc31c46dda84909...
- done. [Time: 1.992950 ms] 
+ done. [Time: 10.361185 ms] 
 Updating Assets/__Scripts/CodeGenerators - GUID: 5385215c7d77a43a59e2728c2a7c2428...
- done. [Time: 1.978870 ms] 
+ done. [Time: 12.479675 ms] 
 Updating Assets/Textures/Door - GUID: 555d5d57bd44f4c49a2cb88f9660ed06...
- done. [Time: 2.191349 ms] 
+ done. [Time: 12.235733 ms] 
 Updating Assets/Standard Assets/PhysicsMaterials - GUID: 5eebb5849c50a2c4ea24ded96e6f3aac...
- done. [Time: 2.637555 ms] 
+ done. [Time: 10.730035 ms] 
 Updating Assets/Materials/GlowingPanel - GUID: 6479b6b9be0a673408fb5008ce05dbbd...
- done. [Time: 2.434036 ms] 
+ done. [Time: 11.232759 ms] 
 Updating Assets/Models/RDL - GUID: 654a89ded628713438d70f101a176933...
- done. [Time: 4.767720 ms] 
+ done. [Time: 11.453512 ms] 
 Updating Assets/Standard Assets/CrossPlatformInput - GUID: 710bc43f80d178548bd226c252c8e65b...
- done. [Time: 2.266868 ms] 
+ done. [Time: 12.434535 ms] 
+Updating Assets/Images/Paintings - GUID: 7c98d79a7d3c36841894fb68290b9eef...
+ done. [Time: 10.997165 ms] 
 Updating Assets/Models/Office Furniture - GUID: 7f1d567d563487a4baa094fd25f914ff...
- done. [Time: 2.223093 ms] 
+ done. [Time: 12.838940 ms] 
 Updating Assets/PostProcessing/Editor Resources - GUID: 83715878d3a8db441aa5636641db69a3...
- done. [Time: 2.210805 ms] 
+ done. [Time: 12.742786 ms] 
 Updating Assets/Textures/ReceptionDesk - GUID: 93cee6fcc080dac468f29672600f3de6...
- done. [Time: 2.138869 ms] 
+ done. [Time: 10.995619 ms] 
 Updating Assets/Characters/FirstPersonCharacter - GUID: 943e057eaae705e43b9e9b2e53d6adb0...
- done. [Time: 2.231541 ms] 
+ done. [Time: 11.811231 ms] 
 Updating Assets/Models/LampWall - GUID: 96e0dc04061f7a64f924c85f941f71fb...
- done. [Time: 2.517747 ms] 
+ done. [Time: 11.699000 ms] 
 Updating Assets/Textures/FrontDeskChair - GUID: 9e5675908d1544141bbf783623fd301f...
- done. [Time: 2.231797 ms] 
+ done. [Time: 11.941705 ms] 
 Updating Assets/Materials/QS - GUID: a28f5352ab3d00344abfa0ad15d6e3ad...
- done. [Time: 2.774002 ms] 
+ done. [Time: 10.536489 ms] 
 Updating Assets/Lighting/RealisticLightEffects - GUID: a7cfb0d5d911393459c72d4b6853aac6...
- done. [Time: 2.226677 ms] 
+ done. [Time: 12.740312 ms] 
 Updating Assets/Materials/Walls - GUID: aa159b6979355e3418109a5637ab2d05...
- done. [Time: 2.007286 ms] 
+ done. [Time: 11.813705 ms] 
 Updating Assets/Standard Assets/Editor - GUID: ab463df622eec4ba695a8d894dcf1b4b...
- done. [Time: 1.994998 ms] 
+ done. [Time: 11.902748 ms] 
 Updating Assets/__Scripts/IES - GUID: be0f3c1490a0f0a49825a91c8982c7f2...
- done. [Time: 2.015478 ms] 
+ done. [Time: 10.729725 ms] 
 Updating Assets/_Scenes/Main - GUID: bec2aa1d75396ca419edb3de9663c2cb...
- done. [Time: 2.262260 ms] 
+ done. [Time: 12.402999 ms] 
 Updating Assets/Materials/_MK - GUID: bfb7e26b8ed718d4fabb2eebbfd9241d...
- done. [Time: 2.801394 ms] 
+ done. [Time: 11.820197 ms] 
 Updating Assets/StreamingAssets/Audio - GUID: c1b05afd6f4a95a46b3b002ccd15b364...
- done. [Time: 2.878449 ms] 
+ done. [Time: 10.140122 ms] 
 Updating Assets/Wwise/Documentation - GUID: c4cdb1d6399b37b4595f4fec31980920...
- done. [Time: 2.157557 ms] 
+ done. [Time: 12.295714 ms] 
 Updating Assets/Models/Tech - GUID: c94e42318e3c12246a8501ea00d8c0d4...
- done. [Time: 2.057973 ms] 
+ done. [Time: 12.103405 ms] 
 Updating Assets/Wwise/Extensions - GUID: cb507071a65a98843ad64bfa8be46e73...
- done. [Time: 1.952502 ms] 
+ done. [Time: 12.203269 ms] 
 Updating Assets/Models/PBR Lamps Pack Free - GUID: d2081c95426b987439079a97fd88da8e...
- done. [Time: 2.410996 ms] 
+ done. [Time: 13.001259 ms] 
 Updating Assets/PostProcessing/Editor - GUID: e0e418747b892364db5c5f4451e67ede...
- done. [Time: 2.863602 ms] 
+ done. [Time: 12.882843 ms] 
 Updating Assets/PostProcessing/Textures - GUID: e15c29a7abfa52743a8cb7714389c3c7...
- done. [Time: 2.254325 ms] 
+ done. [Time: 11.972932 ms] 
 Updating Assets/Wwise/Editor - GUID: e65e870a1ead6fa4dbbe629fc05956ed...
- done. [Time: 2.424308 ms] 
+ done. [Time: 11.478246 ms] 
 Updating Assets/Wwise/Gizmos - GUID: e8eec23c981b80247898ab674b496cdd...
- done. [Time: 2.451700 ms] 
+ done. [Time: 10.076122 ms] 
+Updating Assets/Materials/Paintings - GUID: eadb3bf7a5c9314499bdbf363a7877c5...
+ done. [Time: 12.190593 ms] 
 Updating Assets/Lighting/Samples - GUID: ec28a2a52dc814298a57c6b2cd8cb282...
- done. [Time: 3.268592 ms] 
+ done. [Time: 11.054053 ms] 
 Updating Assets/Textures/StandardMetallic - GUID: f405d0b8f3abe4b2db50a7c77992a3c7...
- done. [Time: 3.353839 ms] 
+ done. [Time: 10.558441 ms] 
 Updating Assets/Models/Paintings - GUID: f8a12849dbfec154fb6ab19df0b13c7c...
- done. [Time: 2.969585 ms] 
+ done. [Time: 11.409609 ms] 
 Updating Assets/Materials/SciFiTablet - GUID: fa4befdd02811df4592bf39a1a2a0f67...
- done. [Time: 2.123509 ms] 
+ done. [Time: 11.743830 ms] 
 Updating Assets/_Prefabs/Materials - GUID: ffbf3ba87a087ae47a6f761e780bbd7e...
- done. [Time: 1.996278 ms] 
+ done. [Time: 10.526904 ms] 
 Updating Assets/Models/LampWall/Prefab - GUID: 0b19848d1b8187a43a9c88fc05d7620e...
- done. [Time: 1.964278 ms] 
+ done. [Time: 11.800719 ms] 
 Updating Assets/Characters/FirstPersonCharacter/Prefabs - GUID: 0bfb2599080d5d24e84362b4ae314ae7...
- done. [Time: 2.822642 ms] 
+ done. [Time: 11.953453 ms] 
 Updating Assets/Wwise/Documentation/AppleCommon - GUID: 12ae908ac47b9c44bb6700b80c64a1af...
- done. [Time: 2.931953 ms] 
+ done. [Time: 10.988817 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1 - GUID: 149af2da840d2be4f895b39f8c174e25...
- done. [Time: 2.953201 ms] 
+ done. [Time: 11.200604 ms] 
 Updating Assets/Standard Assets/CrossPlatformInput/Sprites - GUID: 1835e4537efbdd94b93c2dd136860f1d...
- done. [Time: 2.973425 ms] 
+ done. [Time: 13.547268 ms] 
 Updating Assets/PostProcessing/Runtime/Utils - GUID: 18fb6a6b698945843a16c2d0111a7af2...
- done. [Time: 2.207477 ms] 
+ done. [Time: 12.137105 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteGreen - GUID: 211a7a965742644a3b29a8599c5c6cc7...
- done. [Time: 2.048502 ms] 
+ done. [Time: 10.422402 ms] 
 Updating Assets/Models/plants/dd - GUID: 23502f5131ce6904e915b90756fb0f84...
- done. [Time: 2.182133 ms] 
+ done. [Time: 12.045279 ms] 
 Updating Assets/PostProcessing/Resources/Bluenoise64 - GUID: 2be7cf05ee8fb17438022d4869299900...
- done. [Time: 2.124277 ms] 
+ done. [Time: 11.212662 ms] 
 Updating Assets/Wwise/Editor/WwiseComponents - GUID: 2d37af4d31e232644ab6baff8085f624...
- done. [Time: 2.025206 ms] 
+ done. [Time: 10.405706 ms] 
 Updating Assets/Characters/FirstPersonCharacter/Audio - GUID: 2dac79461900e0f4c93561031c2e6902...
- done. [Time: 2.145269 ms] 
+ done. [Time: 12.034458 ms] 
 Updating Assets/Wwise/Editor/WwiseSetupWizard - GUID: 2f49ecfb67e6abe4da16b9ac4aa4786e...
- done. [Time: 2.839026 ms] 
+ done. [Time: 12.121028 ms] 
 Updating Assets/Lighting/RealisticLightEffects/Scenes - GUID: 3105ff2ba9d69f74e9cb8cdb6b2af6dc...
- done. [Time: 2.111221 ms] 
+ done. [Time: 11.660043 ms] 
 Updating Assets/Characters/FirstPersonCharacter/Scripts - GUID: 314f49b24dc9d5d40956a7b28c67b237...
- done. [Time: 2.004214 ms] 
+ done. [Time: 11.157010 ms] 
 Updating Assets/Materials/_MK/MKGlowFree - GUID: 3370a809254eae445a4a0da8814eb6d5...
- done. [Time: 2.088949 ms] 
+ done. [Time: 11.611811 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Large round lamp - GUID: 369436b1863a90d40909bb1d099762d3...
- done. [Time: 2.123253 ms] 
+ done. [Time: 12.193376 ms] 
 Updating Assets/Lighting/RealisticLightEffects/Cookies - GUID: 382c46210bbef154e95995d0740db8fd...
- done. [Time: 1.962742 ms] 
+ done. [Time: 11.424449 ms] 
 Updating Assets/Lighting/RealisticLightEffects/Scripts - GUID: 3b1c4cdb166e5ab4b84a259a1a766c28...
- done. [Time: 2.020598 ms] 
+ done. [Time: 12.899230 ms] 
 Updating Assets/Wwise/Editor/WwiseMenu - GUID: 3eafba49465a0914497edf507b01b49a...
- done. [Time: 2.323956 ms] 
+ done. [Time: 12.093202 ms] 
 Updating Assets/Standard Assets/CrossPlatformInput/Scripts - GUID: 3f66eeca8ac36914e9ec9a716a9d9f73...
- done. [Time: 2.148341 ms] 
+ done. [Time: 13.794610 ms] 
 Updating Assets/Models/RDL/Security_Pack - GUID: 4307d53a9c473416eb25772639a75d78...
- done. [Time: 2.137077 ms] 
+ done. [Time: 10.777339 ms] 
 Updating Assets/PostProcessing/Textures/LUTs - GUID: 499867e2df2e54e4aad0b9333221f875...
- done. [Time: 2.274804 ms] 
+ done. [Time: 12.098767 ms] 
 Updating Assets/PostProcessing/Utilities/CustomMotionTexture - GUID: 5b271143f6e834d6bb7a4309f2c781f2...
- done. [Time: 2.158837 ms] 
+ done. [Time: 11.452275 ms] 
 Updating Assets/Models/Office Furniture/Materials - GUID: 5c7b6c47ec2681f4f84023b663eb93ef...
- done. [Time: 2.031862 ms] 
+ done. [Time: 12.373318 ms] 
 Updating Assets/Standard Assets/CrossPlatformInput/Prefabs - GUID: 5d3fb8e05edcf4b41aef584ca1b0d06f...
- done. [Time: 1.971958 ms] 
+ done. [Time: 13.131423 ms] 
 Updating Assets/Textures/StandardMetallic/BlueWhite - GUID: 603cf83ffb5084a13ba8b77f02ff9e93...
- done. [Time: 2.388724 ms] 
+ done. [Time: 11.284082 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2 - GUID: 678d814cdf848b94195ca5c9cbfb806c...
- done. [Time: 2.396916 ms] 
+ done. [Time: 11.285319 ms] 
 Updating Assets/PostProcessing/Textures/Spectral LUTs - GUID: 67d9249960fda4c41b0a23a65573a8a2...
- done. [Time: 2.079477 ms] 
+ done. [Time: 13.878089 ms] 
 Updating Assets/PostProcessing/Runtime/Attributes - GUID: 68327f748e8ffd94889a47317b7d327b...
- done. [Time: 1.978614 ms] 
+ done. [Time: 10.498769 ms] 
 Updating Assets/Standard Assets/Editor/CrossPlatformInput - GUID: 696c0e7b8c74e1442acbf15c2df9e72d...
- done. [Time: 2.115317 ms] 
+ done. [Time: 11.269860 ms] 
 Updating Assets/Lighting/RealisticLightEffects/Prefabs - GUID: 69bb0c544ae86ee4b9e021625aebaefc...
- done. [Time: 1.995254 ms] 
+ done. [Time: 11.758671 ms] 
 Updating Assets/Textures/StandardMetallic/YellowBrown - GUID: 6ad4762e2cfb24f75be23cc9144008ee...
- done. [Time: 2.167797 ms] 
+ done. [Time: 10.972740 ms] 
 Updating Assets/PostProcessing/Textures/Lens Dirt - GUID: 705e7922061713741885ae52a3e0bea4...
- done. [Time: 2.205429 ms] 
+ done. [Time: 11.229048 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteGold - GUID: 71f73b89053534c4c9c35ea2f5b7f8fc...
- done. [Time: 1.999862 ms] 
+ done. [Time: 11.318401 ms] 
 Updating Assets/Textures/StandardMetallic/BlackBrown - GUID: 7985829311f3144b080618137b99be25...
- done. [Time: 2.092021 ms] 
+ done. [Time: 11.392604 ms] 
 Updating Assets/Wwise/Documentation/Windows - GUID: 7c76553f3fd11904d8e53f8a3b72b0db...
- done. [Time: 2.049014 ms] 
+ done. [Time: 12.398361 ms] 
 Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks - GUID: 817f38c7d1401e34e91a2b1aabc79e45...
- done. [Time: 2.991089 ms] 
+ done. [Time: 12.174516 ms] 
 Updating Assets/Wwise/Editor/ProjectData - GUID: 83a2a3e2be028a0418138bba74430a65...
- done. [Time: 3.270384 ms] 
+ done. [Time: 13.009607 ms] 
 Updating Assets/Models/plants/p1 - GUID: 8a0dafee91ca8274eb6af8319e4b961b...
- done. [Time: 2.742002 ms] 
+ done. [Time: 12.280255 ms] 
 Updating Assets/Textures/StandardMetallic/RedWhite - GUID: 8ceced861191a439fbdf3d0c537a755b...
- done. [Time: 2.766834 ms] 
+ done. [Time: 14.263943 ms] 
 Updating Assets/PostProcessing/Runtime/Models - GUID: 8d5a699332eb8a9499077fa4bcd4e0a0...
- done. [Time: 2.612723 ms] 
+ done. [Time: 13.008061 ms] 
 Updating Assets/Wwise/Deployment/API - GUID: 8e3b77350cd1ace40b159a9e05bce4c2...
- done. [Time: 2.100981 ms] 
+ done. [Time: 13.502437 ms] 
 Updating Assets/__Scripts/IES/Editor - GUID: 8f2f078b8f35a0b41bab96e676af3f40...
- done. [Time: 1.934838 ms] 
+ done. [Time: 12.192757 ms] 
 Updating Assets/Lighting/Samples/IES - GUID: 95787c5bae3b9334db3ce2b94aaf4967...
- done. [Time: 1.951734 ms] 
+ done. [Time: 11.744140 ms] 
 Updating Assets/Wwise/Editor/WwiseWindows - GUID: 99bb5a3a0d5942b46b7f5e90d028f2fb...
- done. [Time: 2.016502 ms] 
+ done. [Time: 13.893238 ms] 
 Updating Assets/Wwise/Deployment/Plugins - GUID: 9aa0db6c722067849a7fce61840328d1...
- done. [Time: 1.919990 ms] 
+ done. [Time: 13.388041 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Prefabs - GUID: aacabe983f5454e4684866f302afc7a8...
- done. [Time: 1.982966 ms] 
+ done. [Time: 11.911096 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Small roof lamp - GUID: ad88ccf163303f34fade1c67734e6f62...
- done. [Time: 1.979638 ms] 
+ done. [Time: 13.934668 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteRed - GUID: b10ebe8129613426b96760d707b1e20c...
- done. [Time: 1.946614 ms] 
+ done. [Time: 10.481455 ms] 
 Updating Assets/Standard Assets/Utility/Prefabs - GUID: b43a4ef15621158419a2b639f7a98245...
- done. [Time: 2.070773 ms] 
+ done. [Time: 12.785761 ms] 
 Updating Assets/Wwise/Editor/WwiseTypes - GUID: b45204d8a73a6d044888ce2079483b55...
- done. [Time: 1.986038 ms] 
+ done. [Time: 12.714960 ms] 
 Updating Assets/PostProcessing/Editor/Utils - GUID: b52c69ccefdae7545bfb4d0bf9b7df71...
- done. [Time: 1.951990 ms] 
+ done. [Time: 12.428970 ms] 
 Updating Assets/Models/Meshes/Decorative plants - GUID: b6aac7e9f8fc3ba48a2c8ff997a38056...
- done. [Time: 1.988086 ms] 
+ done. [Time: 10.481146 ms] 
 Updating Assets/Models/LampWall/Materials - GUID: bd86af9e417227949a2391113e946772...
- done. [Time: 2.315508 ms] 
+ done. [Time: 12.920254 ms] 
 Updating Assets/PostProcessing/Runtime/Components - GUID: c1f765b2bd3d2ad49b2677f6478a9ba3...
- done. [Time: 2.752754 ms] 
+ done. [Time: 11.801338 ms] 
 Updating Assets/PostProcessing/Editor/Attributes - GUID: cc5c690f549b4704eb992a9be781554d...
- done. [Time: 2.762482 ms] 
+ done. [Time: 10.852778 ms] 
 Updating Assets/PostProcessing/Editor/PropertyDrawers - GUID: ced92f1cc2085ae48acacc79a2b8e196...
- done. [Time: 2.822130 ms] 
+ done. [Time: 12.102168 ms] 
 Updating Assets/PostProcessing/Editor/Models - GUID: d5341d31985da604db4b100f174142ad...
- done. [Time: 2.630387 ms] 
+ done. [Time: 11.974477 ms] 
 Updating Assets/Wwise/Deployment/Components - GUID: d53b8332d28644942a75f8d303f65933...
- done. [Time: 1.954550 ms] 
+ done. [Time: 11.723425 ms] 
 Updating Assets/Materials/QS/table-low - GUID: d6d75617d32d37746a706d2f071d4630...
- done. [Time: 1.977846 ms] 
+ done. [Time: 10.159291 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Classic fluorescent lamp - GUID: da02097b6b559af43ab44f04707cefa2...
- done. [Time: 1.980662 ms] 
+ done. [Time: 12.647559 ms] 
 Updating Assets/__Scripts/CodeGenerators/Editor - GUID: dc2f463063473436fbc03ee72c3f5dba...
- done. [Time: 1.942262 ms] 
+ done. [Time: 12.524506 ms] 
 Updating Assets/PostProcessing/Editor Resources/UI - GUID: df37d60cc69b7b04d9705a74938179e7...
- done. [Time: 1.983478 ms] 
+ done. [Time: 12.765356 ms] 
 Updating Assets/PostProcessing/Resources/Shaders - GUID: e039bcc30d13c9341aa224f4e89f21b3...
- done. [Time: 1.966838 ms] 
+ done. [Time: 11.631289 ms] 
 Updating Assets/Lighting/RealisticLightEffects/Materials - GUID: e1d1d807693bf2643a9443880b28b5a7...
- done. [Time: 1.936886 ms] 
+ done. [Time: 13.415249 ms] 
 Updating Assets/PostProcessing/Editor/Monitors - GUID: e31078d57ac582944ad5e1e76a84f36a...
- done. [Time: 1.937142 ms] 
+ done. [Time: 12.442264 ms] 
 Updating Assets/Models/LampWall/FBX - GUID: e342b48764675ce44b1e81e1ab5ff9b8...
- done. [Time: 1.927926 ms] 
+ done. [Time: 12.400525 ms] 
 Updating Assets/PostProcessing/Editor Resources/Monitors - GUID: e7358848dd8737c459f4636f1c075835...
- done. [Time: 1.937398 ms] 
+ done. [Time: 10.167948 ms] 
 Updating Assets/Models/LampWall/Textures - GUID: f31a256c04f4a28459a6cd7f0af9339f...
- done. [Time: 1.987574 ms] 
+ done. [Time: 11.677666 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteBlue - GUID: f46a9631dde1c471995eb2aa066e412b...
- done. [Time: 1.951990 ms] 
+ done. [Time: 10.811967 ms] 
 Updating Assets/Textures/StandardMetallic/BlackWhite - GUID: f485ef317a2f946bdbddefedbaf04395...
- done. [Time: 2.052342 ms] 
+ done. [Time: 10.794653 ms] 
+Updating Assets/Models/Meshes/Decorative plants/Meshes - GUID: 00ef2546d5777aa4f8177bbfe0110bce...
+ done. [Time: 14.062668 ms] 
 Updating Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific - GUID: 0bc72db1e9dcb9647818df5a07871127...
- done. [Time: 2.029814 ms] 
+ done. [Time: 12.328487 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteGreen/1024 - GUID: 0bcd623018c1440f08aa9a6e236704d9...
- done. [Time: 1.948662 ms] 
+ done. [Time: 11.223792 ms] 
 Updating Assets/Lighting/Samples/IES/Automotive - GUID: 110f8c111713b674d8ff399495ffb013...
- done. [Time: 1.947382 ms] 
+ done. [Time: 11.570072 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Classic fluorescent lamp/Materials - GUID: 12370257ae4c8fe4e8d5ccea0e5b3feb...
- done. [Time: 1.968118 ms] 
+ done. [Time: 11.648603 ms] 
 Updating Assets/Textures/StandardMetallic/BlueWhite/1024 - GUID: 15ec559dee21e489bb38b9c614d749d2...
- done. [Time: 1.929462 ms] 
+ done. [Time: 11.858536 ms] 
 Updating Assets/Wwise/Documentation/AppleCommon/en - GUID: 17398a79057fe0d4eb854426fbd8994c...
- done. [Time: 1.952502 ms] 
+ done. [Time: 10.623368 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Large round lamp/Materials - GUID: 1c90fe3c5a4ad2d48a2ab06fa00e7af1...
- done. [Time: 1.991670 ms] 
+ done. [Time: 12.297878 ms] 
 Updating Assets/Wwise/Deployment/API/Generated - GUID: 20c87bfdbf2bac14585efef0e6b80222...
- done. [Time: 2.077685 ms] 
+ done. [Time: 12.375173 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Small roof lamp/Maps (Specular) [Unity] - GUID: 212b8be5a777ff54782859490db711f6...
- done. [Time: 2.066677 ms] 
+ done. [Time: 11.987154 ms] 
 Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows - GUID: 24ba4b5c1aea8451dbb4736e31aca7d2...
- done. [Time: 1.954294 ms] 
+ done. [Time: 13.298070 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1/Materials - GUID: 293e39ba1b4913a4ea995e07aa68b92c...
- done. [Time: 1.933302 ms] 
+ done. [Time: 12.316429 ms] 
 Updating Assets/Lighting/RealisticLightEffects/Scripts/Effects - Use These - GUID: 2dae707ed0104104595478e13b741de1...
- done. [Time: 1.952758 ms] 
+ done. [Time: 12.050535 ms] 
 Updating Assets/Textures/StandardMetallic/BlackWhite/1024 - GUID: 364b118d144bd48ae825aee5c54cc92a...
- done. [Time: 1.924086 ms] 
+ done. [Time: 12.180390 ms] 
 Updating Assets/Models/RDL/Security_Pack/Scripts - GUID: 3d1acf908595540cb8459a8b6ef9c63a...
- done. [Time: 1.930230 ms] 
+ done. [Time: 10.194538 ms] 
 Updating Assets/Lighting/Samples/IES/Point light - GUID: 3ffd4c48ee0950a4780bbc4c48b7035e...
- done. [Time: 2.451956 ms] 
+ done. [Time: 12.509356 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteGold/1024 - GUID: 4296d3e2cb5d34ca8a788e1395de88b4...
- done. [Time: 2.814706 ms] 
+ done. [Time: 12.108352 ms] 
 Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac - GUID: 45f7c71b2f7e04a71b0448ea93f01a40...
- done. [Time: 2.563827 ms] 
+ done. [Time: 13.623944 ms] 
 Updating Assets/Wwise/Documentation/Windows/en - GUID: 4932cad51aed6844cab32c86b0d1ae66...
- done. [Time: 1.957878 ms] 
+ done. [Time: 10.531233 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2/Materials - GUID: 4979a98fb2750cf469afe5f19090076b...
- done. [Time: 1.983990 ms] 
+ done. [Time: 11.724661 ms] 
 Updating Assets/Models/RDL/Security_Pack/Prefabs - GUID: 51428b37ee3594b75911ed83794cef50...
- done. [Time: 2.010870 ms] 
+ done. [Time: 12.299424 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Classic fluorescent lamp/Maps (Specular) [Unity] - GUID: 580a0740d40ce6147b29d0b9287b9b9b...
- done. [Time: 2.824690 ms] 
+ done. [Time: 10.947078 ms] 
 Updating Assets/Wwise/Documentation/AppleCommon/ja - GUID: 631470382bef4804db02fa1e7911657e...
- done. [Time: 2.787826 ms] 
+ done. [Time: 13.898494 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Large round lamp/Maps (Specular) [Unity] - GUID: 632f290b077a3ac40b17575e9559e553...
- done. [Time: 2.781682 ms] 
+ done. [Time: 11.805357 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1/Models - GUID: 6bd3b0e35b593bb4691f4e560cc5d1df...
- done. [Time: 2.106869 ms] 
+ done. [Time: 11.696835 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2/Textures - GUID: 6d2592c58bca16842a5c4147196d848a...
- done. [Time: 1.959414 ms] 
+ done. [Time: 13.490070 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows - GUID: 6d2da39bf110ada47a685f97340941a3...
- done. [Time: 1.960950 ms] 
+ done. [Time: 11.717241 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Editor - GUID: 724ee43fe0a23a74985e38566d0b25cf...
- done. [Time: 1.938678 ms] 
+ done. [Time: 12.577375 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteRed/1024 - GUID: 74052a4cc1b96468aacb531cd35e9d89...
- done. [Time: 1.986806 ms] 
+ done. [Time: 12.172970 ms] 
 Updating Assets/Wwise/Editor/WwiseMenu/Windows - GUID: 74c41fabbff959f498cb20b6eaad329b...
- done. [Time: 1.995766 ms] 
+ done. [Time: 10.332122 ms] 
 Updating Assets/Wwise/Documentation/Windows/ja - GUID: 7581971fc1216214d8ffa43186b46dcf...
- done. [Time: 1.951990 ms] 
+ done. [Time: 11.054363 ms] 
 Updating Assets/Textures/StandardMetallic/YellowBrown/1024 - GUID: 76c463367c73b4bedabb3cc481f430bf...
- done. [Time: 1.962486 ms] 
+ done. [Time: 12.484622 ms] 
 Updating Assets/Textures/StandardMetallic/BlackBrown/1024 - GUID: 7d6df606481b847ebbbbb814d2aa193f...
- done. [Time: 1.950454 ms] 
+ done. [Time: 10.649339 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader - GUID: 839199b4c90e5ab4dbcb7fc664d90921...
- done. [Time: 1.963254 ms] 
+ done. [Time: 12.172352 ms] 
 Updating Assets/Textures/StandardMetallic/RedWhite/1024 - GUID: 8845bc3d14cb743c7b3d913ac0a95e7c...
- done. [Time: 2.007286 ms] 
+ done. [Time: 12.101859 ms] 
 Updating Assets/PostProcessing/Utilities/CustomMotionTexture/Shaders - GUID: 8e565c240745c49628f96f0573adfa76...
- done. [Time: 1.974774 ms] 
+ done. [Time: 11.126092 ms] 
 Updating Assets/Models/RDL/Security_Pack/Models - GUID: 8fafc14949dd24018a10c25c1151857b...
- done. [Time: 2.135029 ms] 
+ done. [Time: 10.972430 ms] 
 Updating Assets/PostProcessing/Utilities/CustomMotionTexture/Textures - GUID: 92c42dce939f844cea2248583e06bd55...
- done. [Time: 2.028022 ms] 
+ done. [Time: 14.368755 ms] 
 Updating Assets/Wwise/Deployment/API/Handwritten - GUID: 979116f0ab46d294780e7a4fb30a4b48...
- done. [Time: 1.959414 ms] 
+ done. [Time: 12.642612 ms] 
 Updating Assets/Materials/QS/table-low/Materials - GUID: 9c0c77fbaef54a741aba09fcf878479e...
- done. [Time: 1.932534 ms] 
+ done. [Time: 11.268005 ms] 
 Updating Assets/Models/Meshes/Decorative plants/Textures - GUID: a453b5174b9b35e4aafea85a7bd46a70...
- done. [Time: 2.013942 ms] 
+ done. [Time: 10.640064 ms] 
 Updating Assets/Wwise/Editor/WwiseMenu/Mac - GUID: a8da960d56d656e49829fd654a643f96...
- done. [Time: 1.994486 ms] 
+ done. [Time: 12.441028 ms] 
 Updating Assets/Lighting/Samples/IES/Spotlight - GUID: b4c83c5bf100e6945b9e60a8f1e76874...
- done. [Time: 1.973238 ms] 
+ done. [Time: 11.855753 ms] 
 Updating Assets/PostProcessing/Utilities/CustomMotionTexture/Materials - GUID: c4b2008f2662a41e587c4351609053c4...
- done. [Time: 2.059765 ms] 
+ done. [Time: 10.989126 ms] 
 Updating Assets/Models/plants/dd/Materials - GUID: c53cdc9a3fc9c534bb28150d6ac52a4c...
- done. [Time: 1.984502 ms] 
+ done. [Time: 12.123811 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Small roof lamp/Materials - GUID: c590f0fd155207e4b8d83aa2a84ec139...
- done. [Time: 1.967862 ms] 
+ done. [Time: 11.990246 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac - GUID: d0d7234929e1aba46a924ebaffc2784e...
- done. [Time: 1.969142 ms] 
+ done. [Time: 12.275926 ms] 
 Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl - GUID: d2e3e56017b6c364a862ee97d24cf462...
- done. [Time: 2.038774 ms] 
+ done. [Time: 10.359021 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2/Prefabs - GUID: d72f29a3fba9dab4f8a31da8dbadf1d1...
- done. [Time: 1.997302 ms] 
+ done. [Time: 12.620660 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2/Models - GUID: e0980406714bade4fbb92bedf99181cd...
- done. [Time: 1.984502 ms] 
+ done. [Time: 12.107115 ms] 
 Updating Assets/Textures/StandardMetallic/WhiteBlue/1024 - GUID: e0a420975749b49e194b625cfa727a1f...
- done. [Time: 1.944822 ms] 
+ done. [Time: 10.241533 ms] 
 Updating Assets/Wwise/Editor/WwiseMenu/Common - GUID: e62556836a2af2942b314fe8a77638e9...
- done. [Time: 2.026998 ms] 
+ done. [Time: 11.638401 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1/Prefabs - GUID: e8ee8768974fd6246ba8ae40f638137c...
- done. [Time: 1.966838 ms] 
+ done. [Time: 12.347965 ms] 
 Updating Assets/Models/plants/p1/Materials - GUID: e907bece29c995a44ba49a2b9af61dfa...
- done. [Time: 2.002678 ms] 
+ done. [Time: 11.534826 ms] 
 Updating Assets/Models/Meshes/Decorative plants/Materials - GUID: ee43ec8f5cce6d647852d14d948b51ef...
- done. [Time: 2.085365 ms] 
+ done. [Time: 11.057454 ms] 
 Updating Assets/PostProcessing/Utilities/CustomMotionTexture/Models - GUID: ef5ce588de3614b39b5ba7b0613cbe43...
- done. [Time: 1.977334 ms] 
+ done. [Time: 12.114226 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1/Textures - GUID: f110efef898292649a0e1cb0019c7e2c...
- done. [Time: 2.011382 ms] 
+ done. [Time: 14.137798 ms] 
 Updating Assets/Models/RDL/Security_Pack/Models/Camera - GUID: 133b592604da2404dbc486208704cb27...
- done. [Time: 1.954294 ms] 
+ done. [Time: 11.563579 ms] 
+Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/English(US) - GUID: 181aa965b58b39445aea4c3be8a11ec6...
+ done. [Time: 10.922343 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Large round lamp/Maps (Specular) [Unity]/Scratched - GUID: 28656f361cfbb8f4b9b764f3a2d9fdd4...
- done. [Time: 2.143733 ms] 
+ done. [Time: 12.779887 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP - GUID: 31f1536474fdbda438a0f20a67ced9e0...
- done. [Time: 2.011382 ms] 
+ done. [Time: 12.227076 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64 - GUID: 327f1f6b0d5ce274486b5a8302ccb58f...
- done. [Time: 2.014966 ms] 
+ done. [Time: 10.530614 ms] 
 Updating Assets/Models/RDL/Security_Pack/Models/TV - GUID: 366ea43071f124b3888359119e63df39...
- done. [Time: 1.946102 ms] 
+ done. [Time: 13.008679 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86 - GUID: 48879ad469960764ba0aa93b4f016be8...
- done. [Time: 1.962998 ms] 
+ done. [Time: 11.535135 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release - GUID: 5429780e820cfd6459578c840fd8cd14...
- done. [Time: 1.944054 ms] 
+ done. [Time: 12.665182 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile - GUID: 564041347fb77454792b9a4613efc148...
- done. [Time: 1.994230 ms] 
+ done. [Time: 11.419811 ms] 
 Updating Assets/Models/PBR Lamps Pack Free/Large round lamp/Maps (Specular) [Unity]/Clean - GUID: 584f2e0dc5de4e7419c904c423e20dae...
- done. [Time: 1.992182 ms] 
+ done. [Time: 14.556426 ms] 
 Updating Assets/Wwise/Deployment/API/Generated/Common - GUID: 5ad5c5e411da50942b0ac8086ab74a90...
- done. [Time: 1.999862 ms] 
+ done. [Time: 13.374437 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2/Textures/Frame - GUID: 5d86cd41e022a484b98f189a98b59645...
- done. [Time: 2.213621 ms] 
+ done. [Time: 12.183791 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Render - GUID: 897969dcbdd6a9a4e98ac3fa44240bba...
- done. [Time: 2.212853 ms] 
+ done. [Time: 11.318401 ms] 
 Updating Assets/Wwise/Deployment/API/Generated/Mac - GUID: 89d0c36f03ed58f4e9db6d93186582de...
- done. [Time: 2.050294 ms] 
+ done. [Time: 11.025609 ms] 
+Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/English(US) - GUID: 90104ae37da7bac4a998732719026681...
+ done. [Time: 12.466071 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1/Textures/Frame - GUID: b35fc6d2f808fd34ea787a98c5556b82...
- done. [Time: 1.982454 ms] 
+ done. [Time: 12.138960 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug - GUID: bde4742642b653044bec19ebc7416cc9...
- done. [Time: 2.003190 ms] 
+ done. [Time: 10.392103 ms] 
 Updating Assets/Models/Paintings/PaintingCollection1/Textures/Image - GUID: c3fe6702b5046c94f8798e29f7ee7e84...
- done. [Time: 1.986550 ms] 
+ done. [Time: 12.423095 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode - GUID: d6756c76e16433043a6a296abf963b40...
- done. [Time: 2.014454 ms] 
+ done. [Time: 12.112062 ms] 
 Updating Assets/Wwise/Deployment/API/Generated/Windows - GUID: d91a614d62a40214280ee161187f9f81...
- done. [Time: 1.997046 ms] 
+ done. [Time: 10.975522 ms] 
 Updating Assets/Models/Paintings/PaintingCollection2/Textures/Image - GUID: d92de02346cc7054e9eeed0e4fba91e9...
- done. [Time: 1.996022 ms] 
+ done. [Time: 12.091038 ms] 
 Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/DecodedBanks - GUID: e38cccc8749284d28929222298b73cf1...
- done. [Time: 2.012662 ms] 
+ done. [Time: 12.943442 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Normal - GUID: 00797bdbf19397a47be005d224024009...
- done. [Time: 1.962230 ms] 
+ done. [Time: 13.815635 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Transparent - GUID: 101e76d872cf3754ab30ceab8dbe3d7e...
- done. [Time: 2.053878 ms] 
+ done. [Time: 13.194804 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release - GUID: 18dc7c4658c561e4ead903ddb50b4838...
- done. [Time: 1.983478 ms] 
+ done. [Time: 10.698189 ms] 
+Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/DecodedBanks/English(US) - GUID: 46122b130cc65324fafb3b23851da6c7...
+ done. [Time: 11.902439 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile - GUID: 55e8b79c3f4132d42b47d2ce31357cf9...
- done. [Time: 2.000630 ms] 
+ done. [Time: 12.967249 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle - GUID: 6341d62ca42e7c942b7e7533a4dd0710...
- done. [Time: 2.490355 ms] 
+ done. [Time: 12.547694 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug - GUID: 6e2c6e1eda5d5a143b8c41fca399ee61...
- done. [Time: 2.002934 ms] 
+ done. [Time: 11.132585 ms] 
 Updating Assets/Models/RDL/Security_Pack/Models/TV/Textures - GUID: 70e85757b5f4d4f1ead5edde7eecb432...
- done. [Time: 1.998838 ms] 
+ done. [Time: 14.093277 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Illumin - GUID: 779c3cf9950190c4a9fd5e12e9bdc2c1...
- done. [Time: 1.976054 ms] 
+ done. [Time: 13.465645 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release - GUID: 7fdced79e368835418c5e24184884344...
- done. [Time: 2.014966 ms] 
+ done. [Time: 12.577994 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP - GUID: acc7990a75505d2409c12fc97585cf5d...
- done. [Time: 1.967606 ms] 
+ done. [Time: 14.199634 ms] 
 Updating Assets/Models/RDL/Security_Pack/Models/Camera/Materials - GUID: ae673c9111245496b95b7e1dc08effda...
- done. [Time: 1.995510 ms] 
+ done. [Time: 11.465570 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle - GUID: bbd7a2f412769804f8d4b7155a028fe7...
- done. [Time: 2.484723 ms] 
+ done. [Time: 13.375365 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle - GUID: bfe1675f025149a4a89309eb8026f1c0...
- done. [Time: 2.335988 ms] 
+ done. [Time: 12.538110 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Sprites - GUID: ce41526b63d093b4bbcd25cb40721bf8...
- done. [Time: 2.000374 ms] 
+ done. [Time: 11.562652 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Other - GUID: d0f5393b934842645aaba7230511626f...
- done. [Time: 1.992950 ms] 
+ done. [Time: 10.554421 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Cutout - GUID: d749b84fcb18201429f119d965a43d9c...
- done. [Time: 1.978102 ms] 
+ done. [Time: 11.724352 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP - GUID: e9b98987182f27e4590e16bcd37db9b2...
- done. [Time: 2.021878 ms] 
+ done. [Time: 11.324275 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile - GUID: ee119e267aee6184683923a07f9b781e...
- done. [Time: 1.985526 ms] 
+ done. [Time: 10.520412 ms] 
 Updating Assets/Materials/_MK/MKGlowFree/Shader/Variants_SelectiveMode/Particle - GUID: eec0656ac95fa1b48ab4e34507e6092a...
- done. [Time: 2.107637 ms] 
+ done. [Time: 11.741975 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug - GUID: f018b5a3280448143b5cf3808df81044...
- done. [Time: 2.110197 ms] 
+ done. [Time: 13.202843 ms] 
 Updating Assets/Models/RDL/Security_Pack/Models/TV/Materials - GUID: fe5e38423c8d14181b7878a4fd4e2bc3...
- done. [Time: 1.984246 ms] 
+ done. [Time: 10.895754 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents - GUID: 41f10c67e837bac4f95f0a86bf6bd6c5...
- done. [Time: 1.956598 ms] 
+ done. [Time: 11.630053 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents - GUID: 45be0b9c45cfe764ba1dd4723fc2b5cc...
- done. [Time: 2.011382 ms] 
+ done. [Time: 12.329723 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents - GUID: 708f58ff7e132c141a76ef610d4eb2f9...
- done. [Time: 1.989878 ms] 
+ done. [Time: 12.078361 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Resources - GUID: 2c67d51ba92a1d840a8b4b3686c123ca...
- done. [Time: 1.929462 ms] 
+ done. [Time: 10.429822 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Resources - GUID: 2f6817379bb4b754e9475d08a0ba0e1a...
- done. [Time: 1.988598 ms] 
+ done. [Time: 13.054747 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/MacOS - GUID: 4e9089bf1d49cbf438752042c4c67673...
- done. [Time: 2.021366 ms] 
+ done. [Time: 11.837821 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/MacOS - GUID: 52713486f3632a7469ae97f2363d9913...
- done. [Time: 1.976310 ms] 
+ done. [Time: 12.449685 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Resources - GUID: b37b698b8c06c1d4ab92f971acbd30aa...
- done. [Time: 1.982710 ms] 
+ done. [Time: 10.669436 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/MacOS - GUID: fedcb197fd1a8564495db49858c6eca8...
- done. [Time: 1.961718 ms] 
+ done. [Time: 12.577684 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Resources/en.lproj - GUID: a53f655377115d347a1ce7e6e5e050dd...
- done. [Time: 1.937910 ms] 
+ done. [Time: 12.357240 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Resources/en.lproj - GUID: b04a4ccafa055f04aaa167128775e4ad...
- done. [Time: 1.995510 ms] 
+ done. [Time: 10.804547 ms] 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Resources/en.lproj - GUID: cede5a2d0ed9eb44796d6b20b4010017...
- done. [Time: 2.014198 ms] 
+ done. [Time: 11.925318 ms] 
 Updating Assets/WwiseSettings.xml - GUID: 348ed30dfd545544f9c9d30d5fdc9d93...
- done. [Time: 2.046710 ms] 
-Updating Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset - GUID: 3941d2b2803aeeb4992f5a192f9adf32...
- done. [Time: 5.572068 ms] 
-Unloading 482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.5 MB.
-System memory in use after: 53.6 MB.
+ done. [Time: 12.381665 ms] 
+Unloading 488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.7 MB.
+System memory in use after: 53.8 MB.
 
-Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 2916.
-Total: 3.187696 ms (FindLiveObjects: 0.140287 ms CreateObjectMapping: 0.031743 ms MarkObjects: 2.978289 ms  DeleteObjects: 0.034047 ms)
+Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 2918.
+Total: 4.373018 ms (FindLiveObjects: 0.188598 ms CreateObjectMapping: 0.053178 ms MarkObjects: 4.091048 ms  DeleteObjects: 0.036173 ms)
 
-Refreshing native plugins compatible for Editor in 637.92 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 29.79 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 
------ Total AssetImport time: 2.308487s, AssetImport time: 0.805178s, Asset hashing: 0.674337s [457.2 MB, 677.937317 mb/s]
+----- Total AssetImport time: 4.551687s, AssetImport time: 3.471241s, Asset hashing: 0.759143s [459.4 MB, 605.129211 mb/s]
 
-Warming cache for 1403 main assets: 0.002549 seconds elapsed
+Warming cache for 1422 main assets: 0.002816 seconds elapsed
 Initializing Unity extensions:
-Updating E:/Program Files (x86)/Editor/Data/PlaybackEngines/MetroSupport/Managed/UAP/UnityEngine.Networking.dll - GUID: 52a206b72a8f4f749c28d8b18b42dd19...
- done. [Time: 2.787314 ms] 
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll'  GUID: 86f4de9468454445ac2f39e207fafa3a
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'  GUID: 97decbdab0634cdd991f8d23ddf0dead
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll'  GUID: 8382b2bb260241859771b69b7f377a8d
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'  GUID: 8e0cd8ed44d4412cbe0642067abc9e44
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+ 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'  GUID: 739bbd9f364b4268874f9fd86ab3beef
+    Ignoring 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
+    Ignoring 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
+    Ignoring 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor:Editor
+    Ignoring 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll' because we're compiling for Editor:Editor
+    Ignoring 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor:Editor
+    Ignoring 'C:/Program Files/Unity_2017.1.1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor:Editor
+Unloading 191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.7 MB.
+System memory in use after: 47.9 MB.
 
------ Total AssetImport time: 0.052052s, AssetImport time: 0.028538s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'  GUID: 852e56802eb941638acbb491814497b0
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll'  GUID: 86f4de9468454445ac2f39e207fafa3a
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
- 'E:/Program Files (x86)/Editor/Data/PlaybackEngines/MetroSupport/Managed/UAP/UnityEngine.Networking.dll'  GUID: 52a206b72a8f4f749c28d8b18b42dd19
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'  GUID: 97decbdab0634cdd991f8d23ddf0dead
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll'  GUID: 8382b2bb260241859771b69b7f377a8d
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'  GUID: 8e0cd8ed44d4412cbe0642067abc9e44
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
- 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'  GUID: 739bbd9f364b4268874f9fd86ab3beef
-    Ignoring 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor:Editor
-    Ignoring 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll' because we're compiling for Editor:Editor
-    Ignoring 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll' because we're compiling for Editor:Editor
-    Ignoring 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll' because we're compiling for Editor:Editor
-    Ignoring 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll' because we're compiling for Editor:Editor
-    Ignoring 'E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor:Editor
-Unloading 185 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 47.5 MB.
-System memory in use after: 47.7 MB.
-
-Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 2948.
-Total: 3.168752 ms (FindLiveObjects: 0.183807 ms CreateObjectMapping: 0.031999 ms MarkObjects: 2.924529 ms  DeleteObjects: 0.027135 ms)
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 3.411783 ms (FindLiveObjects: 0.178395 ms CreateObjectMapping: 0.038956 ms MarkObjects: 3.163822 ms  DeleteObjects: 0.029681 ms)
 
 WwiseUnity: Running modify setup...
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-WwiseSetupWizard:RunModifyImpl() (at E:\Unity Projects\Obsidian\Assets\Wwise\Editor\WwiseSetupWizard\AkWwiseSetupWizard.cs:38)
+WwiseSetupWizard:RunModifyImpl() (at F:\School\USC\CTIN 532\GitHub\CTIN532\Assets\Wwise\Editor\WwiseSetupWizard\AkWwiseSetupWizard.cs:38)
 UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at C:\buildslave\unity\build\Editor\Mono\EditorApplication.cs:118)
  
-(Filename: E:/Unity Projects/Obsidian/Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 38)
+(Filename: F:/School/USC/CTIN 532/GitHub/CTIN532/Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 38)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 44.4 MB.
-System memory in use after: 44.5 MB.
+System memory in use after: 44.6 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 2952.
-Total: 3.352303 ms (FindLiveObjects: 0.124159 ms CreateObjectMapping: 0.029183 ms MarkObjects: 3.183600 ms  DeleteObjects: 0.015103 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 2958.
+Total: 3.363860 ms (FindLiveObjects: 0.166028 ms CreateObjectMapping: 0.033391 ms MarkObjects: 3.151764 ms  DeleteObjects: 0.012057 ms)
 
 
 Hashing assets ... 0.003 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.001 seconds (1.842 MB)
-  hash: 0.002 seconds
+  hash: 0.003 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll - GUID: c6cc69302cbdaff4ba804e233c7bee14...
- done. [Time: 3.217648 ms] 
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.601992 ms] 
+Refreshing native plugins compatible for Editor in 1.75 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.052880s, AssetImport time: 0.029933s, Asset hashing: 0.002721s [1.8 MB, 676.935669 mb/s]
+----- Total AssetImport time: 0.064680s, AssetImport time: 0.039748s, Asset hashing: 0.002967s [1.8 MB, 620.961121 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.212 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll - GUID: 93e1c46039915654fbbd36bcb6b51bd2...
- done. [Time: 2.816242 ms] 
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.352176 ms] 
+Refreshing native plugins compatible for Editor in 1.58 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
 
------ Total AssetImport time: 0.042150s, AssetImport time: 0.023059s, Asset hashing: 0.000552s [217.5 KB, 385.058807 mb/s]
+----- Total AssetImport time: 0.063628s, AssetImport time: 0.036939s, Asset hashing: 0.000678s [217.5 KB, 313.160126 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2118,11 +2063,11 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.538 MB)
   hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/iZotope.dll - GUID: 3456d270e3c042f489a3d147bd1ecbe4...
- done. [Time: 2.825714 ms] 
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.925201 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.043868s, AssetImport time: 0.022922s, Asset hashing: 0.000959s [0.5 MB, 561.134460 mb/s]
+----- Total AssetImport time: 0.059911s, AssetImport time: 0.037098s, Asset hashing: 0.001095s [0.5 MB, 491.238678 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2130,11 +2075,11 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.477 MB)
   hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libMcDSP.bundle - GUID: 900757d0c4195bc408cfcdb91c24cd42...
- done. [Time: 2.727410 ms] 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.087946 ms] 
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.047382s, AssetImport time: 0.022666s, Asset hashing: 0.000927s [488.4 KB, 514.544495 mb/s]
+----- Total AssetImport time: 0.064611s, AssetImport time: 0.041521s, Asset hashing: 0.001117s [488.4 KB, 426.984558 mb/s]
 
 
 Hashing assets ... 0.002 seconds
@@ -2142,35 +2087,35 @@ Hashing assets ... 0.002 seconds
   file read: 0.000 seconds (1.409 MB)
   hash: 0.002 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.dll - GUID: 55b79dd04ec4afd4daa83e994d709aa9...
- done. [Time: 3.100656 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.017027 ms] 
+Refreshing native plugins compatible for Editor in 1.47 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.050064s, AssetImport time: 0.024405s, Asset hashing: 0.002040s [1.4 MB, 690.435364 mb/s]
+----- Total AssetImport time: 0.059989s, AssetImport time: 0.036457s, Asset hashing: 0.002135s [1.4 MB, 659.864746 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.235 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkFlanger.dll - GUID: 6f8e8022d971a204cb1e8717df38330b...
- done. [Time: 2.968817 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.458032 ms] 
+Refreshing native plugins compatible for Editor in 1.23 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.048077s, AssetImport time: 0.029098s, Asset hashing: 0.000614s [241.0 KB, 383.262665 mb/s]
+----- Total AssetImport time: 0.057708s, AssetImport time: 0.035611s, Asset hashing: 0.000667s [241.0 KB, 352.780579 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.079 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkStereoDelay.bundle - GUID: 0b11ba325e7cef0408e66b5b1febbd9b...
- done. [Time: 2.790130 ms] 
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 11.311599 ms] 
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.041771s, AssetImport time: 0.022776s, Asset hashing: 0.000467s [81.3 KB, 169.767014 mb/s]
+----- Total AssetImport time: 0.062269s, AssetImport time: 0.041324s, Asset hashing: 0.000679s [81.3 KB, 116.829544 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2178,23 +2123,23 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.082 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkGuitarDistortion.bundle - GUID: 1e86be52f38b78649846611217be1a19...
- done. [Time: 2.687986 ms] 
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.685278 ms] 
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.040940s, AssetImport time: 0.022428s, Asset hashing: 0.000484s [84.1 KB, 169.655502 mb/s]
+----- Total AssetImport time: 0.058044s, AssetImport time: 0.035792s, Asset hashing: 0.000486s [84.1 KB, 168.998138 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.208 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTremolo.dll - GUID: 7f85cc92b12eee54d9f8ee4cc478092a...
- done. [Time: 2.948593 ms] 
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 11.901821 ms] 
+Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.047399s, AssetImport time: 0.022802s, Asset hashing: 0.000549s [213.0 KB, 379.204651 mb/s]
+----- Total AssetImport time: 0.058800s, AssetImport time: 0.035190s, Asset hashing: 0.000991s [213.0 KB, 209.940659 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2202,11 +2147,11 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.232 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkGuitarDistortion.dll - GUID: 8d1ae9b21f42cd34eb4d82da08577da9...
- done. [Time: 2.837746 ms] 
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 16.868462 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
 
------ Total AssetImport time: 0.047069s, AssetImport time: 0.024811s, Asset hashing: 0.000678s [238.0 KB, 342.642975 mb/s]
+----- Total AssetImport time: 0.068369s, AssetImport time: 0.040138s, Asset hashing: 0.000812s [238.0 KB, 286.409119 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2214,11 +2159,11 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.056 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle - GUID: 880fbed2df1286a4086695a9a03dcec8...
- done. [Time: 2.701810 ms] 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.805240 ms] 
+Refreshing native plugins compatible for Editor in 1.52 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.046985s, AssetImport time: 0.028141s, Asset hashing: 0.000472s [56.9 KB, 117.612907 mb/s]
+----- Total AssetImport time: 0.061318s, AssetImport time: 0.037534s, Asset hashing: 0.000447s [56.9 KB, 124.254478 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2226,23 +2171,23 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.280 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll - GUID: a89b72f2c24bc814db23ca6dc29a4dfe...
- done. [Time: 2.828018 ms] 
-Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.403308 ms] 
+Refreshing native plugins compatible for Editor in 1.76 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
 
------ Total AssetImport time: 0.042533s, AssetImport time: 0.023654s, Asset hashing: 0.000669s [287.0 KB, 419.190369 mb/s]
+----- Total AssetImport time: 0.065202s, AssetImport time: 0.041793s, Asset hashing: 0.000707s [287.0 KB, 396.585632 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.232 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTremolo.dll - GUID: 28d4a2e36c8cde54eb681795859469c7...
- done. [Time: 2.846450 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.938496 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.040918s, AssetImport time: 0.022719s, Asset hashing: 0.000594s [238.0 KB, 391.549438 mb/s]
+----- Total AssetImport time: 0.058978s, AssetImport time: 0.036250s, Asset hashing: 0.000749s [238.0 KB, 310.542969 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2250,23 +2195,23 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.225 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRoomVerb.bundle - GUID: 517957f304aa96844b6f19778367f449...
- done. [Time: 2.721522 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.518322 ms] 
+Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.048667s, AssetImport time: 0.021584s, Asset hashing: 0.000659s [230.6 KB, 341.642303 mb/s]
+----- Total AssetImport time: 0.060653s, AssetImport time: 0.037309s, Asset hashing: 0.000627s [230.6 KB, 359.001007 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.194 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkRecorder.dll - GUID: 4c883e04cf35e9f40b1a5494ae4220ef...
- done. [Time: 2.732530 ms] 
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+ done. [Time: 11.403734 ms] 
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.040930s, AssetImport time: 0.022959s, Asset hashing: 0.000567s [198.5 KB, 342.060516 mb/s]
+----- Total AssetImport time: 0.065624s, AssetImport time: 0.043351s, Asset hashing: 0.000675s [198.5 KB, 287.247101 mb/s]
 
 
 Hashing assets ... 0.002 seconds
@@ -2274,11 +2219,11 @@ Hashing assets ... 0.002 seconds
   file read: 0.000 seconds (1.219 MB)
   hash: 0.002 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.dll - GUID: e40d7b54fd2092040a7b28f73a059233...
- done. [Time: 2.884593 ms] 
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.235115 ms] 
+Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.049505s, AssetImport time: 0.029560s, Asset hashing: 0.001822s [1.2 MB, 668.942871 mb/s]
+----- Total AssetImport time: 0.059041s, AssetImport time: 0.035824s, Asset hashing: 0.001884s [1.2 MB, 646.756836 mb/s]
 
 
 Hashing assets ... 0.005 seconds
@@ -2286,102 +2231,102 @@ Hashing assets ... 0.005 seconds
   file read: 0.001 seconds (3.605 MB)
   hash: 0.005 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/Auro.dll - GUID: 8d2cc47469f643e47833d6961e7df06f...
- done. [Time: 2.743794 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.920446 ms] 
+Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.045410s, AssetImport time: 0.022433s, Asset hashing: 0.005031s [3.6 MB, 716.598816 mb/s]
+----- Total AssetImport time: 0.065308s, AssetImport time: 0.037067s, Asset hashing: 0.005145s [3.6 MB, 700.771362 mb/s]
 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle - GUID: bbd7a2f412769804f8d4b7155a028fe7...
- done. [Time: 2.787570 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 7.154078 ms] 
+Refreshing native plugins compatible for Editor in 1.11 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.041088s, AssetImport time: 0.023094s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.059075s, AssetImport time: 0.030645s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.242 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/SynthOne.dll - GUID: b93925052da0a3d4a8c692245c1ea643...
- done. [Time: 2.768626 ms] 
-Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.463288 ms] 
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
 
------ Total AssetImport time: 0.051575s, AssetImport time: 0.025196s, Asset hashing: 0.000599s [248.0 KB, 404.683594 mb/s]
+----- Total AssetImport time: 0.058582s, AssetImport time: 0.036409s, Asset hashing: 0.000719s [248.0 KB, 336.805847 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.264 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkHarmonizer.dll - GUID: 8bc087050d5b34546ae734c4137a91eb...
- done. [Time: 2.728690 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.765047 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.040365s, AssetImport time: 0.021970s, Asset hashing: 0.000620s [270.0 KB, 425.475220 mb/s]
+----- Total AssetImport time: 0.064123s, AssetImport time: 0.040216s, Asset hashing: 0.000780s [270.0 KB, 338.049164 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.226 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/SynthOne.dll - GUID: 9e1b0c8567077524980c24eee6738afa...
- done. [Time: 2.784498 ms] 
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 11.593261 ms] 
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.046213s, AssetImport time: 0.027758s, Asset hashing: 0.000575s [231.0 KB, 392.037476 mb/s]
+----- Total AssetImport time: 0.060490s, AssetImport time: 0.038410s, Asset hashing: 0.000953s [231.0 KB, 236.843262 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.208 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll - GUID: 4cdd74a534d39494dbf47fc04d7c755c...
- done. [Time: 2.850546 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.800485 ms] 
+Refreshing native plugins compatible for Editor in 1.62 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.042205s, AssetImport time: 0.023020s, Asset hashing: 0.000586s [213.0 KB, 354.707672 mb/s]
+----- Total AssetImport time: 0.058729s, AssetImport time: 0.035823s, Asset hashing: 0.000816s [213.0 KB, 255.064377 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.250 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkReflect.dll - GUID: c5f03ca5d50a0f84c9c9dfd4695939e6...
- done. [Time: 2.804978 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.879752 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.041722s, AssetImport time: 0.021726s, Asset hashing: 0.000627s [255.5 KB, 397.699707 mb/s]
+----- Total AssetImport time: 0.064420s, AssetImport time: 0.036766s, Asset hashing: 0.000779s [255.5 KB, 320.150513 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.181 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libCrankcaseAudioREVModelPlayer.bundle - GUID: e5c645c51c5f8544f85b5485abec9ac2...
- done. [Time: 2.797554 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 11.794226 ms] 
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.046759s, AssetImport time: 0.022664s, Asset hashing: 0.000595s [185.0 KB, 303.767456 mb/s]
+----- Total AssetImport time: 0.059631s, AssetImport time: 0.036342s, Asset hashing: 0.000726s [185.0 KB, 248.946716 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.205 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkMotion.dll - GUID: 94547dc5a0209bd47867943adf8e6d9a...
- done. [Time: 2.827250 ms] 
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.606747 ms] 
+Refreshing native plugins compatible for Editor in 1.87 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
 
------ Total AssetImport time: 0.040635s, AssetImport time: 0.022358s, Asset hashing: 0.000546s [209.5 KB, 374.898712 mb/s]
+----- Total AssetImport time: 0.060729s, AssetImport time: 0.036714s, Asset hashing: 0.000777s [209.5 KB, 263.247711 mb/s]
 
 
 Hashing assets ... 0.004 seconds
@@ -2389,11 +2334,11 @@ Hashing assets ... 0.004 seconds
   file read: 0.001 seconds (2.863 MB)
   hash: 0.004 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.dll - GUID: 51bd55e5e0405894fb8c57dd307cd8ce...
- done. [Time: 2.796274 ms] 
-Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+ done. [Time: 12.461433 ms] 
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 
------ Total AssetImport time: 0.055321s, AssetImport time: 0.032467s, Asset hashing: 0.004064s [2.9 MB, 704.557373 mb/s]
+----- Total AssetImport time: 0.069218s, AssetImport time: 0.037361s, Asset hashing: 0.003937s [2.9 MB, 727.324280 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2401,23 +2346,23 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.064 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTremolo.bundle - GUID: 3ef2d306202400449b4ca31dd4a39291...
- done. [Time: 2.737906 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.174708 ms] 
+Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.050790s, AssetImport time: 0.027968s, Asset hashing: 0.000451s [65.5 KB, 141.830643 mb/s]
+----- Total AssetImport time: 0.058459s, AssetImport time: 0.036048s, Asset hashing: 0.000453s [65.5 KB, 141.259094 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.238 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTimeStretch.dll - GUID: b43fd506ec3a17e45aee785b25158ccb...
- done. [Time: 3.015665 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.835422 ms] 
+Refreshing native plugins compatible for Editor in 1.28 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.052553s, AssetImport time: 0.028195s, Asset hashing: 0.000583s [243.5 KB, 407.986023 mb/s]
+----- Total AssetImport time: 0.066421s, AssetImport time: 0.043741s, Asset hashing: 0.000838s [243.5 KB, 283.627045 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2425,11 +2370,11 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.428 MB)
   hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/McDSP.dll - GUID: 9b3b3ce61be01dd408dff7bdb93ddedc...
- done. [Time: 2.798834 ms] 
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.202033 ms] 
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.052537s, AssetImport time: 0.023436s, Asset hashing: 0.000806s [438.5 KB, 531.064636 mb/s]
+----- Total AssetImport time: 0.058685s, AssetImport time: 0.035334s, Asset hashing: 0.001081s [438.5 KB, 396.087677 mb/s]
 
 
 Hashing assets ... 0.005 seconds
@@ -2437,47 +2382,47 @@ Hashing assets ... 0.005 seconds
   file read: 0.001 seconds (3.846 MB)
   hash: 0.005 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll - GUID: 4ccf0fe62d399ec4c88c822aad689e4a...
- done. [Time: 2.825458 ms] 
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.287675 ms] 
+Refreshing native plugins compatible for Editor in 1.38 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
 
------ Total AssetImport time: 0.051387s, AssetImport time: 0.027566s, Asset hashing: 0.005148s [3.8 MB, 746.976990 mb/s]
+----- Total AssetImport time: 0.063997s, AssetImport time: 0.036267s, Asset hashing: 0.005444s [3.8 MB, 706.414490 mb/s]
 
 
 Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.346 MB)
-  hash: 0.000 seconds
+  hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/McDSP.dll - GUID: 6024c7a73d34d3a44909f192da158e4d...
- done. [Time: 2.757362 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.700119 ms] 
+Refreshing native plugins compatible for Editor in 1.93 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
 
------ Total AssetImport time: 0.044834s, AssetImport time: 0.026782s, Asset hashing: 0.000755s [354.5 KB, 458.446747 mb/s]
+----- Total AssetImport time: 0.065578s, AssetImport time: 0.036944s, Asset hashing: 0.000907s [354.5 KB, 381.532562 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.214 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkStereoDelay.dll - GUID: c9f94f48a9b207e4fb65985498920a5c...
- done. [Time: 2.733554 ms] 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.603965 ms] 
+Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.040824s, AssetImport time: 0.021853s, Asset hashing: 0.000548s [219.0 KB, 390.614227 mb/s]
+----- Total AssetImport time: 0.058491s, AssetImport time: 0.036007s, Asset hashing: 0.000608s [219.0 KB, 351.709076 mb/s]
 
 
-Hashing assets ... 0.002 seconds
+Hashing assets ... 0.003 seconds
   file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (1.588 MB)
-  hash: 0.002 seconds
+  file read: 0.001 seconds (1.588 MB)
+  hash: 0.003 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.dll - GUID: c209138833de5c74ab3159c8299fdf6e...
- done. [Time: 2.792434 ms] 
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 11.354266 ms] 
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.049072s, AssetImport time: 0.029046s, Asset hashing: 0.002284s [1.6 MB, 695.306702 mb/s]
+----- Total AssetImport time: 0.066536s, AssetImport time: 0.042174s, Asset hashing: 0.003038s [1.6 MB, 522.687195 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2485,11 +2430,11 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.289 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: d139bac817cc0e14d8dd8b93a9be9e94...
- done. [Time: 2.929393 ms] 
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.302516 ms] 
+Refreshing native plugins compatible for Editor in 1.65 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 
------ Total AssetImport time: 0.042131s, AssetImport time: 0.023376s, Asset hashing: 0.000686s [296.0 KB, 421.522034 mb/s]
+----- Total AssetImport time: 0.058615s, AssetImport time: 0.035987s, Asset hashing: 0.000799s [296.0 KB, 361.990631 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2497,47 +2442,47 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.077 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkPitchShifter.bundle - GUID: 09ed2d4a8cab0534a960a45944e500e0...
- done. [Time: 2.702578 ms] 
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.787809 ms] 
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.041063s, AssetImport time: 0.023358s, Asset hashing: 0.000457s [78.9 KB, 168.582489 mb/s]
+----- Total AssetImport time: 0.057803s, AssetImport time: 0.036132s, Asset hashing: 0.000483s [78.9 KB, 159.411789 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.109 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkReflect.bundle - GUID: 7f37125aefef511438b854e4bb21f1f1...
- done. [Time: 3.121648 ms] 
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.616023 ms] 
+Refreshing native plugins compatible for Editor in 1.13 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.048696s, AssetImport time: 0.025599s, Asset hashing: 0.000463s [112.0 KB, 236.123978 mb/s]
+----- Total AssetImport time: 0.064954s, AssetImport time: 0.041345s, Asset hashing: 0.000686s [112.0 KB, 159.385910 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.182 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedAir.bundle - GUID: 0d87d2aaa90ac964598784880eee01f9...
- done. [Time: 2.723570 ms] 
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 14.218494 ms] 
+Refreshing native plugins compatible for Editor in 1.82 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 
------ Total AssetImport time: 0.042841s, AssetImport time: 0.023737s, Asset hashing: 0.000535s [186.3 KB, 340.056732 mb/s]
+----- Total AssetImport time: 0.059112s, AssetImport time: 0.036748s, Asset hashing: 0.000651s [186.3 KB, 279.692322 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.135 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkConvolutionReverb.bundle - GUID: 77d673aa7e7c2c043a4200f4836a2430...
- done. [Time: 2.819570 ms] 
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.950863 ms] 
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.046785s, AssetImport time: 0.028225s, Asset hashing: 0.000477s [137.9 KB, 282.437958 mb/s]
+----- Total AssetImport time: 0.058391s, AssetImport time: 0.035495s, Asset hashing: 0.000789s [137.9 KB, 170.786530 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2545,35 +2490,35 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.145 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkHarmonizer.bundle - GUID: 8d88475babebfe2438c98148786456d3...
- done. [Time: 2.720754 ms] 
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.136061 ms] 
+Refreshing native plugins compatible for Editor in 1.13 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.040410s, AssetImport time: 0.021691s, Asset hashing: 0.000520s [148.1 KB, 278.229401 mb/s]
+----- Total AssetImport time: 0.064792s, AssetImport time: 0.035935s, Asset hashing: 0.000556s [148.1 KB, 259.954254 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.233 MB)
-  hash: 0.000 seconds
+  hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkHarmonizer.dll - GUID: 3debbe7bacc9fc944a248476a4bbb851...
- done. [Time: 3.003889 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.319830 ms] 
+Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.041848s, AssetImport time: 0.023537s, Asset hashing: 0.000589s [239.0 KB, 396.442566 mb/s]
+----- Total AssetImport time: 0.062693s, AssetImport time: 0.039162s, Asset hashing: 0.001233s [239.0 KB, 189.266129 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.175 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkRecorder.dll - GUID: 23ba4fab29b86f642bc3e9572a535b62...
- done. [Time: 2.795762 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.367134 ms] 
+Refreshing native plugins compatible for Editor in 1.38 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.048093s, AssetImport time: 0.022836s, Asset hashing: 0.000510s [179.5 KB, 343.451752 mb/s]
+----- Total AssetImport time: 0.063542s, AssetImport time: 0.040735s, Asset hashing: 0.000616s [179.5 KB, 284.519623 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2581,42 +2526,42 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.114 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libSynthOne.bundle - GUID: 20860e0c2cd1b714cb5b5b6f304f09ef...
- done. [Time: 2.709234 ms] 
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.851808 ms] 
+Refreshing native plugins compatible for Editor in 1.12 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.040900s, AssetImport time: 0.022095s, Asset hashing: 0.000461s [116.6 KB, 247.043579 mb/s]
+----- Total AssetImport time: 0.058868s, AssetImport time: 0.036982s, Asset hashing: 0.000539s [116.6 KB, 211.357986 mb/s]
 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle - GUID: 6341d62ca42e7c942b7e7533a4dd0710...
- done. [Time: 2.846450 ms] 
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 7.490154 ms] 
+Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.043728s, AssetImport time: 0.026835s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.051712s, AssetImport time: 0.030193s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.214 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkGuitarDistortion.dll - GUID: ceec453c28b47f64594061d04a090364...
- done. [Time: 2.797042 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.056911 ms] 
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.041291s, AssetImport time: 0.022622s, Asset hashing: 0.000612s [219.5 KB, 350.536102 mb/s]
+----- Total AssetImport time: 0.065108s, AssetImport time: 0.042443s, Asset hashing: 0.001141s [219.5 KB, 187.859741 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.235 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkStereoDelay.dll - GUID: a178574c06506144c817784252e6758e...
- done. [Time: 2.819570 ms] 
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.054245 ms] 
+Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.042545s, AssetImport time: 0.023188s, Asset hashing: 0.000626s [240.5 KB, 375.119019 mb/s]
+----- Total AssetImport time: 0.058241s, AssetImport time: 0.036850s, Asset hashing: 0.000639s [240.5 KB, 367.369995 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2624,35 +2569,35 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.282 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll - GUID: 5289299ce2412224a874e806c617e2a8...
- done. [Time: 2.757106 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.547886 ms] 
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.048076s, AssetImport time: 0.022758s, Asset hashing: 0.000662s [289.0 KB, 426.355286 mb/s]
+----- Total AssetImport time: 0.059293s, AssetImport time: 0.037477s, Asset hashing: 0.000833s [289.0 KB, 338.868408 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.244 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll - GUID: 3f0a8d9c953010c478caeb9109f2988a...
- done. [Time: 2.786546 ms] 
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.819771 ms] 
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.043162s, AssetImport time: 0.023078s, Asset hashing: 0.000595s [249.5 KB, 409.583618 mb/s]
+----- Total AssetImport time: 0.063923s, AssetImport time: 0.035893s, Asset hashing: 0.000703s [249.5 KB, 346.743408 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.041 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkMotion.bundle - GUID: 1087ddac7b72f264d98e3f77233be828...
- done. [Time: 2.882033 ms] 
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+ done. [Time: 12.034767 ms] 
+Refreshing native plugins compatible for Editor in 1.22 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.048356s, AssetImport time: 0.030238s, Asset hashing: 0.000519s [41.9 KB, 78.979919 mb/s]
+----- Total AssetImport time: 0.060319s, AssetImport time: 0.038325s, Asset hashing: 0.000685s [41.9 KB, 59.761169 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2660,35 +2605,35 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.227 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkPitchShifter.dll - GUID: f52c230d120a0404f88453fc0838ac84...
- done. [Time: 2.829554 ms] 
-Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.089492 ms] 
+Refreshing native plugins compatible for Editor in 1.62 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
 
------ Total AssetImport time: 0.053178s, AssetImport time: 0.029818s, Asset hashing: 0.000781s [232.5 KB, 290.826965 mb/s]
+----- Total AssetImport time: 0.063309s, AssetImport time: 0.041278s, Asset hashing: 0.000661s [232.5 KB, 343.522888 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.074 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRecorder.bundle - GUID: 176ccc0de38410e4b887172ca3b22837...
- done. [Time: 2.746866 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.043925 ms] 
+Refreshing native plugins compatible for Editor in 1.23 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.049779s, AssetImport time: 0.027310s, Asset hashing: 0.000427s [75.8 KB, 173.498734 mb/s]
+----- Total AssetImport time: 0.057090s, AssetImport time: 0.035523s, Asset hashing: 0.000727s [75.8 KB, 101.860855 mb/s]
 
 
-Hashing assets ... 0.005 seconds
+Hashing assets ... 0.006 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.001 seconds (3.392 MB)
-  hash: 0.004 seconds
+  hash: 0.006 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/Auro.dll - GUID: 8858979d46e7b6949baec36095e4716f...
- done. [Time: 2.799602 ms] 
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.455133 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.055866s, AssetImport time: 0.023044s, Asset hashing: 0.004678s [3.4 MB, 725.077148 mb/s]
+----- Total AssetImport time: 0.067595s, AssetImport time: 0.039444s, Asset hashing: 0.006058s [3.4 MB, 559.826965 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2696,11 +2641,11 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.108 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTimeStretch.bundle - GUID: 915c72cd7766b724eac7ec28c9eeae31...
- done. [Time: 2.820594 ms] 
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.450495 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.039928s, AssetImport time: 0.021925s, Asset hashing: 0.000477s [110.6 KB, 226.278839 mb/s]
+----- Total AssetImport time: 0.065913s, AssetImport time: 0.035861s, Asset hashing: 0.000459s [110.6 KB, 235.175644 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2708,35 +2653,35 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.755 MB)
   hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/iZotope.dll - GUID: 72bfa3ed4343ff9409f65c12c8af13d1...
- done. [Time: 2.801138 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 11.014479 ms] 
+Refreshing native plugins compatible for Editor in 1.29 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.047798s, AssetImport time: 0.028310s, Asset hashing: 0.001342s [0.8 MB, 562.333496 mb/s]
+----- Total AssetImport time: 0.058466s, AssetImport time: 0.034792s, Asset hashing: 0.001453s [0.8 MB, 519.612793 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.214 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll - GUID: a2f60cfd2d9dff145ae712a94e42ff0a...
- done. [Time: 2.841074 ms] 
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.341472 ms] 
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.040722s, AssetImport time: 0.021462s, Asset hashing: 0.000559s [219.5 KB, 383.790619 mb/s]
+----- Total AssetImport time: 0.057282s, AssetImport time: 0.035601s, Asset hashing: 0.000704s [219.5 KB, 304.653351 mb/s]
 
 
-Hashing assets ... 0.016 seconds
+Hashing assets ... 0.017 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.003 seconds (12.420 MB)
-  hash: 0.015 seconds
+  hash: 0.017 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAuro.bundle - GUID: 1988f70eb7a4e6f43a145336a284bb83...
- done. [Time: 2.705906 ms] 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.131423 ms] 
+Refreshing native plugins compatible for Editor in 1.23 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.055679s, AssetImport time: 0.022922s, Asset hashing: 0.015764s [12.4 MB, 787.836365 mb/s]
+----- Total AssetImport time: 0.082767s, AssetImport time: 0.036334s, Asset hashing: 0.017601s [12.4 MB, 705.644897 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2744,11 +2689,11 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.256 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll - GUID: 43542a2ebd4e2d24890b673d6b0952b1...
- done. [Time: 2.870002 ms] 
-Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.136487 ms] 
+Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.047358s, AssetImport time: 0.023056s, Asset hashing: 0.000659s [262.0 KB, 388.026917 mb/s]
+----- Total AssetImport time: 0.059649s, AssetImport time: 0.037095s, Asset hashing: 0.000749s [262.0 KB, 341.431458 mb/s]
 
 
 Hashing assets ... 0.000 seconds
@@ -2756,66 +2701,66 @@ Hashing assets ... 0.000 seconds
   file read: 0.000 seconds (0.083 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkFlanger.bundle - GUID: 631ad03eb8b77de479d4af0e2b906e1b...
- done. [Time: 3.136496 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.339191 ms] 
+Refreshing native plugins compatible for Editor in 1.56 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 
------ Total AssetImport time: 0.046169s, AssetImport time: 0.026979s, Asset hashing: 0.000429s [85.4 KB, 194.385498 mb/s]
+----- Total AssetImport time: 0.064620s, AssetImport time: 0.042638s, Asset hashing: 0.000634s [85.4 KB, 131.650970 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.215 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkFlanger.dll - GUID: 8b47cbbe4e1e0bf47a5085e1fa54bd00...
- done. [Time: 2.903025 ms] 
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 12.772158 ms] 
+Refreshing native plugins compatible for Editor in 1.13 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.050714s, AssetImport time: 0.032012s, Asset hashing: 0.000565s [220.5 KB, 381.171631 mb/s]
+----- Total AssetImport time: 0.058864s, AssetImport time: 0.036449s, Asset hashing: 0.000716s [220.5 KB, 300.625366 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.221 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTimeStretch.dll - GUID: 9a26b40fe18d4a641b9201520c38853a...
- done. [Time: 2.809330 ms] 
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.554379 ms] 
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 
------ Total AssetImport time: 0.043768s, AssetImport time: 0.024241s, Asset hashing: 0.000566s [226.0 KB, 390.147858 mb/s]
+----- Total AssetImport time: 0.059498s, AssetImport time: 0.037526s, Asset hashing: 0.000730s [226.0 KB, 302.380737 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.224 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkReflect.dll - GUID: 2f634e2f69a3a5949b50b62df8246424...
- done. [Time: 2.805490 ms] 
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.206862 ms] 
+Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 
------ Total AssetImport time: 0.045603s, AssetImport time: 0.023490s, Asset hashing: 0.000583s [229.0 KB, 383.525360 mb/s]
+----- Total AssetImport time: 0.064632s, AssetImport time: 0.037428s, Asset hashing: 0.000709s [229.0 KB, 315.342957 mb/s]
 
 
-Hashing assets ... 0.000 seconds
+Hashing assets ... 0.001 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.212 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkPitchShifter.dll - GUID: 05e9835f266d14d42a59cfbf9e044a4d...
- done. [Time: 2.808818 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.552833 ms] 
+Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 
------ Total AssetImport time: 0.053327s, AssetImport time: 0.025930s, Asset hashing: 0.000565s [217.0 KB, 375.122009 mb/s]
+----- Total AssetImport time: 0.058440s, AssetImport time: 0.036679s, Asset hashing: 0.000622s [217.0 KB, 340.703094 mb/s]
 
 Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle - GUID: bfe1675f025149a4a89309eb8026f1c0...
- done. [Time: 2.675442 ms] 
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 8.479834 ms] 
+Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 
------ Total AssetImport time: 0.046191s, AssetImport time: 0.027136s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.059067s, AssetImport time: 0.037383s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
 Hashing assets ... 0.001 seconds
@@ -2823,51 +2768,48 @@ Hashing assets ... 0.001 seconds
   file read: 0.000 seconds (0.250 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 9030448fe59b63645b0aaba71e9b9542...
- done. [Time: 2.770930 ms] 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+ done. [Time: 13.486978 ms] 
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 
------ Total AssetImport time: 0.048017s, AssetImport time: 0.028847s, Asset hashing: 0.000632s [255.5 KB, 394.800293 mb/s]
+----- Total AssetImport time: 0.057982s, AssetImport time: 0.036925s, Asset hashing: 0.000854s [255.5 KB, 292.215546 mb/s]
 
 WwiseUnity: Refreshing asset database.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-WwiseSetupWizard:RunModifyImpl() (at E:\Unity Projects\Obsidian\Assets\Wwise\Editor\WwiseSetupWizard\AkWwiseSetupWizard.cs:44)
+WwiseSetupWizard:RunModifyImpl() (at F:\School\USC\CTIN 532\GitHub\CTIN532\Assets\Wwise\Editor\WwiseSetupWizard\AkWwiseSetupWizard.cs:44)
 UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at C:\buildslave\unity\build\Editor\Mono\EditorApplication.cs:118)
  
-(Filename: E:/Unity Projects/Obsidian/Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 44)
+(Filename: F:/School/USC/CTIN 532/GitHub/CTIN532/Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 44)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.014615 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.014365 seconds (Nothing changed)
 WwiseUnity: End of modify setup, exiting Unity.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-WwiseSetupWizard:RunModifyImpl() (at E:\Unity Projects\Obsidian\Assets\Wwise\Editor\WwiseSetupWizard\AkWwiseSetupWizard.cs:47)
+WwiseSetupWizard:RunModifyImpl() (at F:\School\USC\CTIN 532\GitHub\CTIN532\Assets\Wwise\Editor\WwiseSetupWizard\AkWwiseSetupWizard.cs:47)
 UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at C:\buildslave\unity\build\Editor\Mono\EditorApplication.cs:118)
  
-(Filename: E:/Unity Projects/Obsidian/Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 47)
+(Filename: F:/School/USC/CTIN 532/GitHub/CTIN532/Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 47)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.015216 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.015046 seconds (Nothing changed)
 
 Hashing assets ... 0.000 seconds
   file open: 0.000 seconds (2 files)
   file read: 0.000 seconds (0.009 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset - GUID: 3941d2b2803aeeb4992f5a192f9adf32...
- done. [Time: 3.457775 ms] 
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+ done. [Time: 12.151637 ms] 
+Refreshing native plugins compatible for Editor in 1.08 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.43 ms.
 
------ Total AssetImport time: 0.099413s, AssetImport time: 0.038965s, Asset hashing: 0.000560s [8.9 KB, 15.575475 mb/s]
+----- Total AssetImport time: 0.077742s, AssetImport time: 0.036581s, Asset hashing: 0.000660s [8.9 KB, 13.217010 mb/s]
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.015055 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.013429 seconds (Nothing changed)
 Cleanup mono
-[usbmuxd] Stop listen thread
-[usbmuxd] Error: 
-[usbmuxd] Listen thread exiting
 [usbmuxd] Stop listen thread
 [usbmuxd] Error: 
 [usbmuxd] Listen thread exiting
@@ -2877,11 +2819,5 @@ Callback unregistration failed. Callback not registered.
  
 (Filename: c:\buildslave\unity\build\runtime\core\callbacks\CallbackArray.h Line: 192)
 
-##utp:{"type":"MemoryLeaks","allocatedMemory":170380,"memoryLabels":[{"Default":1636},{"Permanent":20960},{"NewDelete":60231},{"Thread":584},{"Manager":2704},{"GfxDevice":6580},{"Physics":8},{"Serialization":15712},{"JobScheduler":136},{"Renderer":224},{"Terrain":224},{"STL":1024},{"String":22666},{"DynamicArray":11292},{"Curl":1296},{"PoolAlloc":-224},{"ScriptManager":4040},{"Sprites":1208},{"VR":8848},{"EditorGui":12},{"EditorUtility":544},{"AssetImporter":32},{"RestService":72},{"License":627},{"UnityConnect":9240},{"Collab":704}]}
-
-Unhandled Exception: System.IO.DirectoryNotFoundException: Could not find a part of the path "C:\Users\ADMINI~1\AppData\Local\Temp\434d3a9\116da372.dll".
-  at System.IO.File.Delete (System.String path) [0x00084] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/File.cs:173 
-  at System.CodeDom.Compiler.TempFileCollection.Delete () [0x00000] in <filename unknown>:0 
-  at System.CodeDom.Compiler.TempFileCollection.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
-  at System.CodeDom.Compiler.TempFileCollection.Finalize () [0x00000] in <filename unknown>:0 
-debugger-agent: Unable to listen on 3476
+##utp:{"type":"MemoryLeaks","allocatedMemory":176737,"memoryLabels":[{"Default":1636},{"Permanent":20960},{"NewDelete":58575},{"Thread":584},{"Manager":2288},{"GfxDevice":6580},{"Physics":8},{"Serialization":15712},{"JobScheduler":136},{"Renderer":224},{"Terrain":224},{"STL":1024},{"String":22891},{"DynamicArray":19484},{"Curl":1296},{"PoolAlloc":-224},{"ScriptManager":4040},{"Sprites":1208},{"VR":8848},{"EditorGui":12},{"EditorUtility":544},{"AssetImporter":32},{"RestService":72},{"License":639},{"UnityConnect":9240},{"Collab":704}]}
+debugger-agent: Unable to listen on 3764

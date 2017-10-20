@@ -33,6 +33,33 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="543694047" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VOs</ObjectPath>
+			<ShortName>VOs</ShortName>
+			<Path>VOs.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1011784067" Name="VO_HumIntro" ObjectPath="\Events\Default Work Unit\VO_HumIntro"/>
+				<Event Id="3234679781" Name="VO_Welcome" ObjectPath="\Events\Default Work Unit\VO_Welcome"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="166131356" Language="SFX">
+					<ShortName>VO_eyeScan.wav</ShortName>
+					<Path>SFX\VO_eyeScan_1C9C67B2.wem</Path>
+				</File>
+				<File Id="357555149" Language="SFX">
+					<ShortName>VO_humIntro.wav</ShortName>
+					<Path>SFX\VO_humIntro_1C9C67B2.wem</Path>
+				</File>
+				<File Id="724181308" Language="SFX">
+					<ShortName>VO_humIntro2.wav</ShortName>
+					<Path>SFX\VO_humIntro2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="803865876" Language="SFX">
+					<ShortName>VO_welcome.wav</ShortName>
+					<Path>SFX\VO_welcome_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -46,17 +73,23 @@
 				<Event Id="3828622232" Name="Charging" ObjectPath="\Events\Default Work Unit\Charging"/>
 				<Event Id="3111569007" Name="Charging_Pause" ObjectPath="\Events\Default Work Unit\Charging_Pause" MaxAttenuation="0.000000"/>
 				<Event Id="164228631" Name="Charging_Stop" ObjectPath="\Events\Default Work Unit\Charging_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="889600460" Name="Computer_startup" ObjectPath="\Events\Default Work Unit\Computer_startup"/>
+				<Event Id="3794852078" Name="EyeScan_Done" ObjectPath="\Events\Default Work Unit\EyeScan_Done"/>
+				<Event Id="964212030" Name="EyeScan_Start" ObjectPath="\Events\Default Work Unit\EyeScan_Start"/>
+				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="75284863" Language="SFX">
+					<ShortName>eyeScan1.wav</ShortName>
+					<Path>SFX\eyeScan1_1C9C67B2.wem</Path>
+				</File>
 				<File Id="536370990" Language="SFX">
 					<ShortName>Success.wav</ShortName>
 					<Path>SFX\Success_1C9C67B2.wem</Path>
 				</File>
-				<File Id="878457488" Language="SFX">
-					<ShortName>Computer_8bit.wav</ShortName>
-					<Path>SFX\Computer_8bit_B0F8BA02.wem</Path>
+				<File Id="892572012" Language="SFX">
+					<ShortName>eyeScan0.wav</ShortName>
+					<Path>SFX\eyeScan0_1C9C67B2.wem</Path>
 				</File>
 				<File Id="906311439" Language="SFX">
 					<ShortName>RISE_100.wav</ShortName>
