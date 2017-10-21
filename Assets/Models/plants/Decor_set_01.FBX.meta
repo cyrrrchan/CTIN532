@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: d9c726d733c2bb04296585faa7c1e829
+timeCreated: 1508624071
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: box
+    100002: chrome_vase
+    100004: chrome_vase 1
+    100006: chrome_vase_MeshPart0
+    100008: chrome_vase_MeshPart1
+    100010: chrome_vase_MeshPart2
+    100012: chrome_vase_MeshPart3
+    100014: chrome_vase_MeshPart4
+    100016: chrome_vase_MeshPart5
+    100018: chrome_vase_v2
+    100020: chrome_vase_v2 1
+    100022: chrome_vase_v2 1_MeshPart0
+    100024: chrome_vase_v2 1_MeshPart1
+    100026: chrome_vase_v2 1_MeshPart2
+    100028: chrome_vase_v2 1_MeshPart3
+    100030: chrome_vase_v2 1_MeshPart4
+    100032: chrome_vase_v2 1_MeshPart5
+    100034: chrome_vase_v2 1_MeshPart6
+    100036: chrome_vase_v2_MeshPart0
+    100038: chrome_vase_v2_MeshPart1
+    100040: copper_vase
+    100042: copper_vase_MeshPart0
+    100044: copper_vase_MeshPart1
+    100046: copper_vase_MeshPart2
+    100048: copper_vase_v2
+    100050: copper_vase_v2_MeshPart0
+    100052: copper_vase_v2_MeshPart1
+    100054: copper_vase_v2_MeshPart2
+    100056: //RootNode
+    400000: box
+    400002: chrome_vase
+    400004: chrome_vase 1
+    400006: chrome_vase_MeshPart0
+    400008: chrome_vase_MeshPart1
+    400010: chrome_vase_MeshPart2
+    400012: chrome_vase_MeshPart3
+    400014: chrome_vase_MeshPart4
+    400016: chrome_vase_MeshPart5
+    400018: chrome_vase_v2
+    400020: chrome_vase_v2 1
+    400022: chrome_vase_v2 1_MeshPart0
+    400024: chrome_vase_v2 1_MeshPart1
+    400026: chrome_vase_v2 1_MeshPart2
+    400028: chrome_vase_v2 1_MeshPart3
+    400030: chrome_vase_v2 1_MeshPart4
+    400032: chrome_vase_v2 1_MeshPart5
+    400034: chrome_vase_v2 1_MeshPart6
+    400036: chrome_vase_v2_MeshPart0
+    400038: chrome_vase_v2_MeshPart1
+    400040: copper_vase
+    400042: copper_vase_MeshPart0
+    400044: copper_vase_MeshPart1
+    400046: copper_vase_MeshPart2
+    400048: copper_vase_v2
+    400050: copper_vase_v2_MeshPart0
+    400052: copper_vase_v2_MeshPart1
+    400054: copper_vase_v2_MeshPart2
+    400056: //RootNode
+    2300000: box
+    2300002: chrome_vase 1
+    2300004: chrome_vase_MeshPart0
+    2300006: chrome_vase_MeshPart1
+    2300008: chrome_vase_MeshPart2
+    2300010: chrome_vase_MeshPart3
+    2300012: chrome_vase_MeshPart4
+    2300014: chrome_vase_MeshPart5
+    2300016: chrome_vase_v2 1_MeshPart0
+    2300018: chrome_vase_v2 1_MeshPart1
+    2300020: chrome_vase_v2 1_MeshPart2
+    2300022: chrome_vase_v2 1_MeshPart3
+    2300024: chrome_vase_v2 1_MeshPart4
+    2300026: chrome_vase_v2 1_MeshPart5
+    2300028: chrome_vase_v2 1_MeshPart6
+    2300030: chrome_vase_v2_MeshPart0
+    2300032: chrome_vase_v2_MeshPart1
+    2300034: copper_vase_MeshPart0
+    2300036: copper_vase_MeshPart1
+    2300038: copper_vase_MeshPart2
+    2300040: copper_vase_v2_MeshPart0
+    2300042: copper_vase_v2_MeshPart1
+    2300044: copper_vase_v2_MeshPart2
+    3300000: box
+    3300002: chrome_vase 1
+    3300004: chrome_vase_MeshPart0
+    3300006: chrome_vase_MeshPart1
+    3300008: chrome_vase_MeshPart2
+    3300010: chrome_vase_MeshPart3
+    3300012: chrome_vase_MeshPart4
+    3300014: chrome_vase_MeshPart5
+    3300016: chrome_vase_v2 1_MeshPart0
+    3300018: chrome_vase_v2 1_MeshPart1
+    3300020: chrome_vase_v2 1_MeshPart2
+    3300022: chrome_vase_v2 1_MeshPart3
+    3300024: chrome_vase_v2 1_MeshPart4
+    3300026: chrome_vase_v2 1_MeshPart5
+    3300028: chrome_vase_v2 1_MeshPart6
+    3300030: chrome_vase_v2_MeshPart0
+    3300032: chrome_vase_v2_MeshPart1
+    3300034: copper_vase_MeshPart0
+    3300036: copper_vase_MeshPart1
+    3300038: copper_vase_MeshPart2
+    3300040: copper_vase_v2_MeshPart0
+    3300042: copper_vase_v2_MeshPart1
+    3300044: copper_vase_v2_MeshPart2
+    4300000: chrome_vase_MeshPart0
+    4300002: chrome_vase_MeshPart1
+    4300004: chrome_vase_MeshPart2
+    4300006: chrome_vase_MeshPart3
+    4300008: chrome_vase_MeshPart4
+    4300010: chrome_vase_MeshPart5
+    4300012: copper_vase_v2_MeshPart0
+    4300014: copper_vase_v2_MeshPart1
+    4300016: copper_vase_v2_MeshPart2
+    4300018: box
+    4300020: chrome_vase_v2_MeshPart0
+    4300022: chrome_vase_v2_MeshPart1
+    4300024: copper_vase_MeshPart0
+    4300026: copper_vase_MeshPart1
+    4300028: copper_vase_MeshPart2
+    4300030: chrome_vase
+    4300032: chrome_vase_v2_MeshPart0
+    4300034: chrome_vase_v2_MeshPart1
+    4300036: chrome_vase_v2_MeshPart2
+    4300038: chrome_vase_v2_MeshPart3
+    4300040: chrome_vase_v2_MeshPart4
+    4300042: chrome_vase_v2_MeshPart5
+    4300044: chrome_vase_v2_MeshPart6
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
