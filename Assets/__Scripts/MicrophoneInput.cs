@@ -11,6 +11,7 @@ public class MicrophoneInput : MonoBehaviour {
 	public int samplerate = 11024;
 
 	private AudioSource audioSource;
+	private IEnumerator metricsCoroutine;
 
 	void Start() {
 		foreach (string device in Microphone.devices) {
@@ -23,6 +24,18 @@ public class MicrophoneInput : MonoBehaviour {
 		audioSource.loop = true; // Set the AudioClip to loop
 		while (!(Microphone.GetPosition(Microphone.devices[0]) > 0)){} // Wait until the recording has started
 		audioSource.Play(); // Play the audio source!
+
+		metricsCoroutine = WaitAndMetrics(10.0f);
+		StartCoroutine(metricsCoroutine);
+	}
+
+	private IEnumerator WaitAndMetrics(float waitTime)
+	{
+		while (true)
+		{
+			yield return new WaitForSeconds(waitTime);
+			MetricManagerScript._metricsInstance.LogFloat ("Volume: ", loudness);
+		}
 	}
 
 	void Update() {

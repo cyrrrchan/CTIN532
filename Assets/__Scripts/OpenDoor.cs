@@ -31,6 +31,7 @@ public class OpenDoor : MonoBehaviour {
     private bool charged;
     private bool humMode; //toggle humming UI on/off
     private bool doorOpened;
+	private bool firstTimeHumAttemptMetric = false;
 
     void Start()
     {
@@ -58,10 +59,15 @@ public class OpenDoor : MonoBehaviour {
         if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
             activated = false;
 
-        if (humMode == true && activated == true)
+		if (humMode == true && activated == true && !doorOpened)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
+				if (!firstTimeHumAttemptMetric) {
+					firstTimeHumAttemptMetric = true;
+					MetricManagerScript._metricsInstance.LogTime ("First Door Started: ");
+				}
+
                 AkSoundEngine.PostEvent("Charging", gameObject);
 
                 humUI.fillAmount += Time.deltaTime / humTime;
@@ -85,10 +91,12 @@ public class OpenDoor : MonoBehaviour {
                 chargedUI.SetActive(true);
 
                 charged = true;
+				MetricManagerScript._metricsInstance.LogTime ("First Door Ended: ");
             }
 
             if (charged == true && doorOpened == false) // open the door
             {
+				door.GetComponent<BoxCollider> ().enabled = false;
                 door.transform.position = new Vector3(door.transform.position.x, Mathf.Lerp(door.transform.position.y, door.transform.position.y + offset, t), door.transform.position.z);
                 t += Time.deltaTime * speed;
                 count += Time.deltaTime;
@@ -104,30 +112,12 @@ public class OpenDoor : MonoBehaviour {
                     doorOpened = true;
                 }
             }
-
-            if (charged == true && doorOpened == true) // close the door
-            {
-                door.transform.position = new Vector3(door.transform.position.x, Mathf.Lerp(door.transform.position.y, door.transform.position.y - offset, t), door.transform.position.z);
-                t += Time.deltaTime * speed;
-                count += Time.deltaTime;
-
-                if (count >= duration)
-                {
-                    chargedText.SetActive(false);
-                    chargedUI.SetActive(false);
-                    count = 0.0f;
-                    t = 0.0f;
-                    humMode = false;
-                    charged = false;
-                    doorOpened = false;
-                }
-            }
         }
     }
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-        if(activated)
+		if(activated && !doorOpened)
         {
             count = 0.0f;
             humMode = true;

@@ -30,6 +30,7 @@ public class LevelManager : MonoBehaviour {
     private float meterFilled = 0.0f;
 
     private bool charged;
+	private bool titleScreenHumAttemptMetric = false;
 
     void Start()
     {
@@ -50,7 +51,11 @@ public class LevelManager : MonoBehaviour {
 
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
-                AkSoundEngine.PostEvent("Charging", gameObject);
+			if (!titleScreenHumAttemptMetric) {
+				titleScreenHumAttemptMetric = true;
+				MetricManagerScript._metricsInstance.LogTime ("Title Screen Started: ");
+			}
+				AkSoundEngine.PostEvent("Charging", gameObject);
 
                 humUI.fillAmount += Time.deltaTime / humTime;
             }
@@ -72,6 +77,7 @@ public class LevelManager : MonoBehaviour {
                 chargedUI.SetActive(true);
 
                 charged = true;
+				MetricManagerScript._metricsInstance.LogTime ("Title Screen Ended: ");
             }
 
             if (charged == true) // open the door
