@@ -28,7 +28,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 	private float meterFilled = 0.0f;
 
     public bool activated; //check if player has scanned eyes
-	private bool charged;
+	public bool charged;
 	private bool humMode; //toggle humming UI on/off
 
 
@@ -85,7 +85,8 @@ public class GlowingPanelCollider : MonoBehaviour {
 
                 if (count >= durationUI)
                 {
-                    AkSoundEngine.PostEvent("VO_HumIntro", gameObject); 
+					//AkSoundEngine.PostEvent("VO_HumIntro", gameObject, AK_EndOfEvent, MyCallbackFunction, myCookieObject); 
+					//GameObject.Find("FPSController").GetComponent<FirstPersonController>().isListening;
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
                     count = 0.0f;
