@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LANDING = 2548270042U;
+        static const AkUniqueID POWEROUTAGE = 130561341U;
         static const AkUniqueID ROOM = 2077253480U;
         static const AkUniqueID SUCCESS = 3625060726U;
         static const AkUniqueID VO_HUMINTRO = 1011784067U;

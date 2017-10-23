@@ -76,12 +76,17 @@
 				<Event Id="3794852078" Name="EyeScan_Done" ObjectPath="\Events\Default Work Unit\EyeScan_Done"/>
 				<Event Id="964212030" Name="EyeScan_Start" ObjectPath="\Events\Default Work Unit\EyeScan_Start"/>
 				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="130561341" Name="PowerOutage" ObjectPath="\Events\Default Work Unit\PowerOutage"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="75284863" Language="SFX">
 					<ShortName>eyeScan1.wav</ShortName>
 					<Path>SFX\eyeScan1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="337457353" Language="SFX">
+					<ShortName>powerOutage.wav</ShortName>
+					<Path>SFX\powerOutage_1C9C67B2.wem</Path>
 				</File>
 				<File Id="536370990" Language="SFX">
 					<ShortName>Success.wav</ShortName>

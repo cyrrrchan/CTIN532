@@ -1,0 +1,18 @@
+Title Screen Started: : - Time: 10-23-2017 1:25:58 PM
+Title Screen Ended: : - Time: 10-23-2017 1:26:01 PM
+Volume: : 0.1687024 - Time: 10-23-2017 1:26:15 PM
+Volume: : 0.06032673 - Time: 10-23-2017 1:26:25 PM
+Volume: : 0.08809558 - Time: 10-23-2017 1:26:35 PM
+Volume: : 0.0460484 - Time: 10-23-2017 1:26:45 PM
+First Door Started: : - Time: 10-23-2017 1:26:50 PM
+Volume: : 0.04666575 - Time: 10-23-2017 1:26:55 PM
+Volume: : 0.05050872 - Time: 10-23-2017 1:27:05 PM
+Volume: : 0.105082 - Time: 10-23-2017 1:27:15 PM
+Volume: : 0.09871504 - Time: 10-23-2017 1:27:25 PM
+Volume: : 0.05736085 - Time: 10-23-2017 1:27:35 PM
+Volume: : 0.08981078 - Time: 10-23-2017 1:27:45 PM
+Volume: : 0.06942253 - Time: 10-23-2017 1:27:55 PM
+Volume: : 0.0536909 - Time: 10-23-2017 1:28:05 PM
+Volume: : 1.362417 - Time: 10-23-2017 1:28:15 PM
+First Door Ended: : - Time: 10-23-2017 1:28:17 PM
+Volume: : 0.1233425 - Time: 10-23-2017 1:28:25 PM

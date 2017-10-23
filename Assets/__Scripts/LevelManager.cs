@@ -29,7 +29,7 @@ public class LevelManager : MonoBehaviour {
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
 
-    private bool charged;
+    private bool charged = false;
 	private bool titleScreenHumAttemptMetric = false;
 
     void Start()
@@ -41,8 +41,6 @@ public class LevelManager : MonoBehaviour {
         humUI.fillAmount = 0.0f;
         chargedUI.SetActive(false);
         chargedText.SetActive(false);
-
-        charged = false;
     }
 
     void Update()

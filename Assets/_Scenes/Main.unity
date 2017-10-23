@@ -5341,7 +5341,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isListening: 0
-  VO_welcome: {fileID: 8300000, guid: f269eb5165e83844fb2c8e175c1ede82, type: 3}
+  welcomeVO: {fileID: 8300000, guid: f269eb5165e83844fb2c8e175c1ede82, type: 3}
+  humIntroVO: {fileID: 8300000, guid: 22c3dd26dcf83994fb05cbd8025e8e48, type: 3}
+  humIntroVO2: {fileID: 8300000, guid: 8d30b13c4f41b864ebe6e3f1e3de6012, type: 3}
+  doorOpenVO: {fileID: 8300000, guid: 27de8a8751a406842965fe7a34188f8a, type: 3}
+  powerOutageVO: {fileID: 8300000, guid: 2f2b41270edf09f4788384081cfd2f3c, type: 3}
 --- !u!4 &592973523
 Transform:
   m_ObjectHideFlags: 0
@@ -6888,6 +6892,8 @@ MonoBehaviour:
   cooldownTime: 6
   offset: 2
   speed: 0.2
+  doorOpened: 0
+  inTrigger: 0
 --- !u!65 &823917527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11346,6 +11352,8 @@ MonoBehaviour:
   cooldownTime: 6
   offset: 2
   speed: 0.2
+  doorOpened: 0
+  inTrigger: 0
 --- !u!1 &1329879536
 GameObject:
   m_ObjectHideFlags: 0
@@ -12830,6 +12838,8 @@ MonoBehaviour:
   cooldownTime: 6
   offset: 2
   speed: 0.2
+  doorOpened: 0
+  inTrigger: 0
 --- !u!65 &1520953023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12897,6 +12907,8 @@ MonoBehaviour:
   cooldownTime: 6
   offset: 25
   speed: 0.2
+  doorOpened: 0
+  inTrigger: 0
 --- !u!65 &1523902970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13105,6 +13117,8 @@ MonoBehaviour:
   cooldownTime: 6
   offset: 2
   speed: 0.2
+  doorOpened: 0
+  inTrigger: 0
 --- !u!65 &1556357780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14198,6 +14212,8 @@ MonoBehaviour:
   cooldownTime: 6
   offset: 2
   speed: 0.2
+  doorOpened: 0
+  inTrigger: 0
 --- !u!65 &1680521340
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -27,10 +27,11 @@ public class OpenDoor : MonoBehaviour {
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
 
-    private bool activated; //check if eye scanner is activated
-    private bool charged;
-    private bool humMode; //toggle humming UI on/off
-    private bool doorOpened;
+    private bool activated = false; //check if eye scanner is activated
+    private bool charged = false;
+    private bool humMode = false; //toggle humming UI on/off
+    public bool doorOpened = false;
+    public bool inTrigger = false;
 	private bool firstTimeHumAttemptMetric = false;
 
     void Start()
@@ -43,11 +44,6 @@ public class OpenDoor : MonoBehaviour {
         humText.SetActive(false);
         chargedUI.SetActive(false);
         chargedText.SetActive(false);
-
-        activated = false;
-        charged = false;
-        humMode = false;
-        doorOpened = false;
     }
 
     void Update()
@@ -59,7 +55,7 @@ public class OpenDoor : MonoBehaviour {
         if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
             activated = false;
 
-		if (humMode == true && activated == true && !doorOpened)
+		if (humMode == true && activated == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<GameManager>().isListening)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
@@ -103,6 +99,7 @@ public class OpenDoor : MonoBehaviour {
 
                 if (count >= duration)
                 {
+                    AkSoundEngine.PostEvent("PowerOutage", gameObject);
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
                     count = 0.0f;
@@ -119,6 +116,7 @@ public class OpenDoor : MonoBehaviour {
     {
 		if(activated && !doorOpened)
         {
+            inTrigger = true;
             count = 0.0f;
             humMode = true;
             humText.SetActive(true);

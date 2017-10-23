@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	130561341	PowerOutage			\Default Work Unit\PowerOutage	
 	164228631	Charging_Stop			\Default Work Unit\Charging_Stop	
 	964212030	EyeScan_Start			\Default Work Unit\EyeScan_Start	
 	2908058974	EyeScan_Stop			\Default Work Unit\EyeScan_Stop	
@@ -9,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	75284863	eyeScan1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\eyeScan1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\eyeScan1		56432
+	337457353	powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\powerOutage		1045160
 	536370990	Success	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Success		354604
 	892572012	eyeScan0	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\eyeScan0_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\eyeScan0		720536
 	906311439	RISE_100	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\RISE_100_0A263776.wem		\Actor-Mixer Hierarchy\Default Work Unit\RISE_100		12215188

@@ -60,7 +60,7 @@ public class GlowingPanelCollider : MonoBehaviour {
             if(hit.collider.tag != "WallScanner")
                 humMode = false;
 
-        if (humMode == true && activated == false)
+        if (humMode == true && activated == false && !GameObject.Find("GameManager").GetComponent<GameManager>().isListening)
         {
             AkSoundEngine.PostEvent("EyeScan_Start", gameObject);
             humUI.fillAmount += Time.deltaTime / humTime;
@@ -74,21 +74,21 @@ public class GlowingPanelCollider : MonoBehaviour {
                 chargedText.SetActive(true);
                 chargedUI.SetActive(true);
 
-                activated = true;
                 charged = true;
             }
         }
             if (charged == true) // activate UI
             {
-                activated = true;
                 count += Time.deltaTime;
 
                 if (count >= durationUI)
                 {
-					//AkSoundEngine.PostEvent("VO_HumIntro", gameObject, AK_EndOfEvent, MyCallbackFunction, myCookieObject); 
-					//GameObject.Find("FPSController").GetComponent<FirstPersonController>().isListening;
+                    activated = true;
+                    //AkSoundEngine.PostEvent("VO_HumIntro", gameObject, AK_EndOfEvent, MyCallbackFunction, myCookieObject); 
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
+                    humUI.fillAmount = 0.0f;
+                    meterFilled = 0.0f;
                     count = 0.0f;
                     t = 0.0f;
                     humMode = false;

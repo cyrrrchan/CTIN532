@@ -7,9 +7,13 @@ public class LightingChanger : MonoBehaviour {
 	public Color startingEmission;
 	public Color lightsOutEmission;
 	public Material glowingTubeMat;
+    public bool hasTurnedOff = false;
 
-	// Use this for initialization
-	void Start () {
+    float count = 0.0f;
+    float duration = 1.75f; 
+
+    // Use this for initialization
+    void Start () {
 
 	
 		
@@ -18,13 +22,23 @@ public class LightingChanger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetKeyDown (KeyCode.Alpha1))
+		/*if (Input.GetKeyDown (KeyCode.Alpha1))
 			LightsOff ();
 		if (Input.GetKeyDown (KeyCode.Alpha2))
-			LightsOn ();
-		
-		
-	}
+			LightsOn ();*/
+
+        if (GameObject.Find("GameManager").GetComponent<GameManager>().hasEndedDoorVO)
+        {
+            count += Time.deltaTime;
+
+            if(count >= duration)
+            {
+                LightsOff();
+                hasTurnedOff = true;
+            }
+        }
+
+    }
 
 	public void LightsOn(){
 		GameObject[] allLights = GameObject.FindGameObjectsWithTag ("light");
