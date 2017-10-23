@@ -56,7 +56,7 @@ public class OpenDoor : MonoBehaviour {
 
         if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
             activated = true;
-        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
+        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
             activated = false;
 
 		if (humMode == true && activated == true && !doorOpened)
