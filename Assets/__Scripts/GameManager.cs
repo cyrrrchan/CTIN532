@@ -34,7 +34,11 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.E))
+		if (GameObject.Find ("Trigger").GetComponent<OpenDoor> ().inTrigger) {
+			print ("trigger working");
+		}
+
+        if (Input.GetKeyDown(KeyCode.P))
             audioSource.Stop();
 
         if(audioSource.isPlaying)
@@ -51,8 +55,9 @@ public class GameManager : MonoBehaviour {
                 hasPlayedHumIntroVO = true;
             }
 
-            if (GameObject.Find("Trigger").GetComponent<OpenDoor>().inTrigger && !hasPlayedHumIntroVO2)
+			if (GameObject.Find("Trigger").GetComponent<OpenDoor>().inTrigger && !hasPlayedHumIntroVO2)
             {
+				print ("trigger working");
                 audioSource.PlayOneShot(humIntroVO2);
                 hasPlayedHumIntroVO2 = true;
             }
