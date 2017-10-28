@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LightingChanger : MonoBehaviour {
 
@@ -18,9 +19,28 @@ public class LightingChanger : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+		// Create a temporary reference to the current scene.
+		Scene currentScene = SceneManager.GetActiveScene ();
+
+		// Retrieve the name of this scene.
+		string sceneName = currentScene.name;
+
 		Debug.Assert (lightTubeRenderer);
 		lightTubeRenderer.sharedMaterial.EnableKeyword ("_Emission");
-		LightsOn ();
+
+		//set lighting dependent on which scene we are in
+		if (sceneName == "Main") {
+			// Do something...
+			LightsOn ();
+		} else if (sceneName == "WaitingRoom2") {
+			LightsOff ();
+		} else if (sceneName == "WaitingRoom3") {
+			LightsScary ();
+		} else {
+			print ("this is a dark room");
+		}
+
 		
 	}
 	
@@ -83,5 +103,10 @@ public class LightingChanger : MonoBehaviour {
 			//i.GetComponent<Renderer> ().sharedMaterial.SetColor ("_Emission", lightsOutEmission);
 			//i.GetComponent<Renderer>().sharedMaterial.DisableKeyword("_Emission");
 		//}
+	}
+
+	public void LightsScary(){
+		//placeholder script for now. This is for WaitingRoom3
+		print("cue scary lighting");
 	}
 }

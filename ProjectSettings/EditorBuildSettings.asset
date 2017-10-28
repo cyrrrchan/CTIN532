@@ -11,3 +11,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Main.unity
     guid: e43c5fbe9ab4e47b58b49d9754b2cdfe
+  - enabled: 1
+    path: Assets/_Scenes/DarkRoom1.unity
+    guid: 86dc1ff0e5437524880b58f2e719fd3b
+  - enabled: 1
+    path: Assets/_Scenes/WaitingRoom2.unity
+    guid: 5811eca392fb9ba4e98aa537550fa98c
+  - enabled: 1
+    path: Assets/_Scenes/DarkRoom2.unity
+    guid: f1743ca01ab66b049a5acbfa066ffa81
+  - enabled: 1
+    path: Assets/_Scenes/WaitingRoom3.unity
+    guid: a6cb7090a5a69014f8daa4f4bba3bc18
+  - enabled: 1
+    path: Assets/_Scenes/DarkRoom3.unity
+    guid: 4f09b7edceb7845408ee791e918d4771
+  - enabled: 1
+    path: Assets/_Scenes/WaitingRoom4.unity
+    guid: e85131d7e8c0ad742ad64aaad3268c0c
+  - enabled: 1
+    path: Assets/_Scenes/Credits.unity
+    guid: f279ecfb8bae40f468cdb04728338e9d
