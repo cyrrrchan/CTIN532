@@ -975,6 +975,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1922360913834964, guid: a872e0ec648e08840b3ee70580ffb309, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a872e0ec648e08840b3ee70580ffb309, type: 2}
   m_IsPrefabParent: 0
@@ -1392,6 +1396,52 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 0.6088823
       objectReference: {fileID: 0}
+    - target: {fileID: 23557767516755216, guid: 3c6ab707f9b22d24aa3363a7d0041945,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6f1f110f30eadb4297f6c48e2f948b0, type: 2}
+    - target: {fileID: 23727114749923432, guid: 3c6ab707f9b22d24aa3363a7d0041945,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6f1f110f30eadb4297f6c48e2f948b0, type: 2}
+    - target: {fileID: 23186635131580666, guid: 3c6ab707f9b22d24aa3363a7d0041945,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6f1f110f30eadb4297f6c48e2f948b0, type: 2}
+    - target: {fileID: 23955159155174232, guid: 3c6ab707f9b22d24aa3363a7d0041945,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6f1f110f30eadb4297f6c48e2f948b0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c6ab707f9b22d24aa3363a7d0041945, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1853441082 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1932349994931968, guid: 3c6ab707f9b22d24aa3363a7d0041945,
+    type: 2}
+  m_PrefabInternal: {fileID: 1853441081}
+--- !u!114 &1853441083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853441082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ef26466d0b9324bb22bf091c9c77c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 760004567}
+  dbThreshold: 1.3
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  pylonEmissionColor: {r: 0.13333334, g: 1, b: 0.92941177, a: 1}
+  glowingPylonRenderer: {fileID: 1853441084}
+--- !u!23 &1853441084 stripped
+MeshRenderer:
+  m_PrefabParentObject: {fileID: 23557767516755216, guid: 3c6ab707f9b22d24aa3363a7d0041945,
+    type: 2}
+  m_PrefabInternal: {fileID: 1853441081}
