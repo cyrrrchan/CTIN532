@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4078a0ec7707dac4ca93a6681287eebc
+timeCreated: 1508780022
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - welcomeVO: {fileID: 8300000, guid: f269eb5165e83844fb2c8e175c1ede82, type: 3}
+  - humIntroVO: {fileID: 8300000, guid: 22c3dd26dcf83994fb05cbd8025e8e48, type: 3}
+  - humIntroVO2: {fileID: 8300000, guid: 8d30b13c4f41b864ebe6e3f1e3de6012, type: 3}
+  - doorOpenVO: {fileID: 8300000, guid: 27de8a8751a406842965fe7a34188f8a, type: 3}
+  - powerOutageVO: {fileID: 8300000, guid: 2f2b41270edf09f4788384081cfd2f3c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

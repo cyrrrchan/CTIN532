@@ -4,23 +4,28 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
 public class LevelManager : MonoBehaviour {
 
-    public Image black;
-    public Animator anim;
+    public static LevelManager levelManagerInstance = null;
 
+    //public Image black;
+    //public Animator anim;
+
+    public GameObject door;
     public GameObject audioInputObject; //microphoneInput object
     MicrophoneInput micIn;
     public Image humUI;
+    public GameObject humText;
     public GameObject chargedUI;
     public GameObject chargedText;
-	public GameObject instructionText;
-	public string levelName;
+    public string levelName;
 
     public float dbThreshold;
     public float humTime;
     public float cooldownTime;
+
+    public float offset;
+    public float speed; //speed of door opening and closing
 
     private float t = 0.0f;
 
@@ -29,8 +34,25 @@ public class LevelManager : MonoBehaviour {
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
 
+    private bool activated = false; //check if eye scanner is activated
     private bool charged = false;
-	private bool titleScreenHumAttemptMetric = false;
+    private bool humMode = false; //toggle humming UI on/off
+    public bool doorOpened = false;
+    public bool inTrigger = false;
+    private bool firstTimeHumAttemptMetric = false;
+
+    void Awake()
+    {
+        if (levelManagerInstance == null)
+        {
+            levelManagerInstance = this;
+        }
+        else if (levelManagerInstance != this)
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(this);
+    }
 
     void Start()
     {
@@ -39,6 +61,7 @@ public class LevelManager : MonoBehaviour {
         micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
 
         humUI.fillAmount = 0.0f;
+        humText.SetActive(false);
         chargedUI.SetActive(false);
         chargedText.SetActive(false);
     }
@@ -47,13 +70,22 @@ public class LevelManager : MonoBehaviour {
     {
         db = micIn.loudness; //set db to be volume from player input
 
+        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
+            activated = true;
+        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
+            activated = false;
+
+        if (humMode == true && activated == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+        {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
-			if (!titleScreenHumAttemptMetric) {
-				titleScreenHumAttemptMetric = true;
-				MetricManagerScript._metricsInstance.LogTime ("Title Screen Started: ");
-			}
-				AkSoundEngine.PostEvent("Charging", gameObject);
+                if (!firstTimeHumAttemptMetric)
+                {
+                    firstTimeHumAttemptMetric = true;
+                    MetricManagerScript._metricsInstance.LogTime("Dark Room Door Started: ");
+                }
+
+                AkSoundEngine.PostEvent("Charging", gameObject);
 
                 humUI.fillAmount += Time.deltaTime / humTime;
             }
@@ -70,36 +102,61 @@ public class LevelManager : MonoBehaviour {
                 AkSoundEngine.PostEvent("Charging_Stop", gameObject);
                 AkSoundEngine.PostEvent("Success", gameObject);
 
+                humText.SetActive(false);
                 humUI.fillAmount = 0.0f;
                 chargedText.SetActive(true);
                 chargedUI.SetActive(true);
 
                 charged = true;
-				MetricManagerScript._metricsInstance.LogTime ("Title Screen Ended: ");
+                MetricManagerScript._metricsInstance.LogTime("Dark Room Door Ended: ");
             }
 
-            if (charged == true) // open the door
+            if (charged == true && doorOpened == false) // open the door
             {
+                door.GetComponent<BoxCollider>().enabled = false;
+                door.transform.position = new Vector3(door.transform.position.x, Mathf.Lerp(door.transform.position.y, door.transform.position.y + offset, t), door.transform.position.z);
+                t += Time.deltaTime * speed;
                 count += Time.deltaTime;
 
                 if (count >= duration)
                 {
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
-					instructionText.SetActive (false);
                     count = 0.0f;
                     t = 0.0f;
-					black.fillAmount = 1.0f;
+                    humMode = false;
+                    charged = false;
+                    doorOpened = true;
 
-                    StartCoroutine(Fading());
+                    LoadLevel(levelName);
                 }
             }
-    }		
+        }
+    }
 
-    IEnumerator Fading()
+    public void LoadLevel(string levelName)
     {
-        anim.SetBool("Fade", true);
-        yield return new WaitUntil(() => black.color.a == 1);
-		SceneManager.LoadScene(levelName);
+        SceneManager.LoadScene(levelName);
+    }
+
+    private void OnTriggerEnter(Collider other) //turn on UI when inside collider
+    {
+        if (activated && !doorOpened)
+        {
+            inTrigger = true;
+            count = 0.0f;
+            humMode = true;
+            humText.SetActive(true);
+            humUI.fillAmount = meterFilled;
+        }
+    }
+
+    private void OnTriggerExit(Collider other) // turn off UI when outside of collider
+    {
+        humText.SetActive(false);
+        humUI.fillAmount = 0.0f;
+        humMode = false;
+
+        AkSoundEngine.PostEvent("Charging_Stop", gameObject);
     }
 }

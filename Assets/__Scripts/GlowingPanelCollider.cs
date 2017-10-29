@@ -60,7 +60,7 @@ public class GlowingPanelCollider : MonoBehaviour {
             if(hit.collider.tag != "WallScanner")
                 humMode = false;
 
-        if (humMode == true && activated == false && !GameObject.Find("GameManager").GetComponent<GameManager>().isListening)
+        if (humMode == true && activated == false && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
         {
             AkSoundEngine.PostEvent("EyeScan_Start", gameObject);
             humUI.fillAmount += Time.deltaTime / humTime;

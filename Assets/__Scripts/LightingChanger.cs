@@ -52,7 +52,7 @@ public class LightingChanger : MonoBehaviour {
 //			if (Input.GetKeyDown (KeyCode.Alpha2))
 //			LightsOn ();
 
-        if (GameObject.Find("GameManager").GetComponent<GameManager>().hasEndedDoorVO)
+        if (GameObject.Find("GameManager").GetComponent<AudioManager>().hasEndedDoorVO)
         {
             count += Time.deltaTime;
 
