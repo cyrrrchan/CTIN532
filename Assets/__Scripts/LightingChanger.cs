@@ -7,8 +7,10 @@ public class LightingChanger : MonoBehaviour {
 
 	public Color startingEmission;
 	public Color lightsOutEmission;
+	public Color scaryLightsEmission;
 	[SerializeField] Color normalLightColor;
 	[SerializeField] Color lightsOutColor;
+	[SerializeField] Color scaryLightsColor;
 	public Material glowingTubeMat;
     public bool hasTurnedOff = false;
 	[SerializeField] Renderer lightTubeRenderer;
@@ -37,6 +39,8 @@ public class LightingChanger : MonoBehaviour {
 			LightsOff ();
 		} else if (sceneName == "WaitingRoom3") {
 			LightsScary ();
+		} else if (sceneName == "WaitingRoom4") {
+			LightsOn ();
 		} else {
 			print ("this is a dark room");
 		}
@@ -107,6 +111,14 @@ public class LightingChanger : MonoBehaviour {
 
 	public void LightsScary(){
 		//placeholder script for now. This is for WaitingRoom3
-		print("cue scary lighting");
+		GameObject[] allLights = GameObject.FindGameObjectsWithTag ("light");
+		foreach (GameObject i in allLights) {
+			i.GetComponent<Light> ().intensity = .1f;
+			//lightTubeRenderer.sharedMaterial.SetColor ("_Emission", lightsOutEmission);
+			lightTubeRenderer.sharedMaterial.SetColor ("_EmissionColor", scaryLightsEmission);
+			//lightTubeRenderer.SetColor ("_EmissionColor", lightsOutEmission);
+			//lightTubeRenderer.sharedMaterial.color = testmatColor;
+			i.GetComponent<Light> ().color = scaryLightsColor;
+		}
 	}
 }

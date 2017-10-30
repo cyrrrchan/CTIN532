@@ -251,7 +251,7 @@ Transform:
   - {fileID: 1929317416}
   - {fileID: 1687288885}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &14677353
 Prefab:
@@ -2247,7 +2247,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 448e3f95e65154ee1b3a999bde882165, type: 2}
+  - {fileID: 2100000, guid: 28ed3433bffe97e44b3c184eb58cd85b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6919,8 +6919,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingEmission: {r: 1, g: 1, b: 1, a: 0}
   lightsOutEmission: {r: 0.72988755, g: 0.7941176, b: 0.7675397, a: 0}
+  scaryLightsEmission: {r: 0.7921569, g: 0.6309939, b: 0.6309939, a: 0}
   normalLightColor: {r: 1, g: 1, b: 1, a: 0}
   lightsOutColor: {r: 0.8014706, g: 1, b: 0.8521298, a: 0}
+  scaryLightsColor: {r: 1, g: 0.5206896, b: 0.5206896, a: 0}
   glowingTubeMat: {fileID: 2100000, guid: 5402a5faaf4866b4d863db132f7c07bf, type: 2}
   hasTurnedOff: 0
   lightTubeRenderer: {fileID: 1703672887}
@@ -12524,7 +12526,7 @@ Prefab:
     - target: {fileID: 2300000, guid: cb5b1350a043304449546a9b378c4857, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 448e3f95e65154ee1b3a999bde882165, type: 2}
+      objectReference: {fileID: 2100000, guid: 28ed3433bffe97e44b3c184eb58cd85b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb5b1350a043304449546a9b378c4857, type: 3}
   m_IsPrefabParent: 0
@@ -13653,7 +13655,7 @@ Transform:
   - {fileID: 2103661546}
   - {fileID: 1846991368}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1426865780
 GameObject:
@@ -17718,7 +17720,7 @@ Prefab:
     - target: {fileID: 2300000, guid: dffbbf55bfb880f4e8ceb4a6a37d86ac, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 448e3f95e65154ee1b3a999bde882165, type: 2}
+      objectReference: {fileID: 2100000, guid: 28ed3433bffe97e44b3c184eb58cd85b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dffbbf55bfb880f4e8ceb4a6a37d86ac, type: 3}
   m_IsPrefabParent: 0
@@ -17867,7 +17869,7 @@ Transform:
   - {fileID: 404732986}
   - {fileID: 888738219}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1866859914
 GameObject:
@@ -18572,7 +18574,7 @@ Transform:
   - {fileID: 1689832158}
   - {fileID: 1686469709}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1941989994 stripped
 GameObject:
@@ -19207,7 +19209,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400016, guid: 0699876341a05bd45bde322f8698fd18, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2053016917}
-  m_LocalRotation: {x: -0.6901825, y: 0.35953078, z: 0.15377922, w: 0.6088823}
+  m_LocalRotation: {x: -0.69018257, y: 0.3595308, z: 0.15377924, w: 0.60888237}
   m_LocalPosition: {x: -22.299374, y: -0.003976822, z: -26.78226}
   m_LocalScale: {x: 0.01962517, y: 0.019625168, z: 0.019625176}
   m_Children: []
