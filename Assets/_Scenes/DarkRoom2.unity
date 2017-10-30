@@ -906,7 +906,7 @@ MonoBehaviour:
   loadAsynchronous: 0
   decodeBank: 0
   saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
+  unloadTriggerList: 
 --- !u!114 &1132476642
 MonoBehaviour:
   m_ObjectHideFlags: 0

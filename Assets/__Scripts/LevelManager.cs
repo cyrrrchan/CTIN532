@@ -141,7 +141,7 @@ public class LevelManager : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-        if (activated && !doorOpened)
+        if (activated && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
         {
             inTrigger = true;
             count = 0.0f;

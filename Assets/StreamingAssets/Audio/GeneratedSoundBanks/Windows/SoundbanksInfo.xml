@@ -38,7 +38,18 @@
 			<ShortName>VOs</ShortName>
 			<Path>VOs.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1845371779" Name="VO_DoorOpen" ObjectPath="\Events\Default Work Unit\VO_DoorOpen"/>
+				<Event Id="1113929969" Name="VO_EyeScan" ObjectPath="\Events\Default Work Unit\VO_EyeScan"/>
+				<Event Id="611404299" Name="VO_HumDoor" ObjectPath="\Events\Default Work Unit\VO_HumDoor"/>
 				<Event Id="1011784067" Name="VO_HumIntro" ObjectPath="\Events\Default Work Unit\VO_HumIntro"/>
+				<Event Id="21641180" Name="VO_NewInstructions" ObjectPath="\Events\Default Work Unit\VO_NewInstructions"/>
+				<Event Id="3073818423" Name="VO_NewInstructionsOpt" ObjectPath="\Events\Default Work Unit\VO_NewInstructionsOpt"/>
+				<Event Id="2295317522" Name="VO_PlayerDeath" ObjectPath="\Events\Default Work Unit\VO_PlayerDeath"/>
+				<Event Id="1911092507" Name="VO_PowerOutage" ObjectPath="\Events\Default Work Unit\VO_PowerOutage"/>
+				<Event Id="2042003902" Name="VO_WaitingRoom1" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1"/>
+				<Event Id="1210844845" Name="VO_WaitingRoom1_2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1_2"/>
+				<Event Id="2042003901" Name="VO_WaitingRoom2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom2"/>
+				<Event Id="1210697786" Name="VO_WaitingRoom2_2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom2_2"/>
 				<Event Id="3234679781" Name="VO_Welcome" ObjectPath="\Events\Default Work Unit\VO_Welcome"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -50,13 +61,57 @@
 					<ShortName>VO_humIntro.wav</ShortName>
 					<Path>SFX\VO_humIntro_1C9C67B2.wem</Path>
 				</File>
+				<File Id="421201915" Language="SFX">
+					<ShortName>VO_playerDeath.wav</ShortName>
+					<Path>SFX\VO_playerDeath_1C9C67B2.wem</Path>
+				</File>
+				<File Id="430009217" Language="SFX">
+					<ShortName>VO_doorOpen.wav</ShortName>
+					<Path>SFX\VO_doorOpen_1C9C67B2.wem</Path>
+				</File>
+				<File Id="430579158" Language="SFX">
+					<ShortName>VO_welcomeIntro.wav</ShortName>
+					<Path>SFX\VO_welcomeIntro_40206339.wem</Path>
+				</File>
+				<File Id="533569097" Language="SFX">
+					<ShortName>VO_waitingRoom2.wav</ShortName>
+					<Path>SFX\VO_waitingRoom2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="599703570" Language="SFX">
+					<ShortName>VO_humIntro3.wav</ShortName>
+					<Path>SFX\VO_humIntro3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="654251998" Language="SFX">
+					<ShortName>VO_waitingRoom1_2.wav</ShortName>
+					<Path>SFX\VO_waitingRoom1_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="666045890" Language="SFX">
+					<ShortName>VO_eyeScan2.wav</ShortName>
+					<Path>SFX\VO_eyeScan2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="717142908" Language="SFX">
+					<ShortName>VO_waitingRoom2_2.wav</ShortName>
+					<Path>SFX\VO_waitingRoom2_2_1C9C67B2.wem</Path>
+				</File>
 				<File Id="724181308" Language="SFX">
 					<ShortName>VO_humIntro2.wav</ShortName>
 					<Path>SFX\VO_humIntro2_1C9C67B2.wem</Path>
 				</File>
-				<File Id="803865876" Language="SFX">
-					<ShortName>VO_welcome.wav</ShortName>
-					<Path>SFX\VO_welcome_1C9C67B2.wem</Path>
+				<File Id="742143421" Language="SFX">
+					<ShortName>VO_newInstructions.wav</ShortName>
+					<Path>SFX\VO_newInstructions_1C9C67B2.wem</Path>
+				</File>
+				<File Id="887095040" Language="SFX">
+					<ShortName>VO_powerOutage.wav</ShortName>
+					<Path>SFX\VO_powerOutage_1C9C67B2.wem</Path>
+				</File>
+				<File Id="919316911" Language="SFX">
+					<ShortName>VO_newInstructionsOpt.wav</ShortName>
+					<Path>SFX\VO_newInstructionsOpt_1C9C67B2.wem</Path>
+				</File>
+				<File Id="973637631" Language="SFX">
+					<ShortName>VO_waitingRoom1.wav</ShortName>
+					<Path>SFX\VO_waitingRoom1_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -19,6 +19,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 	public float dbThreshold;
 	public float humTime;
 	public float cooldownTime;
+    public bool inTrigger;
 
 	private float t = 0.0f;
 
@@ -46,7 +47,10 @@ public class GlowingPanelCollider : MonoBehaviour {
         activated = false;
 		charged = false;
 		humMode = false;
-		
+        inTrigger = false;
+
+        if (!GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
+            activated = true;
 	}
 	
 	// Update is called once per frame
@@ -57,10 +61,11 @@ public class GlowingPanelCollider : MonoBehaviour {
         if (Physics.Raycast(ray, out hit))
             if (hit.collider.tag == "WallScanner")
                 humMode = true;
-            if(hit.collider.tag != "WallScanner")
+            //if(hit.collider.tag != "WallScanner")
+            else
                 humMode = false;
 
-        if (humMode == true && activated == false && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+        if (humMode == true && activated == false && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedWelcomeVO == true && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
         {
             AkSoundEngine.PostEvent("EyeScan_Start", gameObject);
             humUI.fillAmount += Time.deltaTime / humTime;
@@ -111,8 +116,9 @@ public class GlowingPanelCollider : MonoBehaviour {
 //			float lerp = Mathf.PingPong(Time.time, duration) / duration;
 //			glowingPanelRenderer.material.Lerp (plainScreenMat, glowingScreenMat, lerp);
 			glowingPanelRenderer.material = glowingScreenMat;
+            inTrigger = true;
 
-            if(activated == false)
+            if(activated == false && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedWelcomeVO == true && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
             {
                 count = 0.0f;
                 humText.SetActive(true);
@@ -124,6 +130,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 	void OnTriggerExit(Collider other){
 		if (other.tag == "Player") {
 			glowingPanelRenderer.material = plainScreenMat;
+            inTrigger = false;
 
 			humText.SetActive(false);
 			humUI.fillAmount = 0.0f;

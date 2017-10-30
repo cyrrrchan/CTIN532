@@ -24,11 +24,13 @@ public class PylonCharger : MonoBehaviour {
     float count = 0.0f;
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
+    [SerializeField] GameObject star5;
 
-    private bool charged = false;
+    public bool charged = false;
     private bool humMode = false; //toggle humming UI on/off
     public bool inTrigger = false;
     private bool isSecondDarkRoom = false;
+    public bool isLastScene = false;
 
     void Start()
     {
@@ -40,6 +42,9 @@ public class PylonCharger : MonoBehaviour {
 
         if (scene.name == "DarkRoom2")
             isSecondDarkRoom = true;
+
+        if (scene.name == "WaitingRoom4")
+            isLastScene = true;
 
         humUI.fillAmount = 0.0f;
         humText.SetActive(false);
@@ -83,7 +88,7 @@ public class PylonCharger : MonoBehaviour {
                 charged = true;
             }
 
-            if (charged == true) 
+            if (charged == true && !isLastScene) 
             {
                 count += Time.deltaTime;
 
@@ -98,10 +103,46 @@ public class PylonCharger : MonoBehaviour {
                     SceneManager.LoadScene(levelName);
                 }
             }
+
+            if (charged == true && isLastScene) //if last scene play death VO and add last pentagram
+            {
+                star5.SetActive(true);
+                count += Time.deltaTime;
+
+                if (count >= duration)
+                {
+                    chargedText.SetActive(false);
+                    chargedUI.SetActive(false);
+                    count = 0.0f;
+                    t = 0.0f;
+                    humMode = false;
+                }
+            }
+        }
+
+        if (charged && isLastScene && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedPlayerDeathVO)
+        {
+            //StartCoroutine(FadeTo(1.0f, 1.0f)); //i tried to do a fade but idk how to change opacity of materials...
+            duration = 1.0f;
+            count += Time.deltaTime;
+
+            if (count >= duration)
+                SceneManager.LoadScene(levelName);
         }
     }
 
-    private void SecondDarkRoom ()
+    /*IEnumerator FadeTo(float aValue, float aTime)
+    {
+        float alpha = GameObject.Find("FadeCube").GetComponent<Material>().color.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+        {
+            Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
+            GameObject.Find("FadeCube").GetComponent<Material>().color = newColor;
+            yield return null;
+        }
+    }*/
+
+    private void SecondDarkRoom () //make sure both pylons are charged before loading level
     {
         if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
         {
@@ -158,11 +199,15 @@ public class PylonCharger : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-            inTrigger = true;
+        inTrigger = true;
+
+        if (!charged)
+        {
             count = 0.0f;
             humMode = true;
             humText.SetActive(true);
             humUI.fillAmount = meterFilled;
+        }
     }
 
     private void OnTriggerExit(Collider other) // turn off UI when outside of collider

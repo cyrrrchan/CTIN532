@@ -46,13 +46,13 @@ public class HumGlowChanger : MonoBehaviour {
 
 	void PylonLightGlow(){
 		//turn on pylon light
-		print ("material should glow");
+		//print ("material should glow");
 		glowingPylonRenderer.sharedMaterial.SetColor ("_EmissionColor", pylonEmissionColor);
 	}
 
 	void PylonLightDark(){
 		//turn off pylon light
-		print ("turn off glow");
+		//print ("turn off glow");
 		glowingPylonRenderer.sharedMaterial.SetColor ("_EmissionColor", noEmissionColor);
 	}
 }

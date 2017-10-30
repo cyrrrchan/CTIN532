@@ -40,7 +40,7 @@ public class LightingChanger : MonoBehaviour {
 		} else if (sceneName == "WaitingRoom3") {
 			LightsScary ();
 		} else if (sceneName == "WaitingRoom4") {
-			LightsOn ();
+			LightsOff ();
 		} else {
 			print ("this is a dark room");
 		}
@@ -56,7 +56,7 @@ public class LightingChanger : MonoBehaviour {
 //			if (Input.GetKeyDown (KeyCode.Alpha2))
 //			LightsOn ();
 
-        if (GameObject.Find("GameManager").GetComponent<AudioManager>().hasEndedDoorVO)
+        if (GameObject.Find("GameManager").GetComponent<AudioManager>().hasEndedDoorVO && !GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().isLastScene)
         {
             count += Time.deltaTime;
 
@@ -65,6 +65,12 @@ public class LightingChanger : MonoBehaviour {
                 LightsOff();
                 hasTurnedOff = true;
             }
+        }
+
+        if (GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().charged)
+        {
+            LightsOn();
+            hasTurnedOff = false;
         }
 
     }

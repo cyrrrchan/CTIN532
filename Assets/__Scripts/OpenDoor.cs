@@ -114,7 +114,7 @@ public class OpenDoor : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-		if(activated && !doorOpened)
+		if(activated && !doorOpened && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
         {
             inTrigger = true;
             count = 0.0f;

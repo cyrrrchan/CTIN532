@@ -25,7 +25,18 @@ namespace AK
         static const AkUniqueID POWEROUTAGE = 130561341U;
         static const AkUniqueID ROOM = 2077253480U;
         static const AkUniqueID SUCCESS = 3625060726U;
+        static const AkUniqueID VO_DOOROPEN = 1845371779U;
+        static const AkUniqueID VO_EYESCAN = 1113929969U;
+        static const AkUniqueID VO_HUMDOOR = 611404299U;
         static const AkUniqueID VO_HUMINTRO = 1011784067U;
+        static const AkUniqueID VO_NEWINSTRUCTIONS = 21641180U;
+        static const AkUniqueID VO_NEWINSTRUCTIONSOPT = 3073818423U;
+        static const AkUniqueID VO_PLAYERDEATH = 2295317522U;
+        static const AkUniqueID VO_POWEROUTAGE = 1911092507U;
+        static const AkUniqueID VO_WAITINGROOM1 = 2042003902U;
+        static const AkUniqueID VO_WAITINGROOM1_2 = 1210844845U;
+        static const AkUniqueID VO_WAITINGROOM2 = 2042003901U;
+        static const AkUniqueID VO_WAITINGROOM2_2 = 1210697786U;
         static const AkUniqueID VO_WELCOME = 3234679781U;
     } // namespace EVENTS
 
