@@ -27,17 +27,15 @@ public class AudioManager : MonoBehaviour {
 	void Start () {
 
         audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = welcomeVO;
-        audioSource.PlayOneShot(welcomeVO);
+        //audioSource.clip = welcomeVO;
+        //audioSource.PlayOneShot(welcomeVO);
+
+		object myCookie = new object ();
+		AkSoundEngine.PostEvent("VO_Welcome", gameObject, (uint)AkCallbackType.AK_EndOfEvent, MyCallbackFunction, myCookie);
     }
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (GameObject.Find ("Trigger").GetComponent<OpenDoor> ().inTrigger) {
-			print ("trigger working");
-		}
-
         if (Input.GetKeyDown(KeyCode.P))
             audioSource.Stop();
 
@@ -57,7 +55,6 @@ public class AudioManager : MonoBehaviour {
 
 			if (GameObject.Find("Trigger").GetComponent<OpenDoor>().inTrigger && !hasPlayedHumIntroVO2)
             {
-				print ("trigger working");
                 audioSource.PlayOneShot(humIntroVO2);
                 hasPlayedHumIntroVO2 = true;
             }
@@ -97,12 +94,12 @@ public class AudioManager : MonoBehaviour {
         }
     }
 
-	/*void MyCallbackFunction(object in_cookie, AkCallbackType in_type, object in_info) {
+	void MyCallbackFunction(object in_cookie, AkCallbackType in_type, object in_info) {
 
-		if (in_type == AK_EndOfEvent) {
+		if (in_type == AkCallbackType.AK_EndOfEvent) {
 			AkEventCallbackInfo info = (AkEventCallbackInfo)in_info; //Then do stuff.
             isListening = false;
 			//Debug.Log (isListening);
 		}
-	}*/
+	}
 }
