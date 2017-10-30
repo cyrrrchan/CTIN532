@@ -1,0 +1,69 @@
+Title Screen Started: : - Time: 10-30-2017 6:45:05 PM
+Title Screen Ended: : - Time: 10-30-2017 6:45:13 PM
+Volume: : 2.794469 - Time: 10-30-2017 6:45:14 PM
+Volume: : 0.3367323 - Time: 10-30-2017 6:45:26 PM
+Volume: : 2.660174 - Time: 10-30-2017 6:45:36 PM
+Volume: : 1.291664 - Time: 10-30-2017 6:45:46 PM
+Volume: : 9.628597 - Time: 10-30-2017 6:45:56 PM
+Volume: : 0.2671947 - Time: 10-30-2017 6:46:06 PM
+Volume: : 0.8978117 - Time: 10-30-2017 6:46:16 PM
+Volume: : 0.7404377 - Time: 10-30-2017 6:46:26 PM
+Volume: : 0.277779 - Time: 10-30-2017 6:46:36 PM
+First Door Started: : - Time: 10-30-2017 6:46:42 PM
+Volume: : 2.256824 - Time: 10-30-2017 6:46:46 PM
+First Door Ended: : - Time: 10-30-2017 6:46:48 PM
+Volume: : 0.1070256 - Time: 10-30-2017 6:46:56 PM
+Volume: : 0.3862088 - Time: 10-30-2017 6:47:06 PM
+Volume: : 0.2089552 - Time: 10-30-2017 6:47:16 PM
+Volume: : 0.4606411 - Time: 10-30-2017 6:47:26 PM
+Volume: : 0.5027615 - Time: 10-30-2017 6:47:36 PM
+Dark Room Door Started: : - Time: 10-30-2017 6:47:37 PM
+Dark Room Door Ended: : - Time: 10-30-2017 6:47:43 PM
+Volume: : 0.6634737 - Time: 10-30-2017 6:47:54 PM
+Volume: : 0.7627516 - Time: 10-30-2017 6:48:04 PM
+Volume: : 0.1708422 - Time: 10-30-2017 6:48:21 PM
+Volume: : 0.1947859 - Time: 10-30-2017 6:48:31 PM
+Volume: : 0.5836712 - Time: 10-30-2017 6:48:42 PM
+Volume: : 2.815236 - Time: 10-30-2017 6:48:52 PM
+Volume: : 1.017696 - Time: 10-30-2017 6:49:02 PM
+Dark Room Door Started: : - Time: 10-30-2017 6:49:03 PM
+Volume: : 1.605746 - Time: 10-30-2017 6:49:12 PM
+Dark Room Door Ended: : - Time: 10-30-2017 6:49:15 PM
+Volume: : 4.99777 - Time: 10-30-2017 6:49:26 PM
+Volume: : 1.151787 - Time: 10-30-2017 6:49:36 PM
+Volume: : 2.072098 - Time: 10-30-2017 6:49:46 PM
+Volume: : 1.999726 - Time: 10-30-2017 6:49:56 PM
+Volume: : 0.7776473 - Time: 10-30-2017 6:50:06 PM
+Volume: : 1.169577 - Time: 10-30-2017 6:50:16 PM
+Pylon Ended: : - Time: 10-30-2017 6:50:20 PM
+Volume: : 1.558922 - Time: 10-30-2017 6:50:26 PM
+Volume: : 0.2535903 - Time: 10-30-2017 6:50:36 PM
+Volume: : 0.2822476 - Time: 10-30-2017 6:50:46 PM
+Volume: : 3.70238 - Time: 10-30-2017 6:50:56 PM
+Volume: : 1.187318 - Time: 10-30-2017 6:51:06 PM
+Pylon Ended: : - Time: 10-30-2017 6:51:14 PM
+Volume: : 5.036364 - Time: 10-30-2017 6:51:25 PM
+Volume: : 1.28448 - Time: 10-30-2017 6:51:35 PM
+Volume: : 1.653406 - Time: 10-30-2017 6:51:45 PM
+Volume: : 1.904706 - Time: 10-30-2017 6:51:55 PM
+Volume: : 0.1354817 - Time: 10-30-2017 6:52:06 PM
+Volume: : 1.395899 - Time: 10-30-2017 6:52:16 PM
+Volume: : 0.6236546 - Time: 10-30-2017 6:52:26 PM
+Volume: : 0.5954202 - Time: 10-30-2017 6:52:36 PM
+Volume: : 3.911073 - Time: 10-30-2017 6:52:46 PM
+Volume: : 1.070174 - Time: 10-30-2017 6:52:56 PM
+Volume: : 0.3929223 - Time: 10-30-2017 6:53:06 PM
+Volume: : 4.054251 - Time: 10-30-2017 6:53:16 PM
+Volume: : 2.10836 - Time: 10-30-2017 6:53:26 PM
+Volume: : 1.86333 - Time: 10-30-2017 6:53:36 PM
+Volume: : 0.5064778 - Time: 10-30-2017 6:53:46 PM
+Volume: : 0.2283197 - Time: 10-30-2017 6:53:56 PM
+Volume: : 0.329658 - Time: 10-30-2017 6:54:06 PM
+Dark Room Door Started: : - Time: 10-30-2017 6:54:08 PM
+Volume: : 0.6574628 - Time: 10-30-2017 6:54:16 PM
+Volume: : 1.248767 - Time: 10-30-2017 6:54:26 PM
+Volume: : 0.4036327 - Time: 10-30-2017 6:54:36 PM
+Volume: : 0.6196201 - Time: 10-30-2017 6:54:46 PM
+Volume: : 1.176875 - Time: 10-30-2017 6:54:56 PM
+Volume: : 3.766097 - Time: 10-30-2017 6:55:06 PM
+Volume: : 0.7201909 - Time: 10-30-2017 6:55:16 PM

@@ -40,7 +40,7 @@ public class LightingChanger : MonoBehaviour {
 		} else if (sceneName == "WaitingRoom3") {
 			LightsScary ();
 		} else if (sceneName == "WaitingRoom4") {
-			LightsOff ();
+			LightsScary ();
 		} else {
 			print ("this is a dark room");
 		}
@@ -51,27 +51,45 @@ public class LightingChanger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		// Create a temporary reference to the current scene.
+		Scene currentScene = SceneManager.GetActiveScene ();
+
+		// Retrieve the name of this scene.
+		string sceneName = currentScene.name;
+//
 //		if (Input.GetKeyDown (KeyCode.Alpha1))
 //			LightsOff ();
 //			if (Input.GetKeyDown (KeyCode.Alpha2))
 //			LightsOn ();
 
-        if (GameObject.Find("GameManager").GetComponent<AudioManager>().hasEndedDoorVO && !GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().isLastScene)
-        {
-            count += Time.deltaTime;
 
-            if(count >= duration)
-            {
-                LightsOff();
-                hasTurnedOff = true;
-            }
-        }
+		if (sceneName == "Main") {
+			if (GameObject.Find("GameManager").GetComponent<AudioManager>().hasEndedDoorVO)
+			{
+				count += Time.deltaTime;
 
-        if (GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().charged)
-        {
-            LightsOn();
-            hasTurnedOff = false;
-        }
+				if(count >= duration)
+				{
+					LightsOff();
+					hasTurnedOff = true;
+				}
+			}
+			
+		}
+	
+
+		if (sceneName == "waitingRoom4") {
+			// Do something...
+
+
+			if (GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().charged)
+			{
+				LightsOn();
+				hasTurnedOff = false;
+			}
+		}
+
+        
 
     }
 
@@ -96,6 +114,7 @@ public class LightingChanger : MonoBehaviour {
 	}
 
 	public void LightsOff(){
+		print ("lightsOff");
 		GameObject[] allLights = GameObject.FindGameObjectsWithTag ("light");
 		foreach (GameObject i in allLights) {
 			i.GetComponent<Light> ().intensity = .1f;
