@@ -8,12 +8,17 @@ public class LightingChanger : MonoBehaviour {
 	public Color startingEmission;
 	public Color lightsOutEmission;
 	public Color scaryLightsEmission;
+	public Color accessGrantedEmissionColor;
+	public Color accessDeniedEmissionColor;
+	public Color accessDeniedNoEmission;
 	[SerializeField] Color normalLightColor;
 	[SerializeField] Color lightsOutColor;
 	[SerializeField] Color scaryLightsColor;
 	public Material glowingTubeMat;
     public bool hasTurnedOff = false;
 	[SerializeField] Renderer lightTubeRenderer;
+	[SerializeField] Renderer glowingScreenRenderer;
+	[SerializeField] Renderer glowingScreenAccessRenderer;
 	//[SerializeField] Color testmatColor;
 
     float count = 0.0f;
@@ -29,7 +34,10 @@ public class LightingChanger : MonoBehaviour {
 		string sceneName = currentScene.name;
 
 		Debug.Assert (lightTubeRenderer);
+		Debug.Assert (glowingScreenRenderer);
+		Debug.Assert (glowingScreenAccessRenderer);
 		lightTubeRenderer.sharedMaterial.EnableKeyword ("_Emission");
+
 
 		//set lighting dependent on which scene we are in
 		if (sceneName == "Main") {
@@ -94,11 +102,14 @@ public class LightingChanger : MonoBehaviour {
     }
 
 	public void LightsOn(){
+		print ("lights on");
 		GameObject[] allLights = GameObject.FindGameObjectsWithTag ("light");
 		foreach (GameObject i in allLights) {
 			i.GetComponent<Light> ().intensity = .5f;
 			//lightTubeRenderer.sharedMaterial.SetColor ("_Emission", startingEmission);
 			lightTubeRenderer.sharedMaterial.SetColor ("_EmissionColor", startingEmission);
+			glowingScreenRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedEmissionColor);
+			glowingScreenAccessRenderer.sharedMaterial.SetColor ("_EmissionColor", accessGrantedEmissionColor);
 
 			//lightTubeRenderer.sharedMaterial.SetColor ("_Emission", startingEmission);
 			i.GetComponent<Light> ().color = normalLightColor;
@@ -123,6 +134,8 @@ public class LightingChanger : MonoBehaviour {
 			//lightTubeRenderer.SetColor ("_EmissionColor", lightsOutEmission);
 			//lightTubeRenderer.sharedMaterial.color = testmatColor;
 			i.GetComponent<Light> ().color = lightsOutColor;
+			glowingScreenRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
+			glowingScreenAccessRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
 		}
 
 
@@ -144,6 +157,8 @@ public class LightingChanger : MonoBehaviour {
 			//lightTubeRenderer.SetColor ("_EmissionColor", lightsOutEmission);
 			//lightTubeRenderer.sharedMaterial.color = testmatColor;
 			i.GetComponent<Light> ().color = scaryLightsColor;
+			glowingScreenRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
+			glowingScreenAccessRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
 		}
 	}
 }
