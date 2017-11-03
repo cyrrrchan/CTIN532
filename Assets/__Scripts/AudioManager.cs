@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
 
+    public string levelName;
     public bool isListening;
 
     public bool isStartingScene; //bools for starting scene
@@ -64,13 +65,15 @@ public class AudioManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P)) //skip to next scene
+            SceneManager.LoadScene(levelName);
+        //AkSoundEngine.PostEvent("VO_Stop", gameObject);
 
         //if(audioSource.isPlaying)
-            //isListening = true;
+        //isListening = true;
 
         //if (!audioSource.isPlaying)
-            //isListening = false;
+        //isListening = false;
 
         if (isListening == false)
         {
@@ -155,8 +158,15 @@ public class AudioManager : MonoBehaviour {
                 object myCookie = new object();
                 isListening = true;
                 AkSoundEngine.PostEvent("VO_WaitingRoom1", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
-                hasPlayedWaitingRoom2VO = true;
-                //need to add thumping and 2nd VO line
+            }
+
+            if (hasPlayedWaitingRoom2VO && !hasPlayedWaitingRoom2VO2)
+            {
+                object myCookie = new object();
+                isListening = true;
+                AkSoundEngine.PostEvent("VO_WaitingRoom1_2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
+                AkSoundEngine.PostEvent("WR1_Thumping", gameObject);
+                hasPlayedWaitingRoom2VO2 = true;
             }
 
             if(sceneName == "WaitingRoom3" && !hasPlayedWaitingRoom3VO) //after Dark Room 2
@@ -164,20 +174,14 @@ public class AudioManager : MonoBehaviour {
                 object myCookie = new object();
                 isListening = true;
                 AkSoundEngine.PostEvent("VO_WaitingRoom2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
-                hasPlayedWaitingRoom3VO = true;
+            }
 
-                //need to add loud crash 
-
-                duration = 2.0f; //delay for now
-                count += Time.deltaTime;
-
-                if (count >= duration)
-                {
-                    isListening = true;
-                    AkSoundEngine.PostEvent("VO_WaitingRoom2_2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
-                    hasPlayedWaitingRoom3VO2 = true;
-                    count = 0.0f;
-                }
+            if(hasPlayedWaitingRoom3VO && !hasPlayedWaitingRoom3VO2)
+            {
+                object myCookie = new object();
+                isListening = true;
+                AkSoundEngine.PostEvent("VO_WaitingRoom2_2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
+                hasPlayedWaitingRoom3VO2 = true;
             }
 
             if(sceneName == "WaitingRoom4" && !hasPlayedPlayerDeathVO && GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().charged) //after Dark Room 3
@@ -196,7 +200,15 @@ public class AudioManager : MonoBehaviour {
 
 		if (in_type == AkCallbackType.AK_EndOfEvent) {
 			AkEventCallbackInfo info = (AkEventCallbackInfo)in_info; //Then do stuff.
-            hasPlayedWelcomeVO = true;
+            if (isStartingScene)
+                hasPlayedWelcomeVO = true;
+
+            if(sceneName == "WaitingRoom2")
+                hasPlayedWaitingRoom2VO = true;
+
+            if (sceneName == "WaitingRoom3")
+                hasPlayedWaitingRoom3VO = true;
+
             isListening = false;
 		}
 	}

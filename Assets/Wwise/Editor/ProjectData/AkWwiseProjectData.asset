@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{408076C9-3094-43A1-B3C8-8A5B72236B2A}'
-    m_lastTimePsrt1: -1233761313
-    m_lastTimePart2: -1999298726
+    m_lastTimePsrt1: 1154702007
+    m_lastTimePart2: -1999297912
     List:
     - Name: Charging
       Path: Default Work Unit\Charging
@@ -219,6 +219,16 @@ MonoBehaviour:
       ID: 1911092507
       Guid: b45eb40fe3e858408fe40d3b04b2b576
       maxAttenuation: 0
+    - Name: VO_Stop
+      Path: Default Work Unit\VO_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_Stop
+        ObjectType: 3
+      ID: -810613693
+      Guid: 5a2d1ad671b9524a9bb9af090e0e1fcb
+      maxAttenuation: 0
     - Name: VO_WaitingRoom1
       Path: Default Work Unit\VO_WaitingRoom1
       PathAndIcons:
@@ -269,6 +279,46 @@ MonoBehaviour:
       ID: -1060287515
       Guid: ec0789923dc42e42bc3389dbc35295e9
       maxAttenuation: 0
+    - Name: VO_WR1_Thumping
+      Path: Default Work Unit\VO_WR1_Thumping
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_WR1_Thumping
+        ObjectType: 3
+      ID: 2056819290
+      Guid: c8b69739c779094d8ab2131991b81a9e
+      maxAttenuation: 0
+    - Name: VO_WR2_Crash
+      Path: Default Work Unit\VO_WR2_Crash
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_WR2_Crash
+        ObjectType: 3
+      ID: -2085623894
+      Guid: 67f81a42bb78344bbd1cff799ebcf1af
+      maxAttenuation: 0
+    - Name: WR1_Thumping
+      Path: Default Work Unit\WR1_Thumping
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WR1_Thumping
+        ObjectType: 3
+      ID: -182450280
+      Guid: 2d7be34511c74340bb8d145cd5fb058f
+      maxAttenuation: 0
+    - Name: WR2_Crash
+      Path: Default Work Unit\WR2_Crash
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WR2_Crash
+        ObjectType: 3
+      ID: 329035220
+      Guid: 104e90998294d44ba546fcc65e62c249
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -294,8 +344,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FF29D6AE-91C0-4B0C-9F1A-4860507E29E5}'
-    m_lastTimePsrt1: -673479342
-    m_lastTimePart2: -1999298726
+    m_lastTimePsrt1: 46218531
+    m_lastTimePart2: -1999297919
     List:
     - Name: Ambience
       Path: Default Work Unit\Ambience

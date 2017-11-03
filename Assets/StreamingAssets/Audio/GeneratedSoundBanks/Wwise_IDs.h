@@ -38,6 +38,10 @@ namespace AK
         static const AkUniqueID VO_WAITINGROOM2 = 2042003901U;
         static const AkUniqueID VO_WAITINGROOM2_2 = 1210697786U;
         static const AkUniqueID VO_WELCOME = 3234679781U;
+        static const AkUniqueID VO_WR1_THUMPING = 2056819290U;
+        static const AkUniqueID VO_WR2_CRASH = 2209343402U;
+        static const AkUniqueID WR1_THUMPING = 4112517016U;
+        static const AkUniqueID WR2_CRASH = 329035220U;
     } // namespace EVENTS
 
     namespace BANKS

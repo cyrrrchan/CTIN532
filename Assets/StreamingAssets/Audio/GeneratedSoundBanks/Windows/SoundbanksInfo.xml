@@ -38,28 +38,38 @@
 			<ShortName>VOs</ShortName>
 			<Path>VOs.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1845371779" Name="VO_DoorOpen" ObjectPath="\Events\Default Work Unit\VO_DoorOpen"/>
-				<Event Id="1113929969" Name="VO_EyeScan" ObjectPath="\Events\Default Work Unit\VO_EyeScan"/>
-				<Event Id="611404299" Name="VO_HumDoor" ObjectPath="\Events\Default Work Unit\VO_HumDoor"/>
-				<Event Id="1011784067" Name="VO_HumIntro" ObjectPath="\Events\Default Work Unit\VO_HumIntro"/>
-				<Event Id="21641180" Name="VO_NewInstructions" ObjectPath="\Events\Default Work Unit\VO_NewInstructions"/>
-				<Event Id="3073818423" Name="VO_NewInstructionsOpt" ObjectPath="\Events\Default Work Unit\VO_NewInstructionsOpt"/>
-				<Event Id="2295317522" Name="VO_PlayerDeath" ObjectPath="\Events\Default Work Unit\VO_PlayerDeath"/>
-				<Event Id="1911092507" Name="VO_PowerOutage" ObjectPath="\Events\Default Work Unit\VO_PowerOutage"/>
-				<Event Id="2042003902" Name="VO_WaitingRoom1" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1"/>
-				<Event Id="1210844845" Name="VO_WaitingRoom1_2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1_2"/>
-				<Event Id="2042003901" Name="VO_WaitingRoom2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom2"/>
-				<Event Id="1210697786" Name="VO_WaitingRoom2_2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom2_2"/>
-				<Event Id="3234679781" Name="VO_Welcome" ObjectPath="\Events\Default Work Unit\VO_Welcome"/>
+				<Event Id="1845371779" Name="VO_DoorOpen" ObjectPath="\Events\Default Work Unit\VO_DoorOpen" MaxAttenuation="30.000000"/>
+				<Event Id="1113929969" Name="VO_EyeScan" ObjectPath="\Events\Default Work Unit\VO_EyeScan" MaxAttenuation="30.000000"/>
+				<Event Id="611404299" Name="VO_HumDoor" ObjectPath="\Events\Default Work Unit\VO_HumDoor" MaxAttenuation="30.000000"/>
+				<Event Id="1011784067" Name="VO_HumIntro" ObjectPath="\Events\Default Work Unit\VO_HumIntro" MaxAttenuation="30.000000"/>
+				<Event Id="21641180" Name="VO_NewInstructions" ObjectPath="\Events\Default Work Unit\VO_NewInstructions" MaxAttenuation="30.000000"/>
+				<Event Id="3073818423" Name="VO_NewInstructionsOpt" ObjectPath="\Events\Default Work Unit\VO_NewInstructionsOpt" MaxAttenuation="30.000000"/>
+				<Event Id="2295317522" Name="VO_PlayerDeath" ObjectPath="\Events\Default Work Unit\VO_PlayerDeath" MaxAttenuation="30.000000"/>
+				<Event Id="1911092507" Name="VO_PowerOutage" ObjectPath="\Events\Default Work Unit\VO_PowerOutage" MaxAttenuation="30.000000"/>
+				<Event Id="2042003902" Name="VO_WaitingRoom1" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1" MaxAttenuation="30.000000"/>
+				<Event Id="1210844845" Name="VO_WaitingRoom1_2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1_2" MaxAttenuation="30.000000"/>
+				<Event Id="2042003901" Name="VO_WaitingRoom2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom2" MaxAttenuation="30.000000"/>
+				<Event Id="1210697786" Name="VO_WaitingRoom2_2" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom2_2" MaxAttenuation="30.000000"/>
+				<Event Id="3234679781" Name="VO_Welcome" ObjectPath="\Events\Default Work Unit\VO_Welcome" MaxAttenuation="30.000000"/>
+				<Event Id="2056819290" Name="VO_WR1_Thumping" ObjectPath="\Events\Default Work Unit\VO_WR1_Thumping" MaxAttenuation="30.000000"/>
+				<Event Id="2209343402" Name="VO_WR2_Crash" ObjectPath="\Events\Default Work Unit\VO_WR2_Crash" MaxAttenuation="30.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="166131356" Language="SFX">
 					<ShortName>VO_eyeScan.wav</ShortName>
 					<Path>SFX\VO_eyeScan_1C9C67B2.wem</Path>
 				</File>
+				<File Id="254508173" Language="SFX">
+					<ShortName>VO_LoudCrash.wav</ShortName>
+					<Path>SFX\VO_LoudCrash_1C9C67B2.wem</Path>
+				</File>
 				<File Id="357555149" Language="SFX">
 					<ShortName>VO_humIntro.wav</ShortName>
 					<Path>SFX\VO_humIntro_1C9C67B2.wem</Path>
+				</File>
+				<File Id="390536320" Language="SFX">
+					<ShortName>VO_Thumping.wav</ShortName>
+					<Path>SFX\VO_Thumping_1C9C67B2.wem</Path>
 				</File>
 				<File Id="421201915" Language="SFX">
 					<ShortName>VO_playerDeath.wav</ShortName>
@@ -71,7 +81,7 @@
 				</File>
 				<File Id="430579158" Language="SFX">
 					<ShortName>VO_welcomeIntro.wav</ShortName>
-					<Path>SFX\VO_welcomeIntro_40206339.wem</Path>
+					<Path>SFX\VO_welcomeIntro_FEF7B59C.wem</Path>
 				</File>
 				<File Id="533569097" Language="SFX">
 					<ShortName>VO_waitingRoom2.wav</ShortName>
@@ -133,11 +143,17 @@
 				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="130561341" Name="PowerOutage" ObjectPath="\Events\Default Work Unit\PowerOutage"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
+				<Event Id="4112517016" Name="WR1_Thumping" ObjectPath="\Events\Default Work Unit\WR1_Thumping"/>
+				<Event Id="329035220" Name="WR2_Crash" ObjectPath="\Events\Default Work Unit\WR2_Crash"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="75284863" Language="SFX">
 					<ShortName>eyeScan1.wav</ShortName>
 					<Path>SFX\eyeScan1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="304596066" Language="SFX">
+					<ShortName>Thumping (LPF).wav</ShortName>
+					<Path>SFX\Thumping (LPF)_1C9C67B2.wem</Path>
 				</File>
 				<File Id="337457353" Language="SFX">
 					<ShortName>powerOutage.wav</ShortName>
@@ -154,6 +170,10 @@
 				<File Id="906311439" Language="SFX">
 					<ShortName>RISE_100.wav</ShortName>
 					<Path>SFX\RISE_100_0A263776.wem</Path>
+				</File>
+				<File Id="955830675" Language="SFX">
+					<ShortName>Loud Crash (LPF).wav</ShortName>
+					<Path>SFX\Loud Crash (LPF)_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
