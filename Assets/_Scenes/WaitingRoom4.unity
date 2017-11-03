@@ -7187,6 +7187,12 @@ MonoBehaviour:
   lightTubeRenderer: {fileID: 1703672887}
   glowingScreenRenderer: {fileID: 2123635919}
   glowingScreenAccessRenderer: {fileID: 323515330}
+  glowingPanelBoxCollider: {fileID: 1125635812}
+  glowingPanelRenderer: {fileID: 1238638701}
+  glowingPanelTurnedOffMat: {fileID: 2100000, guid: 2043212fca1ab884caca991fd5de5224,
+    type: 2}
+  glowingPanelAdMaterial: {fileID: 2100000, guid: 3225d3b9328fa904b902ea5582e6c4ef,
+    type: 2}
 --- !u!1001 &707768675
 Prefab:
   m_ObjectHideFlags: 0
@@ -11024,7 +11030,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1125635811}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eead4c4f48000a479b3a6074fc92184, type: 3}
   m_Name: 
@@ -11032,7 +11038,11 @@ MonoBehaviour:
   glowingPanel: {fileID: 1238638700}
   plainScreenMat: {fileID: 2100000, guid: 2043212fca1ab884caca991fd5de5224, type: 2}
   glowingScreenMat: {fileID: 2100000, guid: 170eddd15dfb1e145aa79c3a1f569b04, type: 2}
+  glowingScreenCompleteMat: {fileID: 2100000, guid: 0b66a6d2ab638484cbce39fbef497f41,
+    type: 2}
+  glowingScreenAd: {fileID: 2100000, guid: 3225d3b9328fa904b902ea5582e6c4ef, type: 2}
   duration: 2
+  wallScannerTrigger: {fileID: 1125635812}
   humUI: {fileID: 878958617}
   humText: {fileID: 1245533387}
   chargedUI: {fileID: 1282485794}

@@ -9,7 +9,11 @@ public class GlowingPanelCollider : MonoBehaviour {
 	private Renderer glowingPanelRenderer;
 	[SerializeField] Material plainScreenMat;
 	[SerializeField] Material glowingScreenMat;
+	[SerializeField] Material glowingScreenCompleteMat;
+	[SerializeField] Material glowingScreenAd;
 	[SerializeField] float duration;
+
+	[SerializeField] BoxCollider wallScannerTrigger;
 
 	public Image humUI;
 	public GameObject humText;
@@ -37,7 +41,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 	void Start () {
 
 		glowingPanelRenderer = glowingPanel.GetComponent<Renderer> ();
-		glowingPanelRenderer.material = plainScreenMat;
+		//glowingPanelRenderer.material = glowingScreenAd;
 
 		humUI.fillAmount = 0.0f;
 		humText.SetActive(false);
@@ -73,6 +77,7 @@ public class GlowingPanelCollider : MonoBehaviour {
             if (humUI.fillAmount == 1.0f) // done charging
             {
                 AkSoundEngine.PostEvent("EyeScan_Done", gameObject);
+				glowingPanelRenderer.material = glowingScreenCompleteMat;
 
                 humText.SetActive(false);
                 humUI.fillAmount = 0.0f;
@@ -115,7 +120,12 @@ public class GlowingPanelCollider : MonoBehaviour {
 			//print ("trigger is working");
 //			float lerp = Mathf.PingPong(Time.time, duration) / duration;
 //			glowingPanelRenderer.material.Lerp (plainScreenMat, glowingScreenMat, lerp);
-			glowingPanelRenderer.material = glowingScreenMat;
+			if (activated == false) {
+				glowingPanelRenderer.material = glowingScreenMat;
+			} else {
+				glowingPanelRenderer.material = glowingScreenCompleteMat;
+			}
+
             inTrigger = true;
 
             if(activated == false && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedWelcomeVO == true && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
@@ -129,7 +139,8 @@ public class GlowingPanelCollider : MonoBehaviour {
 
 	void OnTriggerExit(Collider other){
 		if (other.tag == "Player") {
-			glowingPanelRenderer.material = plainScreenMat;
+			
+			glowingPanelRenderer.material = glowingScreenAd;
             inTrigger = false;
 
 			humText.SetActive(false);

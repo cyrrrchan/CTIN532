@@ -21,6 +21,14 @@ public class LightingChanger : MonoBehaviour {
 	[SerializeField] Renderer glowingScreenAccessRenderer;
 	//[SerializeField] Color testmatColor;
 
+	//accessing the screen collider to turn it off once power goes out
+	[SerializeField] BoxCollider glowingPanelBoxCollider;
+	[SerializeField] Renderer glowingPanelRenderer;
+	[SerializeField] Material glowingPanelTurnedOffMat;
+	[SerializeField] Material glowingPanelAdMaterial;
+	//[SerializeField] Material glowingPanelMaterial;
+
+
     float count = 0.0f;
     float duration = 1.75f; 
 
@@ -64,11 +72,11 @@ public class LightingChanger : MonoBehaviour {
 
 		// Retrieve the name of this scene.
 		string sceneName = currentScene.name;
-//
-//		if (Input.GetKeyDown (KeyCode.Alpha1))
-//			LightsOff ();
-//			if (Input.GetKeyDown (KeyCode.Alpha2))
-//			LightsOn ();
+
+		if (Input.GetKeyDown (KeyCode.Alpha1))
+			LightsOff ();
+			if (Input.GetKeyDown (KeyCode.Alpha2))
+			LightsOn ();
 
 
 		if (sceneName == "Main") {
@@ -113,6 +121,7 @@ public class LightingChanger : MonoBehaviour {
 
 			//lightTubeRenderer.sharedMaterial.SetColor ("_Emission", startingEmission);
 			i.GetComponent<Light> ().color = normalLightColor;
+			glowingPanelRenderer.material = glowingPanelAdMaterial;
 		}
 
 //		GameObject[] allTubes = GameObject.FindGameObjectsWithTag ("tube");
@@ -136,6 +145,8 @@ public class LightingChanger : MonoBehaviour {
 			i.GetComponent<Light> ().color = lightsOutColor;
 			glowingScreenRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
 			glowingScreenAccessRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
+			glowingPanelBoxCollider.enabled = false;
+			glowingPanelRenderer.material = glowingPanelTurnedOffMat;
 		}
 
 
@@ -159,6 +170,7 @@ public class LightingChanger : MonoBehaviour {
 			i.GetComponent<Light> ().color = scaryLightsColor;
 			glowingScreenRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
 			glowingScreenAccessRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
+			glowingPanelRenderer.material = glowingPanelTurnedOffMat;
 		}
 	}
 }
