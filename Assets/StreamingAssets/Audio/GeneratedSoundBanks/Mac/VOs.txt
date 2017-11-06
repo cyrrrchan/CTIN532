@@ -3,14 +3,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	611404299	VO_HumDoor			\Default Work Unit\VO_HumDoor	
 	1011784067	VO_HumIntro			\Default Work Unit\VO_HumIntro	
 	1113929969	VO_EyeScan			\Default Work Unit\VO_EyeScan	
-	1210697786	VO_WaitingRoom2_2			\Default Work Unit\VO_WaitingRoom2_2	
-	1210844845	VO_WaitingRoom1_2			\Default Work Unit\VO_WaitingRoom1_2	
 	1845371779	VO_DoorOpen			\Default Work Unit\VO_DoorOpen	
 	1911092507	VO_PowerOutage			\Default Work Unit\VO_PowerOutage	
 	2042003901	VO_WaitingRoom2			\Default Work Unit\VO_WaitingRoom2	
 	2042003902	VO_WaitingRoom1			\Default Work Unit\VO_WaitingRoom1	
-	2056819290	VO_WR1_Thumping			\Default Work Unit\VO_WR1_Thumping	
-	2209343402	VO_WR2_Crash			\Default Work Unit\VO_WR2_Crash	
 	2295317522	VO_PlayerDeath			\Default Work Unit\VO_PlayerDeath	
 	3073818423	VO_NewInstructionsOpt			\Default Work Unit\VO_NewInstructionsOpt	
 	3234679781	VO_Welcome			\Default Work Unit\VO_Welcome	
@@ -18,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	166131356	VO_eyeScan	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_eyeScan_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_welcomeSeq\VO_eyeScan		1493948
 	254508173	VO_LoudCrash	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_LoudCrash_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_LoudCrash		1071904
+	304596066	Thumping (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Thumping (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thumping (LPF)		796756
 	357555149	VO_humIntro1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_humIntro_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro1		3963708
 	390536320	VO_Thumping	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_Thumping_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Thumping		796756
 	421201915	VO_playerDeath	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_playerDeath_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_playerDeath		3540936
@@ -32,5 +29,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	742143421	VO_newInstructions	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_newInstructions_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructions		5556984
 	887095040	VO_powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_powerOutage		1200408
 	919316911	VO_newInstructionsOpt	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_newInstructionsOpt_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructionsOpt		958980
+	955830675	Loud Crash (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Loud Crash (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loud Crash (LPF)		1071904
 	973637631	VO_waitingRoom1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\VO_waitingRoom1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom1		7739032
 

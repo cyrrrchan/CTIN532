@@ -5751,7 +5751,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 544490872}
   m_LocalRotation: {x: -0, y: -0.3674894, z: 0, w: 0.9300277}
-  m_LocalPosition: {x: 1.5, y: -9.2, z: -5.5}
+  m_LocalPosition: {x: -0.83, y: -9.2, z: -0.7}
   m_LocalScale: {x: 23.391703, y: 35.39698, z: 24.336506}
   m_Children: []
   m_Father: {fileID: 298383588}
@@ -5775,7 +5775,7 @@ MonoBehaviour:
   chargedText: {fileID: 1120365079}
   levelName: Credits
   dbThreshold: 0.5
-  humTime: 3
+  humTime: 4
   cooldownTime: 6
   star5: {fileID: 1397113650}
   charged: 0
@@ -19262,7 +19262,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400016, guid: 0699876341a05bd45bde322f8698fd18, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2053016917}
-  m_LocalRotation: {x: -0.69018257, y: 0.3595308, z: 0.15377924, w: 0.60888237}
+  m_LocalRotation: {x: -0.6901825, y: 0.35953078, z: 0.15377922, w: 0.6088823}
   m_LocalPosition: {x: -22.299374, y: -0.003976822, z: -26.78226}
   m_LocalScale: {x: 0.01962517, y: 0.019625168, z: 0.019625176}
   m_Children: []

@@ -1142,7 +1142,7 @@ MonoBehaviour:
   instructionText: {fileID: 1277444397}
   levelName: Main
   dbThreshold: 0.5
-  humTime: 3
+  humTime: 2
   cooldownTime: 6
 --- !u!4 &1603555125
 Transform:

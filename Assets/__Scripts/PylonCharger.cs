@@ -18,6 +18,7 @@ public class PylonCharger : MonoBehaviour {
     public float humTime;
     public float cooldownTime;
 
+    private string sceneName;
     private float t = 0.0f;
 
     float db; // volume
@@ -34,16 +35,19 @@ public class PylonCharger : MonoBehaviour {
 
     void Start()
     {
+        Scene scene = SceneManager.GetActiveScene();
+        sceneName = scene.name;
+
+        MetricManagerScript._metricsInstance.LogTime(sceneName + " Started: ");
+
         if (audioInputObject == null)
             audioInputObject = GameObject.Find(Microphone.devices[0]);
         micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
 
-        Scene scene = SceneManager.GetActiveScene();
-
-        if (scene.name == "DarkRoom2")
+        if (sceneName == "DarkRoom2")
             isSecondDarkRoom = true;
 
-        if (scene.name == "WaitingRoom4")
+        else if (sceneName == "WaitingRoom4")
             isLastScene = true;
 
         humUI.fillAmount = 0.0f;
@@ -59,7 +63,7 @@ public class PylonCharger : MonoBehaviour {
         if (humMode == true && isSecondDarkRoom)
             SecondDarkRoom();
 
-        if (humMode == true && !isSecondDarkRoom)
+        else if (humMode == true && !isSecondDarkRoom)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
@@ -100,6 +104,7 @@ public class PylonCharger : MonoBehaviour {
                     t = 0.0f;
                     humMode = false;
                     charged = false;
+                    MetricManagerScript._metricsInstance.LogTime(sceneName + " Ended: ");
                     SceneManager.LoadScene(levelName);
                 }
             }
@@ -127,7 +132,9 @@ public class PylonCharger : MonoBehaviour {
             count += Time.deltaTime;
 
             if (count >= duration)
+            {
                 SceneManager.LoadScene(levelName);
+            }
         }
     }
 
@@ -169,7 +176,6 @@ public class PylonCharger : MonoBehaviour {
             chargedUI.SetActive(true);
 
             charged = true;
-            MetricManagerScript._metricsInstance.LogTime("Pylon Ended: ");
         }
 
         if (charged == true)
@@ -177,7 +183,7 @@ public class PylonCharger : MonoBehaviour {
             if (gameObject.name == "PylonTrigger2a")
                 GameObject.Find("GameManager").GetComponent<GameManager>().aPylonIsTriggered = true;
 
-            if (gameObject.name == "PylonTrigger2b")
+            else if (gameObject.name == "PylonTrigger2b")
                 GameObject.Find("GameManager").GetComponent<GameManager>().bPylonIsTriggered = true;
 
             count += Time.deltaTime;
@@ -192,7 +198,10 @@ public class PylonCharger : MonoBehaviour {
                 charged = false;
 
                 if(GameObject.Find("GameManager").GetComponent<GameManager>().aPylonIsTriggered && GameObject.Find("GameManager").GetComponent<GameManager>().bPylonIsTriggered)
+                {
+                    MetricManagerScript._metricsInstance.LogTime(sceneName + " Ended: ");
                     SceneManager.LoadScene(levelName);
+                }
             }
         }
     }

@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID CHARGING = 3828622232U;
         static const AkUniqueID CHARGING_PAUSE = 3111569007U;
         static const AkUniqueID CHARGING_STOP = 164228631U;
+        static const AkUniqueID DARKROOM_AMBIENCE = 1043616215U;
         static const AkUniqueID EYESCAN_DONE = 3794852078U;
         static const AkUniqueID EYESCAN_START = 964212030U;
         static const AkUniqueID EYESCAN_STOP = 2908058974U;
@@ -34,20 +35,15 @@ namespace AK
         static const AkUniqueID VO_PLAYERDEATH = 2295317522U;
         static const AkUniqueID VO_POWEROUTAGE = 1911092507U;
         static const AkUniqueID VO_WAITINGROOM1 = 2042003902U;
-        static const AkUniqueID VO_WAITINGROOM1_2 = 1210844845U;
         static const AkUniqueID VO_WAITINGROOM2 = 2042003901U;
-        static const AkUniqueID VO_WAITINGROOM2_2 = 1210697786U;
         static const AkUniqueID VO_WELCOME = 3234679781U;
-        static const AkUniqueID VO_WR1_THUMPING = 2056819290U;
-        static const AkUniqueID VO_WR2_CRASH = 2209343402U;
-        static const AkUniqueID WR1_THUMPING = 4112517016U;
-        static const AkUniqueID WR2_CRASH = 329035220U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID AMBIENCE_DR = 262163562U;
         static const AkUniqueID EFFECTS = 1942696649U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID VOS = 543694047U;

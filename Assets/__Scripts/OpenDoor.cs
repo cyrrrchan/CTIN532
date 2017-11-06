@@ -50,11 +50,6 @@ public class OpenDoor : MonoBehaviour {
     {
         db = micIn.loudness; //set db to be volume from player input
 
-        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
-            activated = true;
-        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
-            activated = false;
-
 		if (humMode == true && activated == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
@@ -114,7 +109,12 @@ public class OpenDoor : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-		if(activated && !doorOpened && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
+        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
+            activated = true;
+        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
+            activated = false;
+
+        if (activated && !doorOpened && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
         {
             inTrigger = true;
             count = 0.0f;

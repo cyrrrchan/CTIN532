@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1043616215	DarkRoom_Ambience			\Default Work Unit\DarkRoom_Ambience	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	492245548	Dark Atmosphere	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Dark Atmosphere_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dark Atmosphere		27345196
+

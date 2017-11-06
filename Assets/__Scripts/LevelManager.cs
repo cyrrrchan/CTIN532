@@ -8,9 +8,6 @@ public class LevelManager : MonoBehaviour {
 
     public static LevelManager levelManagerInstance = null;
 
-    //public Image black;
-    //public Animator anim;
-
     public GameObject door;
     public GameObject audioInputObject; //microphoneInput object
     MicrophoneInput micIn;
@@ -34,12 +31,11 @@ public class LevelManager : MonoBehaviour {
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
 
-    private bool activated = false; //check if eye scanner is activated
     private bool charged = false;
     private bool humMode = false; //toggle humming UI on/off
     public bool doorOpened = false;
     public bool inTrigger = false;
-    private bool firstTimeHumAttemptMetric = false;
+    //private bool firstTimeHumAttemptMetric = false;
 
     void Awake()
     {
@@ -70,20 +66,15 @@ public class LevelManager : MonoBehaviour {
     {
         db = micIn.loudness; //set db to be volume from player input
 
-        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
-            activated = true;
-        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
-            activated = false;
-
-        if (humMode == true && activated == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+        if (humMode == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
-                if (!firstTimeHumAttemptMetric)
+                /*if (!firstTimeHumAttemptMetric)
                 {
                     firstTimeHumAttemptMetric = true;
                     MetricManagerScript._metricsInstance.LogTime("Dark Room Door Started: ");
-                }
+                }*/
 
                 AkSoundEngine.PostEvent("Charging", gameObject);
 
@@ -108,7 +99,7 @@ public class LevelManager : MonoBehaviour {
                 chargedUI.SetActive(true);
 
                 charged = true;
-                MetricManagerScript._metricsInstance.LogTime("Dark Room Door Ended: ");
+                /*MetricManagerScript._metricsInstance.LogTime("Dark Room Door Ended: ");*/
             }
 
             if (charged == true && doorOpened == false) // open the door
@@ -141,7 +132,8 @@ public class LevelManager : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-        if (activated && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+
+        if (!doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
         {
             inTrigger = true;
             count = 0.0f;

@@ -18,10 +18,8 @@ public class AudioManager : MonoBehaviour {
     private bool hasPlayedNewInstructionsVO = false;
 
     private bool hasPlayedWaitingRoom2VO = false; //bools for after Dark Room 1
-    private bool hasPlayedWaitingRoom2VO2 = false;
 
     private bool hasPlayedWaitingRoom3VO = false; //bools for after Dark Room 2
-    private bool hasPlayedWaitingRoom3VO2 = false;
 
     public bool hasPlayedPlayerDeathVO = false; //bools for after Dark Room 3
 
@@ -52,12 +50,10 @@ public class AudioManager : MonoBehaviour {
             if (sceneName == "WaitingRoom3" | sceneName == "WaitingRoom4") //set variables for after Dark Room 2
             {
                 hasPlayedWaitingRoom2VO = true;
-                hasPlayedWaitingRoom2VO2 = true;
 
                 if (sceneName == "WaitingRoom4") //set variables for after Dark Room 3
                 {
                     hasPlayedWaitingRoom3VO = true;
-                    hasPlayedWaitingRoom3VO2 = true;
                 }
             }
         }
@@ -160,28 +156,11 @@ public class AudioManager : MonoBehaviour {
                 AkSoundEngine.PostEvent("VO_WaitingRoom1", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
             }
 
-            if (hasPlayedWaitingRoom2VO && !hasPlayedWaitingRoom2VO2)
-            {
-                object myCookie = new object();
-                isListening = true;
-                AkSoundEngine.PostEvent("VO_WaitingRoom1_2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
-                AkSoundEngine.PostEvent("WR1_Thumping", gameObject);
-                hasPlayedWaitingRoom2VO2 = true;
-            }
-
             if(sceneName == "WaitingRoom3" && !hasPlayedWaitingRoom3VO) //after Dark Room 2
             {
                 object myCookie = new object();
                 isListening = true;
                 AkSoundEngine.PostEvent("VO_WaitingRoom2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
-            }
-
-            if(hasPlayedWaitingRoom3VO && !hasPlayedWaitingRoom3VO2)
-            {
-                object myCookie = new object();
-                isListening = true;
-                AkSoundEngine.PostEvent("VO_WaitingRoom2_2", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
-                hasPlayedWaitingRoom3VO2 = true;
             }
 
             if(sceneName == "WaitingRoom4" && !hasPlayedPlayerDeathVO && GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().charged) //after Dark Room 3
@@ -203,10 +182,10 @@ public class AudioManager : MonoBehaviour {
             if (isStartingScene)
                 hasPlayedWelcomeVO = true;
 
-            if(sceneName == "WaitingRoom2")
+            else if (sceneName == "WaitingRoom2")
                 hasPlayedWaitingRoom2VO = true;
 
-            if (sceneName == "WaitingRoom3")
+            else if (sceneName == "WaitingRoom3")
                 hasPlayedWaitingRoom3VO = true;
 
             isListening = false;

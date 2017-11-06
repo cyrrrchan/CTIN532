@@ -1,21 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
 	130561341	PowerOutage			\Default Work Unit\PowerOutage	
 	164228631	Charging_Stop			\Default Work Unit\Charging_Stop	
-	329035220	WR2_Crash			\Default Work Unit\WR2_Crash	
 	964212030	EyeScan_Start			\Default Work Unit\EyeScan_Start	
 	2908058974	EyeScan_Stop			\Default Work Unit\EyeScan_Stop	
 	3111569007	Charging_Pause			\Default Work Unit\Charging_Pause	
 	3625060726	Success			\Default Work Unit\Success	
 	3794852078	EyeScan_Done			\Default Work Unit\EyeScan_Done	
 	3828622232	Charging			\Default Work Unit\Charging	
-	4112517016	WR1_Thumping			\Default Work Unit\WR1_Thumping	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	75284863	eyeScan1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\eyeScan1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\eyeScan1		56432
-	304596066	Thumping (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Thumping (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thumping (LPF)		796756
 	337457353	powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\powerOutage		1045160
 	536370990	Success	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Success		354604
 	892572012	eyeScan0	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\eyeScan0_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\eyeScan0		720536
 	906311439	RISE_100	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\RISE_100_0A263776.wem		\Actor-Mixer Hierarchy\Default Work Unit\RISE_100		12215188
-	955830675	Loud Crash (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Loud Crash (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loud Crash (LPF)		1071904
 

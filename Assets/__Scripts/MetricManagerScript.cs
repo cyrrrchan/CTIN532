@@ -26,7 +26,7 @@ public class MetricManagerScript : MonoBehaviour {
 		time = time.Replace ("/", "-"); //Replace slashes with dashes, because Unity thinks they are directories..
 		time = time.Replace (" ", "_");
 		time = time.Replace (":", "-");
-		string reportFile = "ObsidianTech_Metrics_" + time + ".txt";
+		string reportFile = "Blackout_Metrics_" + time + ".txt";
         Debug.Log(reportFile);
 
 
