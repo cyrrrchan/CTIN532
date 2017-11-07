@@ -56,7 +56,7 @@ public class LightingChanger : MonoBehaviour {
 		} else if (sceneName == "WaitingRoom3") {
 			LightsScary ();
 		} else if (sceneName == "WaitingRoom4") {
-			LightsScary ();
+			LightsOn ();
 		} else {
 			print ("this is a dark room");
 		}
