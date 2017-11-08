@@ -27,9 +27,13 @@ public class PentagramAnimation : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetKeyDown (KeyCode.Z))
-			//iTween.FadeTo (finalPentagramLine, 255, 300f);
-			StartCoroutine("FinalPylonAnimation");
+			fadeInLastLine ();
+			//StartCoroutine("FinalPylonAnimation");
 		
+	}
+
+	public void fadeInLastLine(){
+		iTween.FadeTo (finalPentagramLine, 255, 300f);
 	}
 
 	IEnumerator FinalPylonAnimation(){
