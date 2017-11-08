@@ -158,7 +158,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1845371779
       Guid: 016bc05a2bf59d4980e87f613fe1981a
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_EyeScan
       Path: Default Work Unit/VO_EyeScan
       PathAndIcons:
@@ -168,7 +168,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1113929969
       Guid: f6fb71c0321b6546abc98879f9237bd0
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_HumDoor
       Path: Default Work Unit/VO_HumDoor
       PathAndIcons:
@@ -178,7 +178,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: 611404299
       Guid: 71a7a11a8cc54e4e982615850769ed95
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_HumIntro
       Path: Default Work Unit/VO_HumIntro
       PathAndIcons:
@@ -188,7 +188,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1011784067
       Guid: 50aea851ea33ca4aa500559eedb83285
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_NewInstructions
       Path: Default Work Unit/VO_NewInstructions
       PathAndIcons:
@@ -198,7 +198,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: 21641180
       Guid: 3b3079ea6ba65d4b8d78cf0bd83c0386
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_NewInstructionsOpt
       Path: Default Work Unit/VO_NewInstructionsOpt
       PathAndIcons:
@@ -208,7 +208,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1221148873
       Guid: b4d87f52cc738e4c84f12c43863ac7be
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_PlayerDeath
       Path: Default Work Unit/VO_PlayerDeath
       PathAndIcons:
@@ -218,7 +218,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1999649774
       Guid: 05b3296e541d894b9bc4cdd0dd8b6ad1
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_PowerOutage
       Path: Default Work Unit/VO_PowerOutage
       PathAndIcons:
@@ -228,7 +228,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1911092507
       Guid: b45eb40fe3e858408fe40d3b04b2b576
-      maxAttenuation: 0
+      maxAttenuation: 75
     - Name: VO_Stop
       Path: Default Work Unit/VO_Stop
       PathAndIcons:
@@ -268,7 +268,7 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1060287515
       Guid: ec0789923dc42e42bc3389dbc35295e9
-      maxAttenuation: 0
+      maxAttenuation: 75
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 

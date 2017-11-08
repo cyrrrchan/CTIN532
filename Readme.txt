@@ -14,6 +14,8 @@ Stock photos from Pexels:
 
 	https://www.pexels.com/photo/adolescent-attractive-	beautiful-beauty-413723/
 
+	https://www.pexels.com/photo/boy-field-grass-green-261501/
+
 
 Paintings from Wikimedia commons:
 	https://commons.wikimedia.org/wiki/File:Pierre-	Auguste_Renoir_-_Le_Pont_des_Arts_Paris.jpg
@@ -29,8 +31,21 @@ Paintings from Wikimedia commons:
 	https://upload.wikimedia.org/wikipedia/commons/6/63/Circe_In	vidiosa_-_John_William_Waterhouse.jpg
 
 	https://upload.wikimedia.org/wikipedia/commons/5/5e/Claude_M	onet%2C_The_Water_Lily_Pond%2C_c._1917-19%2C_frame_cropped%	2C_Google_Art_Project.jpg
+
+	https://upload.wikimedia.org/wikipedia/commons/9/97/Dante_Ga	briel_Rossetti_-_Proserpine_-_Google_Art_Project_%	28JQFW5c2ZLfpmbw%29.jpg
+
+	https://upload.wikimedia.org/wikipedia/commons/8/82/Francisc	o_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg
+
+	https://upload.wikimedia.org/wikipedia/commons/2/28/Ingres%	2C_Napoleon_on_his_Imperial_throne.jpg
 	
-	https://www.pexels.com/photo/boy-field-grass-green-261501/
+
+	https://upload.wikimedia.org/wikipedia/commons/e/e2/James_Ti	ssot_-_The_Farewell.jpg
+
+	https://upload.wikimedia.org/wikipedia/commons/5/50/James_Ti	ssot_-_A_Woman_of_Ambition.jpg
+
+
+
+
 
 
 
