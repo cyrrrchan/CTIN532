@@ -1,0 +1,23 @@
+Volume: : 0.1636029 - Time: 11-10-2017 7:41:58 AM
+Volume: : 0.5648146 - Time: 11-10-2017 7:42:08 AM
+Volume: : 3.819016 - Time: 11-10-2017 7:42:18 AM
+Volume: : 0.08716217 - Time: 11-10-2017 7:42:28 AM
+Volume: : 0.1033021 - Time: 11-10-2017 7:42:38 AM
+Volume: : 0.04546161 - Time: 11-10-2017 7:42:48 AM
+Volume: : 0.05643731 - Time: 11-10-2017 7:42:58 AM
+Volume: : 0.05251561 - Time: 11-10-2017 7:43:08 AM
+Volume: : 0.03722582 - Time: 11-10-2017 7:43:18 AM
+First Door Started: : - Time: 11-10-2017 7:43:27 AM
+Volume: : 15.09929 - Time: 11-10-2017 7:43:28 AM
+First Door Ended: : - Time: 11-10-2017 7:43:30 AM
+Volume: : 0.06602437 - Time: 11-10-2017 7:43:38 AM
+Volume: : 0.1148651 - Time: 11-10-2017 7:43:48 AM
+Volume: : 0.7258519 - Time: 11-10-2017 7:43:58 AM
+Volume: : 0.3572256 - Time: 11-10-2017 7:44:08 AM
+Volume: : 0.2066123 - Time: 11-10-2017 7:44:18 AM
+Volume: : 16.06109 - Time: 11-10-2017 7:44:28 AM
+DarkRoom1 Started: : - Time: 11-10-2017 7:44:30 AM
+Volume: : 1.009624 - Time: 11-10-2017 7:44:40 AM
+DarkRoom1 Ended: : - Time: 11-10-2017 7:44:40 AM
+Volume: : 0.06342697 - Time: 11-10-2017 7:44:51 AM
+Volume: : 5.544368 - Time: 11-10-2017 7:45:01 AM
