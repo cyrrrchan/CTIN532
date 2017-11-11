@@ -30,14 +30,28 @@ public class AudioManager : MonoBehaviour {
 
     public bool hasEndedDoorVO = false;
 
+	// Shame // // Shame //
+	StartDoor _Trigger0StartDoor;
+	GlowingPanelCollider _GlowingPanelGlowingPanelCollider;
+	OpenDoor _TriggerOpenDoor;
+	LightingChanger _LightingManagerLightingChanger;
+	GameManager _TriggerWR2GameManager;
+	GameManager _TriggerWR3GameManager;
+	PylonCharger _PylonTrigger4PylonCharger;
+	// Shame // // Shame //
+
 	// Use this for initialization
 	void Start () {
         Scene scene = SceneManager.GetActiveScene();
         sceneName = scene.name;
-        if (sceneName == "Main")
-            isStartingScene = true;
-
-        else if (sceneName != "Main") //set variables for after Dark Room 1
+		if (sceneName == "Main") {
+			_Trigger0StartDoor = GameObject.Find ("Trigger0").GetComponent<StartDoor> ();
+			_GlowingPanelGlowingPanelCollider = GameObject.Find ("GlowingPanel").GetComponent<GlowingPanelCollider> ();
+			_TriggerOpenDoor = GameObject.Find ("Trigger").GetComponent<OpenDoor> ();
+			_LightingManagerLightingChanger = GameObject.Find ("LightingManager").GetComponent<LightingChanger> ();
+			isStartingScene = true;
+		}
+        else //set variables for after Dark Room 1
         {
             hasPlayedWelcomeVO = true;
             hasPlayedEyeScanVO = true;
@@ -46,15 +60,18 @@ public class AudioManager : MonoBehaviour {
             hasPlayedDoorVO = true;
             hasPlayedPowerOutageVO = true;
             hasPlayedNewInstructionsVO = true;
-
-            if (sceneName == "WaitingRoom3" | sceneName == "WaitingRoom4") //set variables for after Dark Room 2
-            {
-                hasPlayedWaitingRoom2VO = true;
-
-                if (sceneName == "WaitingRoom4") //set variables for after Dark Room 3
-                {
-                    hasPlayedWaitingRoom3VO = true;
-                }
+			if (sceneName == "WaitingRoom2") {
+				_TriggerWR2GameManager = GameObject.Find ("TriggerWR2").GetComponent<GameManager> ();
+			}
+			else if (sceneName == "WaitingRoom3") {
+				hasPlayedWaitingRoom2VO = true;
+				_TriggerWR3GameManager = GameObject.Find ("TriggerWR3").GetComponent<GameManager> ();
+			}
+            else if (sceneName == "WaitingRoom4") //set variables for after Dark Room 3
+            {	
+				hasPlayedWaitingRoom2VO = true;
+                hasPlayedWaitingRoom3VO = true;
+				_PylonTrigger4PylonCharger = GameObject.Find ("PylonTrigger4").GetComponent<PylonCharger> ();
             }
         }
     }
@@ -104,16 +121,17 @@ public class AudioManager : MonoBehaviour {
 		}
 	}
 
+
     void WaitingRoom1()
     {
-        if (isStartingScene && !hasPlayedWelcomeVO && GameObject.Find("Trigger0").GetComponent<StartDoor>().stepThroughDoor) //play welcome VO
+		if (isStartingScene && !hasPlayedWelcomeVO && _Trigger0StartDoor.stepThroughDoor) //play welcome VO
         {
             object myCookie = new object();
             isListening = true;
             AkSoundEngine.PostEvent("VO_Welcome", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
         }
 
-        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().inTrigger && !hasPlayedEyeScanVO) //play VO while eye scan
+		if (_GlowingPanelGlowingPanelCollider.inTrigger && !hasPlayedEyeScanVO) //play VO while eye scan
         {
             object myCookie = new object();
             isListening = true;
@@ -121,7 +139,7 @@ public class AudioManager : MonoBehaviour {
             hasPlayedEyeScanVO = true;
         }
 
-        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated && !hasPlayedHumIntroVO) //play VO after finish eye scan
+		if (_GlowingPanelGlowingPanelCollider.activated && !hasPlayedHumIntroVO) //play VO after finish eye scan
         {
             //audioSource.PlayOneShot(humIntroVO);
             object myCookie = new object();
@@ -130,7 +148,7 @@ public class AudioManager : MonoBehaviour {
             hasPlayedHumIntroVO = true;
         }
 
-        if (GameObject.Find("Trigger").GetComponent<OpenDoor>().inTrigger && !hasPlayedHumIntroVO2) //play VO when in front of door
+		if (_TriggerOpenDoor.inTrigger && !hasPlayedHumIntroVO2) //play VO when in front of door
         {
             //audioSource.PlayOneShot(humIntroVO2);
             object myCookie = new object();
@@ -139,7 +157,7 @@ public class AudioManager : MonoBehaviour {
             hasPlayedHumIntroVO2 = true;
         }
 
-        if (GameObject.Find("Trigger").GetComponent<OpenDoor>().doorOpened && !hasPlayedDoorVO) //play VO after open door
+		if (_TriggerOpenDoor.doorOpened && !hasPlayedDoorVO) //play VO after open door
         {
             //audioSource.PlayOneShot(doorOpenVO);
             object myCookie = new object();
@@ -148,7 +166,7 @@ public class AudioManager : MonoBehaviour {
             hasPlayedDoorVO = true;
         }
 
-        if (GameObject.Find("LightingManager").GetComponent<LightingChanger>().hasTurnedOff && !hasPlayedPowerOutageVO) //play VO after lights turn off
+		if (_LightingManagerLightingChanger.hasTurnedOff && !hasPlayedPowerOutageVO) //play VO after lights turn off
         {
             count += Time.deltaTime;
 
@@ -183,9 +201,11 @@ public class AudioManager : MonoBehaviour {
         }
     }
 
+
+
     void WaitingRoom2()
     {
-        if (sceneName == "WaitingRoom2" && !hasPlayedWaitingRoom2VO && GameObject.Find("TriggerWR2").GetComponent<GameManager>().stepThroughDoor_WR2) //after Dark Room 1
+		if (sceneName == "WaitingRoom2" && !hasPlayedWaitingRoom2VO && _TriggerWR2GameManager.stepThroughDoor_WR2) //after Dark Room 1
         {
             object myCookie = new object();
             isListening = true;
@@ -195,7 +215,7 @@ public class AudioManager : MonoBehaviour {
 
     void WaitingRoom3()
     {
-        if (sceneName == "WaitingRoom3" && !hasPlayedWaitingRoom3VO && GameObject.Find("TriggerWR3").GetComponent<GameManager>().stepThroughDoor_WR3) //after Dark Room 2
+		if (sceneName == "WaitingRoom3" && !hasPlayedWaitingRoom3VO && _TriggerWR3GameManager.stepThroughDoor_WR3) //after Dark Room 2
         {
             object myCookie = new object();
             isListening = true;
@@ -205,7 +225,7 @@ public class AudioManager : MonoBehaviour {
 
     void WaitingRoom4()
     {
-        if (sceneName == "WaitingRoom4" && !hasPlayedPlayerDeathVO && GameObject.Find("PylonTrigger4").GetComponent<PylonCharger>().charged) //after Dark Room 3
+		if (sceneName == "WaitingRoom4" && !hasPlayedPlayerDeathVO &&  _PylonTrigger4PylonCharger.charged) //after Dark Room 3
         {
             object myCookie = new object();
             isListening = true;
