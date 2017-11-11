@@ -14,6 +14,8 @@ public class TrapRune : MonoBehaviour {
 
 	[SerializeField] GameObject evilParticles;
 
+	[SerializeField] MoveAgainstWill _moveAgainstWillScript;
+
 	private bool enteredPentagram = false;
 
 	//[SerializeField] Color trapRuneEmissionOffColor;
@@ -52,6 +54,7 @@ public class TrapRune : MonoBehaviour {
 		yield return new WaitForSeconds (2f);
 		//surround player with particles
 		evilParticles.SetActive (true);
+		_moveAgainstWillScript.TriggerMoveAgainstWill ();
 		yield return new WaitForSeconds (2f);
 		//fill in last star on the pentagram
 		pentagramAnimationScript.fadeInLastLine ();
