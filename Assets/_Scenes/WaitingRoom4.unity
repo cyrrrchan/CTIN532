@@ -5377,6 +5377,34 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: startDelay.maxCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: startDelay.maxCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: startDelay.maxCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: startDelay.minCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: startDelay.minCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19812866, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
+      propertyPath: startDelay.minCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e98c279586111a44a36697e55a54ddc, type: 2}
   m_IsPrefabParent: 0
@@ -18127,8 +18155,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 18.41, z: 10}
-  m_Center: {x: 0, y: 8.87, z: 0}
+  m_Size: {x: 3.5511596, y: 18.41, z: 5.1107244}
+  m_Center: {x: -7.38, y: 8.87, z: 0.17771097}
 --- !u!114 &1976402961
 MonoBehaviour:
   m_ObjectHideFlags: 0
