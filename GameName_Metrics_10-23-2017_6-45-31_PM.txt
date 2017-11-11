@@ -1,7 +1,0 @@
-Title Screen Started: : - Time: 10-23-2017 6:44:44 PM
-Title Screen Ended: : - Time: 10-23-2017 6:44:49 PM
-Volume: : 0.5648623 - Time: 10-23-2017 6:45:03 PM
-First Door Started: : - Time: 10-23-2017 6:45:12 PM
-Volume: : 1.759567 - Time: 10-23-2017 6:45:13 PM
-First Door Ended: : - Time: 10-23-2017 6:45:20 PM
-Volume: : 0.4436336 - Time: 10-23-2017 6:45:23 PM
