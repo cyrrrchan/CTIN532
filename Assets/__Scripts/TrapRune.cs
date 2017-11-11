@@ -51,10 +51,10 @@ public class TrapRune : MonoBehaviour {
 		trapRuneRenderer.material = trapRuneOnMaterial;
 		//turn off lights
 		lightingManagerScript.LightsOff ();
+		_moveAgainstWillScript.TriggerMoveAgainstWill ();
 		yield return new WaitForSeconds (2f);
 		//surround player with particles
 		evilParticles.SetActive (true);
-		_moveAgainstWillScript.TriggerMoveAgainstWill ();
 		yield return new WaitForSeconds (2f);
 		//fill in last star on the pentagram
 		pentagramAnimationScript.fadeInLastLine ();
