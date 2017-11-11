@@ -45,7 +45,7 @@ public class MoveAgainstWill : MonoBehaviour {
 		// is storing the position of the player upon trigger for use in a lerp later
 		_originPosition = transform.position;
 		// waiting for however many seconds
-		yield return new WaitForSeconds (2.0f);
+		yield return new WaitForSeconds (4.0f);
 		_cnt = 0.0f;
 		_isMovingAgainstWill = true;
 	}
