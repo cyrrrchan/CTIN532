@@ -30,8 +30,5 @@ public class GameManager : MonoBehaviour {
 
         else if (sceneName == "WaitingRoom3" && !stepThroughDoor_WR3)
             stepThroughDoor_WR3 = true;
-
-        Debug.Log(stepThroughDoor_WR2);
-        Debug.Log(stepThroughDoor_WR3);
     }
 }

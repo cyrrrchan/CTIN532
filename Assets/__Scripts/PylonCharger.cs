@@ -33,6 +33,11 @@ public class PylonCharger : MonoBehaviour {
     private bool isSecondDarkRoom = false;
     public bool isLastScene = false;
 
+    // Shame // Shame
+    GameManager _GameManagerPylonIsTriggered;
+    AudioManager _AudioManagerIsListening;
+
+
     void Start()
     {
         Scene scene = SceneManager.GetActiveScene();
@@ -40,15 +45,22 @@ public class PylonCharger : MonoBehaviour {
 
         MetricManagerScript._metricsInstance.LogTime(sceneName + " Started: ");
 
+        _AudioManagerIsListening = GameObject.Find("GameManager").GetComponent<AudioManager>();
+
         if (audioInputObject == null)
             audioInputObject = GameObject.Find(Microphone.devices[0]);
         micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
 
         if (sceneName == "DarkRoom2")
+        {
             isSecondDarkRoom = true;
+            _GameManagerPylonIsTriggered = GameObject.Find("GameManager").GetComponent<GameManager>();
+        }
 
         else if (sceneName == "WaitingRoom4")
+        {
             isLastScene = true;
+        }
 
         humUI.fillAmount = 0.0f;
         humText.SetActive(false);
@@ -125,9 +137,8 @@ public class PylonCharger : MonoBehaviour {
             }
         }
 
-        if (charged && isLastScene && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedPlayerDeathVO)
+        if (charged && isLastScene && !_AudioManagerIsListening.isListening && _AudioManagerIsListening.hasPlayedPlayerDeathVO)
         {
-            //StartCoroutine(FadeTo(1.0f, 1.0f)); //i tried to do a fade but idk how to change opacity of materials...
             duration = 1.0f;
             count += Time.deltaTime;
 
@@ -138,17 +149,6 @@ public class PylonCharger : MonoBehaviour {
             }
         }
     }
-
-    /*IEnumerator FadeTo(float aValue, float aTime)
-    {
-        float alpha = GameObject.Find("FadeCube").GetComponent<Material>().color.a;
-        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
-        {
-            Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
-            GameObject.Find("FadeCube").GetComponent<Material>().color = newColor;
-            yield return null;
-        }
-    }*/
 
     private void SecondDarkRoom () //make sure both pylons are charged before loading level
     {
@@ -182,10 +182,10 @@ public class PylonCharger : MonoBehaviour {
         if (charged == true)
         {
             if (gameObject.name == "PylonTrigger2a")
-                GameObject.Find("GameManager").GetComponent<GameManager>().aPylonIsTriggered = true;
+                _GameManagerPylonIsTriggered.aPylonIsTriggered = true;
 
             else if (gameObject.name == "PylonTrigger2b")
-                GameObject.Find("GameManager").GetComponent<GameManager>().bPylonIsTriggered = true;
+                _GameManagerPylonIsTriggered.bPylonIsTriggered = true;
 
             count += Time.deltaTime;
 
@@ -198,7 +198,7 @@ public class PylonCharger : MonoBehaviour {
                 humMode = false;
                 charged = false;
 
-                if(GameObject.Find("GameManager").GetComponent<GameManager>().aPylonIsTriggered && GameObject.Find("GameManager").GetComponent<GameManager>().bPylonIsTriggered)
+                if(_GameManagerPylonIsTriggered.aPylonIsTriggered && _GameManagerPylonIsTriggered.bPylonIsTriggered)
                 {
                     MetricManagerScript._metricsInstance.LogTime(sceneName + " Ended: ");
                     SceneManager.LoadScene(levelName);
@@ -211,7 +211,15 @@ public class PylonCharger : MonoBehaviour {
     {
         inTrigger = true;
 
-        if (!charged)
+        if (!charged && ((gameObject.name == "PylonTrigger2a" && !_GameManagerPylonIsTriggered.aPylonIsTriggered) || (gameObject.name == "PylonTrigger2b" && !_GameManagerPylonIsTriggered.bPylonIsTriggered)))
+        {
+            count = 0.0f;
+            humMode = true;
+            humText.SetActive(true);
+            humUI.fillAmount = meterFilled;
+        }
+
+        else if (!charged && gameObject.name != "PylonTrigger2b")
         {
             count = 0.0f;
             humMode = true;
