@@ -28,6 +28,11 @@ public class LightingChanger : MonoBehaviour {
 	[SerializeField] Material glowingPanelAdMaterial;
 	//[SerializeField] Material glowingPanelMaterial;
 
+	//the wall map
+	[SerializeField] Renderer wallMapRenderer;
+	[SerializeField] Material wallMapPowerOnMat;
+	[SerializeField] Material wallMapPowerOffMat;
+
 
     float count = 0.0f;
     float duration = 1.75f; 
@@ -51,6 +56,7 @@ public class LightingChanger : MonoBehaviour {
 		if (sceneName == "Main") {
 			// Do something...
 			LightsOn ();
+			wallMapRenderer.material = wallMapPowerOnMat;
 		} else if (sceneName == "WaitingRoom2") {
 			LightsOff ();
 		} else if (sceneName == "WaitingRoom3") {
@@ -147,6 +153,16 @@ public class LightingChanger : MonoBehaviour {
 			glowingScreenAccessRenderer.sharedMaterial.SetColor ("_EmissionColor", accessDeniedNoEmission);
 			glowingPanelBoxCollider.enabled = false;
 			glowingPanelRenderer.material = glowingPanelTurnedOffMat;
+
+			Scene currentScene = SceneManager.GetActiveScene ();
+			string sceneName = currentScene.name;
+
+			if (sceneName == "Main") {
+				wallMapRenderer.material = wallMapPowerOffMat;
+			}
+
+
+
 		}
 
 

@@ -133,7 +133,8 @@ public class PylonCharger : MonoBehaviour {
 
             if (count >= duration)
             {
-                SceneManager.LoadScene(levelName);
+                //here is where we should add a coroutine to fade in the pentagram
+				SceneManager.LoadScene(levelName);
             }
         }
     }
@@ -227,4 +228,11 @@ public class PylonCharger : MonoBehaviour {
 
         AkSoundEngine.PostEvent("Charging_Stop", gameObject);
     }
+
+	void IlluminateFloorPentagram(){
+		//I'm putting in this example script in comments to remember later
+		//iTween.FadeTo (finalPentagramLine, 255, 300f);
+		//wait
+		//load final scene
+	}
 }
