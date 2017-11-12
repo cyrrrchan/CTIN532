@@ -13,13 +13,19 @@ public class TrapRune : MonoBehaviour {
 	[SerializeField] Material trapRuneOnMaterial;
 
 	[SerializeField] GameObject evilParticles;
+	[SerializeField] GameObject killYouParticles;
 
 	[SerializeField] MoveAgainstWill _moveAgainstWillScript;
 
 	private bool enteredPentagram = false;
 
-	//[SerializeField] Color trapRuneEmissionOffColor;
-	//[SerializeField] Color trapRuneEmissionOnColor;
+
+	[SerializeField] GameObject floorPentagram;
+
+	//finding script for the fadeout method
+	public FadeOut fadeOutScript;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -27,12 +33,15 @@ public class TrapRune : MonoBehaviour {
 		//trapRuneRenderer.sharedMaterial.DisableKeyword ("_Emission");
 		trapRuneRenderer.material = trapRuneOffMaterial;
 		evilParticles.SetActive (false);
-		
+		killYouParticles.SetActive (false);
+		floorPentagram.SetActive (false);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//StartCoroutine ("PylonEndGameAnimation");
+//		if (Input.GetKeyDown (KeyCode.P))
+//			fadeOutScript.FadeMeIn ();
 	}
 
 	void OnTriggerEnter(Collider other){
@@ -56,12 +65,21 @@ public class TrapRune : MonoBehaviour {
 		//surround player with particles
 		evilParticles.SetActive (true);
 		yield return new WaitForSeconds (2f);
+		//turn on floor pentagram
+		floorPentagram.SetActive(true);
+		yield return new WaitForSeconds (10f);
+		//particles that appear as the pylon is charging
+		killYouParticles.SetActive(true);
+		yield return new WaitForSeconds (4f);
 		//fill in last star on the pentagram
 		pentagramAnimationScript.fadeInLastLine ();
+		yield return new WaitForSeconds (2f);
+		print ("fading");
+		fadeOutScript.FadeMeIn ();
 
-		//we still need to freeze player
+	
 		//sound effect for trap rune
-		//drag them towards pylon
+
 		//extra sound effects
 		//start VO
 		//fill charging UI element
