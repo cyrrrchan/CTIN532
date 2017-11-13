@@ -61,10 +61,12 @@ public class TrapRune : MonoBehaviour {
 		//turn off lights
 		lightingManagerScript.LightsOff ();
 		_moveAgainstWillScript.TriggerMoveAgainstWill ();
-		yield return new WaitForSeconds (2f);
+        AkSoundEngine.PostEvent("Dragging", gameObject);
+        yield return new WaitForSeconds (2f);
 		//surround player with particles
 		evilParticles.SetActive (true);
-		yield return new WaitForSeconds (2f);
+        AkSoundEngine.PostEvent("Ending", gameObject);
+        yield return new WaitForSeconds (2f);
 		//turn on floor pentagram
 		floorPentagram.SetActive(true);
 		yield return new WaitForSeconds (10f);

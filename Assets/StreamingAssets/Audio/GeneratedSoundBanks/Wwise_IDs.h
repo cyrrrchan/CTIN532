@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID CHARGING_PAUSE = 3111569007U;
         static const AkUniqueID CHARGING_STOP = 164228631U;
         static const AkUniqueID DARKROOM_AMBIENCE = 1043616215U;
+        static const AkUniqueID DRAGGING = 1751915814U;
+        static const AkUniqueID ENDING = 3966194980U;
         static const AkUniqueID EYESCAN_DONE = 3794852078U;
         static const AkUniqueID EYESCAN_START = 964212030U;
         static const AkUniqueID EYESCAN_STOP = 2908058974U;

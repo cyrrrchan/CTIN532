@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{408076C9-3094-43A1-B3C8-8A5B72236B2A}'
-    m_lastTimePsrt1: 641511913
-    m_lastTimePart2: -1999297294
+    m_lastTimePsrt1: 1186931867
+    m_lastTimePart2: -1999295961
     List:
     - Name: Charging
       Path: Default Work Unit\Charging
@@ -58,6 +58,26 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1043616215
       Guid: 8fceb31559d4b3478f0cf4961f047cf0
+      maxAttenuation: 0
+    - Name: Dragging
+      Path: Default Work Unit\Dragging
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dragging
+        ObjectType: 3
+      ID: 1751915814
+      Guid: 4859cde131776b4da496bcf171104238
+      maxAttenuation: 0
+    - Name: Ending
+      Path: Default Work Unit\Ending
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ending
+        ObjectType: 3
+      ID: -328772316
+      Guid: 3bf511d19a909d4a87e7041e72946c2a
       maxAttenuation: 0
     - Name: EyeScan_Done
       Path: Default Work Unit\EyeScan_Done
@@ -294,8 +314,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FF29D6AE-91C0-4B0C-9F1A-4860507E29E5}'
-    m_lastTimePsrt1: -264792683
-    m_lastTimePart2: -1999297297
+    m_lastTimePsrt1: -2059954294
+    m_lastTimePart2: -1999295962
     List:
     - Name: Ambience
       Path: Default Work Unit\Ambience
