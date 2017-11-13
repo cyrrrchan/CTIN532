@@ -17,6 +17,7 @@ public class LightingChanger : MonoBehaviour {
 	public Material glowingTubeMat;
     public bool hasTurnedOff = false;
 	[SerializeField] Renderer lightTubeRenderer;
+	//[SerializeField] Renderer blinkingLightRenderer;
 	[SerializeField] Renderer glowingScreenRenderer;
 	[SerializeField] Renderer glowingScreenAccessRenderer;
 	//[SerializeField] Color testmatColor;
