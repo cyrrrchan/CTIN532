@@ -35,7 +35,10 @@ public class LightingChanger : MonoBehaviour {
 
 
     float count = 0.0f;
-    float duration = 1.75f; 
+    float duration = 1.75f;
+
+    // Shame // Shame
+    AudioManager _AudioManagerHasEndedDoorVO;
 
     // Use this for initialization
     void Start () {
@@ -51,9 +54,10 @@ public class LightingChanger : MonoBehaviour {
 		Debug.Assert (glowingScreenAccessRenderer);
 		lightTubeRenderer.sharedMaterial.EnableKeyword ("_Emission");
 
+        _AudioManagerHasEndedDoorVO = GameObject.Find("GameManager").GetComponent<AudioManager>();
 
-		//set lighting dependent on which scene we are in
-		if (sceneName == "Main") {
+        //set lighting dependent on which scene we are in
+        if (sceneName == "Main") {
 			// Do something...
 			LightsOn ();
 			wallMapRenderer.material = wallMapPowerOnMat;
@@ -86,7 +90,7 @@ public class LightingChanger : MonoBehaviour {
 
 
 		if (sceneName == "Main") {
-			if (GameObject.Find("GameManager").GetComponent<AudioManager>().hasEndedDoorVO)
+			if (_AudioManagerHasEndedDoorVO.hasEndedDoorVO)
 			{
 				count += Time.deltaTime;
 
@@ -100,7 +104,7 @@ public class LightingChanger : MonoBehaviour {
 		}
 	
 
-		if (sceneName == "waitingRoom4") {
+		/*if (sceneName == "waitingRoom4") {
 			// Do something...
 
 
@@ -109,7 +113,7 @@ public class LightingChanger : MonoBehaviour {
 				LightsOn();
 				hasTurnedOff = false;
 			}
-		}
+		}*/
 
         
 

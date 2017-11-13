@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{408076C9-3094-43A1-B3C8-8A5B72236B2A}'
-    m_lastTimePsrt1: 1186931867
-    m_lastTimePart2: -1999295961
+    m_lastTimePsrt1: 303995683
+    m_lastTimePart2: -1999295956
     List:
     - Name: Charging
       Path: Default Work Unit\Charging
@@ -148,6 +148,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: 130561341
       Guid: 71e1de2c6712d44585a8058b0d539e26
+      maxAttenuation: 0
+    - Name: PowerOutageEnd
+      Path: Default Work Unit\PowerOutageEnd
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PowerOutageEnd
+        ObjectType: 3
+      ID: 1150325660
+      Guid: 58c794b0f40db8449ebb0dc219df4675
       maxAttenuation: 0
     - Name: Room
       Path: Default Work Unit\Room
@@ -314,8 +324,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FF29D6AE-91C0-4B0C-9F1A-4860507E29E5}'
-    m_lastTimePsrt1: -2059954294
-    m_lastTimePart2: -1999295962
+    m_lastTimePsrt1: 304074443
+    m_lastTimePart2: -1999295956
     List:
     - Name: Ambience
       Path: Default Work Unit\Ambience

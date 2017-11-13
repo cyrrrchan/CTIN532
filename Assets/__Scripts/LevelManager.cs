@@ -37,6 +37,8 @@ public class LevelManager : MonoBehaviour {
     public bool inTrigger = false;
     //private bool firstTimeHumAttemptMetric = false;
 
+    AudioManager _AudioManagerIsListening;
+
     void Awake()
     {
         if (levelManagerInstance == null)
@@ -56,6 +58,8 @@ public class LevelManager : MonoBehaviour {
             audioInputObject = GameObject.Find(Microphone.devices[0]);
         micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
 
+        _AudioManagerIsListening = GameObject.Find("GameManager").GetComponent<AudioManager>();
+
         humUI.fillAmount = 0.0f;
         humText.SetActive(false);
         chargedUI.SetActive(false);
@@ -66,7 +70,7 @@ public class LevelManager : MonoBehaviour {
     {
         db = micIn.loudness; //set db to be volume from player input
 
-        if (humMode == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+        if (humMode == true && !doorOpened && !_AudioManagerIsListening.isListening)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
@@ -133,7 +137,7 @@ public class LevelManager : MonoBehaviour {
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
 
-        if (!doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+        if (!doorOpened && !_AudioManagerIsListening.isListening && _AudioManagerIsListening._hasGoneToWR)
         {
             inTrigger = true;
             count = 0.0f;

@@ -1,0 +1,40 @@
+Title Screen Started: : - Time: 11-13-2017 1:22:36 AM
+Title Screen Ended: : - Time: 11-13-2017 1:22:38 AM
+Volume: : 0.04518957 - Time: 11-13-2017 1:22:51 AM
+Volume: : 0.01713568 - Time: 11-13-2017 1:23:01 AM
+Volume: : 0.04761491 - Time: 11-13-2017 1:23:11 AM
+Volume: : 0.07836451 - Time: 11-13-2017 1:23:21 AM
+Volume: : 0.04982047 - Time: 11-13-2017 1:23:31 AM
+Volume: : 0.1091344 - Time: 11-13-2017 1:23:41 AM
+Volume: : 0.04377593 - Time: 11-13-2017 1:23:51 AM
+First Door Started: : - Time: 11-13-2017 1:23:54 AM
+First Door Ended: : - Time: 11-13-2017 1:23:58 AM
+Volume: : 0.05302794 - Time: 11-13-2017 1:24:01 AM
+Volume: : 0.03303967 - Time: 11-13-2017 1:24:11 AM
+Volume: : 0.04221437 - Time: 11-13-2017 1:24:21 AM
+Volume: : 0.04433117 - Time: 11-13-2017 1:24:31 AM
+Volume: : 0.5922459 - Time: 11-13-2017 1:24:41 AM
+Volume: : 5.199805 - Time: 11-13-2017 1:24:51 AM
+DarkRoom1 Started: : - Time: 11-13-2017 1:24:54 AM
+DarkRoom1 Ended: : - Time: 11-13-2017 1:25:02 AM
+Volume: : 0.1150866 - Time: 11-13-2017 1:25:13 AM
+Volume: : 0.0404286 - Time: 11-13-2017 1:25:23 AM
+Volume: : 0.05722974 - Time: 11-13-2017 1:25:33 AM
+Volume: : 0.03721911 - Time: 11-13-2017 1:25:43 AM
+Volume: : 0.03916426 - Time: 11-13-2017 1:25:53 AM
+DarkRoom2 Started: : - Time: 11-13-2017 1:26:03 AM
+DarkRoom2 Started: : - Time: 11-13-2017 1:26:03 AM
+Volume: : 7.280285 - Time: 11-13-2017 1:26:13 AM
+Volume: : 3.509268 - Time: 11-13-2017 1:26:23 AM
+DarkRoom2 Ended: : - Time: 11-13-2017 1:26:24 AM
+Volume: : 0.1362628 - Time: 11-13-2017 1:26:35 AM
+Volume: : 0.09689353 - Time: 11-13-2017 1:26:45 AM
+Volume: : 0.03963808 - Time: 11-13-2017 1:26:55 AM
+DarkRoom3 Started: : - Time: 11-13-2017 1:27:04 AM
+Volume: : 0.700323 - Time: 11-13-2017 1:27:14 AM
+DarkRoom3 Ended: : - Time: 11-13-2017 1:27:17 AM
+WaitingRoom4 Started: : - Time: 11-13-2017 1:27:18 AM
+Volume: : 4.881662 - Time: 11-13-2017 1:27:28 AM
+Volume: : 0.09707367 - Time: 11-13-2017 1:27:38 AM
+Volume: : 0.06805378 - Time: 11-13-2017 1:27:48 AM
+Volume: : 0.0375276 - Time: 11-13-2017 1:27:58 AM

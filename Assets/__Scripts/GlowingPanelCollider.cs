@@ -36,6 +36,9 @@ public class GlowingPanelCollider : MonoBehaviour {
 	public bool charged;
 	private bool humMode; //toggle humming UI on/off
 
+    // Shame // Shame
+    AudioManager _AudioManager;
+
 
 	// Use this for initialization
 	void Start () {
@@ -48,12 +51,14 @@ public class GlowingPanelCollider : MonoBehaviour {
 		chargedUI.SetActive(false);
 		chargedText.SetActive(false);
 
+        _AudioManager = GameObject.Find("GameManager").GetComponent<AudioManager>();
+
         activated = false;
 		charged = false;
 		humMode = false;
         inTrigger = false;
 
-        if (!GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
+        if (!_AudioManager.isStartingScene)
             activated = true;
 	}
 	
@@ -69,7 +74,7 @@ public class GlowingPanelCollider : MonoBehaviour {
             else
                 humMode = false;
 
-        if (humMode == true && activated == false && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedWelcomeVO == true && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
+        if (humMode == true && activated == false && _AudioManager.hasPlayedWelcomeVO && _AudioManager.isStartingScene)
         {
             AkSoundEngine.PostEvent("EyeScan_Start", gameObject);
             humUI.fillAmount += Time.deltaTime / humTime;
@@ -128,7 +133,7 @@ public class GlowingPanelCollider : MonoBehaviour {
 
             inTrigger = true;
 
-            if(activated == false && GameObject.Find("GameManager").GetComponent<AudioManager>().hasPlayedWelcomeVO == true && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
+            if(activated == false && _AudioManager.hasPlayedWelcomeVO && _AudioManager.isStartingScene)
             {
                 count = 0.0f;
                 humText.SetActive(true);

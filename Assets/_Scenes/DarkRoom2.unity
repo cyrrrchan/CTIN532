@@ -302,8 +302,6 @@ MonoBehaviour:
   dbThreshold: 0.5
   humTime: 3
   cooldownTime: 6
-  star5: {fileID: 843980426}
-  charged: 0
   inTrigger: 0
   isLastScene: 0
 --- !u!65 &339416896
@@ -743,11 +741,6 @@ MonoBehaviour:
   noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
   pylonEmissionColor: {r: 0.13333334, g: 1, b: 0.92941177, a: 1}
   glowingPylonRenderer: {fileID: 843980424}
---- !u!1 &843980426 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1683842378383438, guid: 3c6ab707f9b22d24aa3363a7d0041945,
-    type: 2}
-  m_PrefabInternal: {fileID: 843980422}
 --- !u!4 &843980427 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4150866481850592, guid: 3c6ab707f9b22d24aa3363a7d0041945,
@@ -790,8 +783,6 @@ MonoBehaviour:
   dbThreshold: 0.5
   humTime: 3
   cooldownTime: 6
-  star5: {fileID: 843980426}
-  charged: 0
   inTrigger: 0
   isLastScene: 0
 --- !u!65 &894974014
@@ -1695,6 +1686,14 @@ Prefab:
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_HeadBob.VerticalBobRange
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_JumpSpeed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}

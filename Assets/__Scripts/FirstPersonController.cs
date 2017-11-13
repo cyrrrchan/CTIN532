@@ -74,7 +74,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 StartCoroutine(m_JumpBob.DoBobCycle());
                 //PlayLandingSound();
-				AkSoundEngine.PostEvent("Landing", gameObject);
+				//AkSoundEngine.PostEvent("Landing", gameObject);
                 m_MoveDir.y = 0f;
                 m_Jumping = false;
             }
@@ -123,7 +123,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 					if (m_Jump) {
 						m_MoveDir.y = m_JumpSpeed;
 						//PlayJumpSound ();
-						AkSoundEngine.PostEvent("Jump", gameObject);
+						//AkSoundEngine.PostEvent("Jump", gameObject);
 						m_Jump = false;
 						m_Jumping = true;
 					}

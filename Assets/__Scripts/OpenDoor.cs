@@ -34,11 +34,18 @@ public class OpenDoor : MonoBehaviour {
     public bool inTrigger = false;
 	private bool firstTimeHumAttemptMetric = false;
 
+    // Shame // Shame
+    AudioManager _AudioManagerIsListening;
+    GlowingPanelCollider _GlowingPanelColliderActivated;
+
     void Start()
     {
         if (audioInputObject == null)
             audioInputObject = GameObject.Find(Microphone.devices[0]);
         micIn = (MicrophoneInput)audioInputObject.GetComponent("MicrophoneInput");
+
+        _AudioManagerIsListening = GameObject.Find("GameManager").GetComponent<AudioManager>();
+        _GlowingPanelColliderActivated = GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>();
 
         humUI.fillAmount = 0.0f;
         humText.SetActive(false);
@@ -50,7 +57,7 @@ public class OpenDoor : MonoBehaviour {
     {
         db = micIn.loudness; //set db to be volume from player input
 
-		if (humMode == true && activated == true && !doorOpened && !GameObject.Find("GameManager").GetComponent<AudioManager>().isListening)
+		if (humMode == true && activated == true && !doorOpened && !_AudioManagerIsListening.isListening)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
@@ -109,12 +116,12 @@ public class OpenDoor : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
-        if (GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if true
+        if (_GlowingPanelColliderActivated.activated) //will check if true
             activated = true;
-        if (!GameObject.Find("GlowingPanel").GetComponent<GlowingPanelCollider>().activated) //will check if false
+        if (!_GlowingPanelColliderActivated.activated) //will check if false
             activated = false;
 
-        if (activated && !doorOpened && GameObject.Find("GameManager").GetComponent<AudioManager>().isStartingScene)
+        if (activated && !doorOpened && _AudioManagerIsListening.isStartingScene)
         {
             inTrigger = true;
             count = 0.0f;

@@ -926,8 +926,6 @@ MonoBehaviour:
   dbThreshold: 0.5
   humTime: 2
   cooldownTime: 6
-  star5: {fileID: 1853441085}
-  charged: 0
   inTrigger: 0
   isLastScene: 0
 --- !u!1 &806526774
@@ -1263,6 +1261,14 @@ Prefab:
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_HeadBob.VerticalBobRange
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_JumpSpeed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -1972,11 +1978,6 @@ MonoBehaviour:
 --- !u!23 &1853441084 stripped
 MeshRenderer:
   m_PrefabParentObject: {fileID: 23557767516755216, guid: 3c6ab707f9b22d24aa3363a7d0041945,
-    type: 2}
-  m_PrefabInternal: {fileID: 1853441081}
---- !u!1 &1853441085 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1683842378383438, guid: 3c6ab707f9b22d24aa3363a7d0041945,
     type: 2}
   m_PrefabInternal: {fileID: 1853441081}
 --- !u!4 &1853441089 stripped

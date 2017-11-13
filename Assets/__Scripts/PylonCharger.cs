@@ -25,9 +25,8 @@ public class PylonCharger : MonoBehaviour {
     float count = 0.0f;
     float duration = 1.0f; //how many seconds before UI disappears
     private float meterFilled = 0.0f;
-    [SerializeField] GameObject star5;
 
-    public bool charged = false;
+    private bool charged = false;
     private bool humMode = false; //toggle humming UI on/off
     public bool inTrigger = false;
     private bool isSecondDarkRoom = false;
@@ -35,7 +34,7 @@ public class PylonCharger : MonoBehaviour {
 
     // Shame // Shame
     GameManager _GameManagerPylonIsTriggered;
-    AudioManager _AudioManagerIsListening;
+    TrapRune _TrapRuneEnteredPentagram;
 
 
     void Start()
@@ -44,8 +43,6 @@ public class PylonCharger : MonoBehaviour {
         sceneName = scene.name;
 
         MetricManagerScript._metricsInstance.LogTime(sceneName + " Started: ");
-
-        _AudioManagerIsListening = GameObject.Find("GameManager").GetComponent<AudioManager>();
 
         if (audioInputObject == null)
             audioInputObject = GameObject.Find(Microphone.devices[0]);
@@ -60,6 +57,7 @@ public class PylonCharger : MonoBehaviour {
         else if (sceneName == "WaitingRoom4")
         {
             isLastScene = true;
+            _TrapRuneEnteredPentagram = GameObject.Find("TrapRune").GetComponent<TrapRune>();
         }
 
         humUI.fillAmount = 0.0f;
@@ -75,7 +73,10 @@ public class PylonCharger : MonoBehaviour {
         if (humMode == true && isSecondDarkRoom)
             SecondDarkRoom();
 
-        else if (humMode == true && !isSecondDarkRoom)
+        else if (humMode == true && isLastScene)
+            LastWaitingRoom();
+
+        else if (humMode == true && !isSecondDarkRoom && !isLastScene)
         {
             if (db > dbThreshold && charged == false) // play sound and fill UI if loud enough
             {
@@ -104,7 +105,7 @@ public class PylonCharger : MonoBehaviour {
                 charged = true;
             }
 
-            if (charged == true && !isLastScene) 
+            if (charged == true)
             {
                 count += Time.deltaTime;
 
@@ -119,33 +120,6 @@ public class PylonCharger : MonoBehaviour {
                     MetricManagerScript._metricsInstance.LogTime(sceneName + " Ended: ");
                     SceneManager.LoadScene(levelName);
                 }
-            }
-
-            if (charged == true && isLastScene) //if last scene play death VO and add last pentagram
-            {
-                star5.SetActive(true);
-                count += Time.deltaTime;
-
-                if (count >= duration)
-                {
-                    chargedText.SetActive(false);
-                    chargedUI.SetActive(false);
-                    count = 0.0f;
-                    t = 0.0f;
-                    humMode = false;
-                }
-            }
-        }
-
-        if (charged && isLastScene && !_AudioManagerIsListening.isListening && _AudioManagerIsListening.hasPlayedPlayerDeathVO)
-        {
-            duration = 1.0f;
-            count += Time.deltaTime;
-
-            if (count >= duration)
-            {
-                //here is where we should add a coroutine to fade in the pentagram
-				SceneManager.LoadScene(levelName);
             }
         }
     }
@@ -207,6 +181,43 @@ public class PylonCharger : MonoBehaviour {
         }
     }
 
+    private void LastWaitingRoom ()
+    {
+        if (charged == false && _TrapRuneEnteredPentagram.enteredPentagram)
+        {
+            AkSoundEngine.PostEvent("Charging", gameObject);
+            humUI.fillAmount += Time.deltaTime / humTime;
+        }
+
+        if (humUI.fillAmount == 1.0f) // done charging
+        {
+            AkSoundEngine.PostEvent("Charging_Stop", gameObject);
+            AkSoundEngine.PostEvent("Success", gameObject);
+
+            humText.SetActive(false);
+            humUI.fillAmount = 0.0f;
+            chargedText.SetActive(true);
+            chargedUI.SetActive(true);
+
+            charged = true;
+        }
+
+        if (charged == true)
+        {
+            count += Time.deltaTime;
+
+            if (count >= duration)
+            {
+                chargedText.SetActive(false);
+                chargedUI.SetActive(false);
+                count = 0.0f;
+                t = 0.0f;
+                humMode = false;
+                charged = false; 
+            }
+        }
+    }
+
     private void OnTriggerEnter(Collider other) //turn on UI when inside collider
     {
         inTrigger = true;
@@ -219,7 +230,7 @@ public class PylonCharger : MonoBehaviour {
             humUI.fillAmount = meterFilled;
         }
 
-        else if (!charged && gameObject.name != "PylonTrigger2b")
+        else if (!charged)
         {
             count = 0.0f;
             humMode = true;

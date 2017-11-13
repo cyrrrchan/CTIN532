@@ -26,7 +26,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	666045890	VO_eyeScan2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_eyeScan2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_eyeScan2		1067340
 	717142908	VO_waitingRoom2_2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom2_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom2_2		955428
 	724181308	VO_humIntro2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro2		1715800
-	742143421	VO_newInstructions	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructions_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructions		5556984
+	742143421	VO_newInstructions	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructions_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructions		6333116
 	887095040	VO_powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_powerOutage		1200408
 	919316911	VO_newInstructionsOpt	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructionsOpt_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructionsOpt		958980
 	955830675	Loud Crash (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Loud Crash (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loud Crash (LPF)		1071904

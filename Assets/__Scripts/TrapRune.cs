@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TrapRune : MonoBehaviour {
 
@@ -17,7 +18,7 @@ public class TrapRune : MonoBehaviour {
 
 	[SerializeField] MoveAgainstWill _moveAgainstWillScript;
 
-	private bool enteredPentagram = false;
+	public bool enteredPentagram = false;
 
 
 	[SerializeField] GameObject floorPentagram;
@@ -60,11 +61,12 @@ public class TrapRune : MonoBehaviour {
 		trapRuneRenderer.material = trapRuneOnMaterial;
 		//turn off lights
 		lightingManagerScript.LightsOff ();
-		_moveAgainstWillScript.TriggerMoveAgainstWill ();
-        AkSoundEngine.PostEvent("Dragging", gameObject);
+        AkSoundEngine.PostEvent("PowerOutageEnd", gameObject);
+        _moveAgainstWillScript.TriggerMoveAgainstWill ();
         yield return new WaitForSeconds (2f);
 		//surround player with particles
 		evilParticles.SetActive (true);
+        AkSoundEngine.PostEvent("Dragging", gameObject);
         AkSoundEngine.PostEvent("Ending", gameObject);
         yield return new WaitForSeconds (2f);
 		//turn on floor pentagram
@@ -75,17 +77,19 @@ public class TrapRune : MonoBehaviour {
 		yield return new WaitForSeconds (4f);
 		//fill in last star on the pentagram
 		pentagramAnimationScript.fadeInLastLine ();
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (3f);
 		print ("fading");
 		fadeOutScript.FadeMeIn ();
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadScene("Credits");
 
-	
-		//sound effect for trap rune
 
-		//extra sound effects
-		//start VO
-		//fill charging UI element
-		//make floor pentagram appear
-		//end game (load credits)
-	}
+        //sound effect for trap rune
+
+        //extra sound effects
+        //start VO
+        //fill charging UI element
+        //make floor pentagram appear
+        //end game (load credits)
+    }
 }

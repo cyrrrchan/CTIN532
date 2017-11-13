@@ -29,6 +29,7 @@ public class AudioManager : MonoBehaviour {
     float duration = 1.0f;
 
     public bool hasEndedDoorVO = false;
+    public bool _hasGoneToWR = false;
 
 	// Shame // // Shame //
 	StartDoor _Trigger0StartDoor;
@@ -37,14 +38,17 @@ public class AudioManager : MonoBehaviour {
 	LightingChanger _LightingManagerLightingChanger;
 	GameManager _TriggerWR2GameManager;
 	GameManager _TriggerWR3GameManager;
-	PylonCharger _PylonTrigger4PylonCharger;
+    TrapRune _TrapRuneEnteredPentagram;
 	// Shame // // Shame //
 
 	// Use this for initialization
 	void Start () {
         Scene scene = SceneManager.GetActiveScene();
         sceneName = scene.name;
-		if (sceneName == "Main") {
+
+        _hasGoneToWR = false;
+
+        if (sceneName == "Main") {
 			_Trigger0StartDoor = GameObject.Find ("Trigger0").GetComponent<StartDoor> ();
 			_GlowingPanelGlowingPanelCollider = GameObject.Find ("GlowingPanel").GetComponent<GlowingPanelCollider> ();
 			_TriggerOpenDoor = GameObject.Find ("Trigger").GetComponent<OpenDoor> ();
@@ -71,7 +75,7 @@ public class AudioManager : MonoBehaviour {
             {	
 				hasPlayedWaitingRoom2VO = true;
                 hasPlayedWaitingRoom3VO = true;
-				_PylonTrigger4PylonCharger = GameObject.Find ("PylonTrigger4").GetComponent<PylonCharger> ();
+                _TrapRuneEnteredPentagram = GameObject.Find("TrapRune").GetComponent<TrapRune>();
             }
         }
     }
@@ -112,10 +116,16 @@ public class AudioManager : MonoBehaviour {
                 hasPlayedWelcomeVO = true;
 
             else if (sceneName == "WaitingRoom2")
+            {
                 hasPlayedWaitingRoom2VO = true;
+                _hasGoneToWR = true;
+            }
 
             else if (sceneName == "WaitingRoom3")
+            {
                 hasPlayedWaitingRoom3VO = true;
+                _hasGoneToWR = true;
+            }
 
             isListening = false;
 		}
@@ -194,6 +204,7 @@ public class AudioManager : MonoBehaviour {
                 object myCookie = new object();
                 isListening = true;
                 AkSoundEngine.PostEvent("VO_NewInstructions", gameObject, (uint)AkCallbackType.AK_EndOfEvent, CheckWhenFinished, myCookie);
+                _hasGoneToWR = true;
                 hasPlayedNewInstructionsVO = true;
                 count = 0.0f;
                 duration = 1.0f;
@@ -225,7 +236,7 @@ public class AudioManager : MonoBehaviour {
 
     void WaitingRoom4()
     {
-		if (sceneName == "WaitingRoom4" && !hasPlayedPlayerDeathVO &&  _PylonTrigger4PylonCharger.charged) //after Dark Room 3
+		if (sceneName == "WaitingRoom4" && !hasPlayedPlayerDeathVO &&  _TrapRuneEnteredPentagram.enteredPentagram) //after Dark Room 3
         {
             object myCookie = new object();
             isListening = true;

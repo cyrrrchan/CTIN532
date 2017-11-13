@@ -156,10 +156,13 @@
 				<Event Id="3828622232" Name="Charging" ObjectPath="\Events\Default Work Unit\Charging"/>
 				<Event Id="3111569007" Name="Charging_Pause" ObjectPath="\Events\Default Work Unit\Charging_Pause" MaxAttenuation="0.000000"/>
 				<Event Id="164228631" Name="Charging_Stop" ObjectPath="\Events\Default Work Unit\Charging_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1751915814" Name="Dragging" ObjectPath="\Events\Default Work Unit\Dragging"/>
+				<Event Id="3966194980" Name="Ending" ObjectPath="\Events\Default Work Unit\Ending"/>
 				<Event Id="3794852078" Name="EyeScan_Done" ObjectPath="\Events\Default Work Unit\EyeScan_Done"/>
 				<Event Id="964212030" Name="EyeScan_Start" ObjectPath="\Events\Default Work Unit\EyeScan_Start"/>
 				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="130561341" Name="PowerOutage" ObjectPath="\Events\Default Work Unit\PowerOutage"/>
+				<Event Id="1150325660" Name="PowerOutageEnd" ObjectPath="\Events\Default Work Unit\PowerOutageEnd"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -167,13 +170,25 @@
 					<ShortName>eyeScan1.wav</ShortName>
 					<Path>SFX\eyeScan1_1C9C67B2.wem</Path>
 				</File>
+				<File Id="111231071" Language="SFX">
+					<ShortName>powerOutage.wav</ShortName>
+					<Path>SFX\powerOutage_84913147.wem</Path>
+				</File>
 				<File Id="337457353" Language="SFX">
 					<ShortName>powerOutage.wav</ShortName>
 					<Path>SFX\powerOutage_1C9C67B2.wem</Path>
 				</File>
+				<File Id="401681654" Language="SFX">
+					<ShortName>Dragging.wav</ShortName>
+					<Path>SFX\Dragging_1C9C67B2.wem</Path>
+				</File>
 				<File Id="536370990" Language="SFX">
 					<ShortName>Success.wav</ShortName>
 					<Path>SFX\Success_1C9C67B2.wem</Path>
+				</File>
+				<File Id="561559066" Language="SFX">
+					<ShortName>Ending.wav</ShortName>
+					<Path>SFX\Ending_1C9C67B2.wem</Path>
 				</File>
 				<File Id="892572012" Language="SFX">
 					<ShortName>eyeScan0.wav</ShortName>
