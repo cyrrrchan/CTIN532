@@ -159,16 +159,30 @@ public class LightingChanger : MonoBehaviour {
 			glowingPanelBoxCollider.enabled = false;
 			glowingPanelRenderer.material = glowingPanelTurnedOffMat;
 
-			Scene currentScene = SceneManager.GetActiveScene ();
-			string sceneName = currentScene.name;
 
-			if (sceneName == "Main") {
-				wallMapRenderer.material = wallMapPowerOffMat;
-			}
 
 
 
 		}
+
+		Scene currentScene = SceneManager.GetActiveScene ();
+		string sceneName = currentScene.name;
+
+		if (sceneName == "Main") {
+			wallMapRenderer.material = wallMapPowerOffMat;
+		}
+
+		if (sceneName == "WaitingRoom2") {
+			//print don't touch probes
+		}else{
+			GameObject[] allReflectionProbes = GameObject.FindGameObjectsWithTag ("ReflectionProbe");
+			foreach (GameObject i in allReflectionProbes) {
+				i.GetComponent<ReflectionProbe> ().RenderProbe ();
+
+			}	
+		}
+
+
 
 
 

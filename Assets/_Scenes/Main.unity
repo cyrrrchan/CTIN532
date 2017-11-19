@@ -1166,6 +1166,7 @@ GameObject:
   - component: {fileID: 115829195}
   - component: {fileID: 115829197}
   - component: {fileID: 115829196}
+  - component: {fileID: 115829198}
   m_Layer: 0
   m_Name: DoorFrame (1)
   m_TagString: Untagged
@@ -1226,6 +1227,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 115829194}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &115829198
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115829194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!1001 &119369299
 Prefab:
@@ -2614,6 +2629,7 @@ GameObject:
   - component: {fileID: 240751838}
   - component: {fileID: 240751840}
   - component: {fileID: 240751839}
+  - component: {fileID: 240751841}
   m_Layer: 0
   m_Name: DoorFrame (2)
   m_TagString: Untagged
@@ -2674,6 +2690,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 240751837}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &240751841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 240751837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!1001 &251522214
 Prefab:
@@ -9041,7 +9071,7 @@ GameObject:
   - component: {fileID: 1042936694}
   m_Layer: 0
   m_Name: Reflection Probe
-  m_TagString: Untagged
+  m_TagString: ReflectionProbe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9408,6 +9438,7 @@ GameObject:
   - component: {fileID: 1080822352}
   - component: {fileID: 1080822354}
   - component: {fileID: 1080822353}
+  - component: {fileID: 1080822355}
   m_Layer: 0
   m_Name: DoorFrame (4)
   m_TagString: Untagged
@@ -9468,6 +9499,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080822351}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &1080822355
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080822351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!1001 &1099595219
 Prefab:
@@ -11454,7 +11499,7 @@ GameObject:
   - component: {fileID: 1264205941}
   m_Layer: 0
   m_Name: Reflection Probe-FarHallway
-  m_TagString: Untagged
+  m_TagString: ReflectionProbe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12626,6 +12671,7 @@ GameObject:
   - component: {fileID: 1429883690}
   - component: {fileID: 1429883692}
   - component: {fileID: 1429883691}
+  - component: {fileID: 1429883693}
   m_Layer: 0
   m_Name: DoorFrame (3)
   m_TagString: Untagged
@@ -12686,6 +12732,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1429883689}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &1429883693
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429883689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!1001 &1432585755
 Prefab:
@@ -13030,6 +13090,7 @@ GameObject:
   - component: {fileID: 1448128003}
   - component: {fileID: 1448128005}
   - component: {fileID: 1448128004}
+  - component: {fileID: 1448128006}
   m_Layer: 0
   m_Name: DoorFrame (2)
   m_TagString: Untagged
@@ -13090,6 +13151,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1448128002}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &1448128006
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1448128002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!1001 &1452670212
 Prefab:
@@ -14543,6 +14618,7 @@ GameObject:
   - component: {fileID: 1652529465}
   - component: {fileID: 1652529467}
   - component: {fileID: 1652529466}
+  - component: {fileID: 1652529468}
   m_Layer: 0
   m_Name: DoorFrame (3)
   m_TagString: Untagged
@@ -14603,6 +14679,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1652529464}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &1652529468
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652529464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!4 &1653184659 stripped
 Transform:
@@ -15447,7 +15537,7 @@ GameObject:
   - component: {fileID: 1766067682}
   m_Layer: 0
   m_Name: Reflection Probe
-  m_TagString: Untagged
+  m_TagString: ReflectionProbe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17585,7 +17675,7 @@ GameObject:
   - component: {fileID: 1987662940}
   m_Layer: 0
   m_Name: Reflection Probe
-  m_TagString: Untagged
+  m_TagString: ReflectionProbe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17599,10 +17689,10 @@ ReflectionProbe:
   m_Enabled: 1
   serializedVersion: 2
   m_Type: 0
-  m_Mode: 0
+  m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 1024
   m_UpdateFrequency: 0
   m_BoxSize: {x: 8, y: 8, z: 8}
   m_BoxOffset: {x: 0, y: 0, z: 0}
@@ -18404,6 +18494,7 @@ GameObject:
   - component: {fileID: 2126921076}
   - component: {fileID: 2126921078}
   - component: {fileID: 2126921077}
+  - component: {fileID: 2126921079}
   m_Layer: 0
   m_Name: DoorFrame (4)
   m_TagString: Untagged
@@ -18464,6 +18555,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126921075}
+  m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
+--- !u!64 &2126921079
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126921075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 255697c841ba88048bf640dc11e4e253, type: 3}
 --- !u!1 &2136761315
 GameObject:
