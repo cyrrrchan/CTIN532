@@ -1421,6 +1421,42 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 480340, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
   m_PrefabInternal: {fileID: 119369299}
+--- !u!1 &119369301 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120568, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
+  m_PrefabInternal: {fileID: 119369299}
+--- !u!114 &119369302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 119369301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &124262117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3160,6 +3196,42 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 480340, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
   m_PrefabInternal: {fileID: 301044220}
+--- !u!1 &301044222 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120568, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
+  m_PrefabInternal: {fileID: 301044220}
+--- !u!114 &301044223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301044222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1001 &307746288
 Prefab:
   m_ObjectHideFlags: 0
@@ -3969,6 +4041,43 @@ Transform:
   m_PrefabParentObject: {fileID: 4486911201799352, guid: de55f826b2105eb4b9d99c7ef35b67b9,
     type: 2}
   m_PrefabInternal: {fileID: 375974991}
+--- !u!1 &375974993 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1201338539706088, guid: de55f826b2105eb4b9d99c7ef35b67b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 375974991}
+--- !u!114 &375974994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 375974993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &405718128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4755,6 +4864,43 @@ Transform:
   m_PrefabParentObject: {fileID: 4486911201799352, guid: de55f826b2105eb4b9d99c7ef35b67b9,
     type: 2}
   m_PrefabInternal: {fileID: 491248242}
+--- !u!1 &491248244 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1201338539706088, guid: de55f826b2105eb4b9d99c7ef35b67b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 491248242}
+--- !u!114 &491248245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 491248244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &491498049
 GameObject:
   m_ObjectHideFlags: 0
@@ -8836,6 +8982,42 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 480340, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
   m_PrefabInternal: {fileID: 975298782}
+--- !u!1 &975298784 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120568, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
+  m_PrefabInternal: {fileID: 975298782}
+--- !u!114 &975298785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 975298784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!4 &982468026 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4497875861699254, guid: 5c21f681412185548947c0082c83e371,
@@ -10851,6 +11033,42 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 480340, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
   m_PrefabInternal: {fileID: 1156295375}
+--- !u!1 &1156295377 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120568, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
+  m_PrefabInternal: {fileID: 1156295375}
+--- !u!114 &1156295378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156295377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1168243860 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 7032ff31a85e4424dad5d3f4d1bf163c, type: 3}
@@ -13198,6 +13416,42 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 480340, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
   m_PrefabInternal: {fileID: 1440888282}
+--- !u!1 &1440888284 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 120568, guid: 2f1666ad9b7fdd7459a360619d6ccffd, type: 2}
+  m_PrefabInternal: {fileID: 1440888282}
+--- !u!114 &1440888285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1440888284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c76059636b93394eac557212a32aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioInputObject: {fileID: 1974856934}
+  noEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  glowEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+  sweetSpotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1448128002
 GameObject:
   m_ObjectHideFlags: 0
@@ -18052,7 +18306,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400016, guid: 0699876341a05bd45bde322f8698fd18, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2053016917}
-  m_LocalRotation: {x: -0.69018257, y: 0.3595308, z: 0.15377924, w: 0.60888237}
+  m_LocalRotation: {x: -0.6901825, y: 0.35953078, z: 0.15377922, w: 0.6088823}
   m_LocalPosition: {x: -22.299374, y: -0.003976822, z: -26.78226}
   m_LocalScale: {x: 0.01962517, y: 0.019625168, z: 0.019625176}
   m_Children: []
