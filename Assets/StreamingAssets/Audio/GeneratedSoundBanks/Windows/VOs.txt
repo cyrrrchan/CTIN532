@@ -15,20 +15,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	166131356	VO_eyeScan	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_eyeScan_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_welcomeSeq\VO_eyeScan		1493948
 	254508173	VO_LoudCrash	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_LoudCrash_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_LoudCrash		1071904
 	304596066	Thumping (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Thumping (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thumping (LPF)		796756
-	357555149	VO_humIntro1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro1		3963708
+	357555149	VO_humIntro1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro1		3963704
 	390536320	VO_Thumping	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_Thumping_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Thumping		796756
 	421201915	VO_playerDeath	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_playerDeath_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_playerDeath		3540936
-	430009217	VO_doorOpen	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_doorOpen_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_doorOpen		326388
-	430579158	VO_welcomeIntro	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_welcomeIntro_FEF7B59C.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_welcomeSeq\VO_welcomeIntro		1834724
+	430009217	VO_doorOpen	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_doorOpen_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_doorOpen		326384
+	430579158	VO_welcomeIntro	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_welcomeIntro_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_welcomeSeq\VO_welcomeIntro		1832884
 	533569097	VO_waitingRoom2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom2		3049880
 	599703570	VO_humIntro3	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro3		918844
 	654251998	VO_waitingRoom1_2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom1_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom1_2		265448
-	666045890	VO_eyeScan2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_eyeScan2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_eyeScan2		1067340
-	717142908	VO_waitingRoom2_2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom2_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom2_2		955428
-	724181308	VO_humIntro2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro2		1715800
+	666045890	VO_eyeScan2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_eyeScan2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_eyeScan2		1067344
+	717142908	VO_waitingRoom2_2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom2_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom2_2		955424
+	724181308	VO_humIntro2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro2		1715796
 	742143421	VO_newInstructions	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructions_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructions		6333116
 	887095040	VO_powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_powerOutage		1200408
 	919316911	VO_newInstructionsOpt	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructionsOpt_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructionsOpt		958980
 	955830675	Loud Crash (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Loud Crash (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loud Crash (LPF)		1071904
-	973637631	VO_waitingRoom1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom1		7739032
+	973637631	VO_waitingRoom1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom1		7739028
 

@@ -13,7 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	75284863	eyeScan1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\eyeScan1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\eyeScan1		56432
-	111231071	powerOutageEnd	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\powerOutage_84913147.wem		\Actor-Mixer Hierarchy\Default Work Unit\powerOutageEnd		753560
+	111231071	powerOutageEnd	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\powerOutage_C5999ABB.wem		\Actor-Mixer Hierarchy\Default Work Unit\powerOutageEnd		753560
 	337457353	powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\powerOutage		1045160
 	401681654	Dragging	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Dragging_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragging		2162616
 	536370990	Success	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Success		354604

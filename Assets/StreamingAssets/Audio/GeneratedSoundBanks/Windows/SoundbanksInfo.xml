@@ -95,7 +95,7 @@
 				</File>
 				<File Id="430579158" Language="SFX">
 					<ShortName>VO_welcomeIntro.wav</ShortName>
-					<Path>SFX\VO_welcomeIntro_FEF7B59C.wem</Path>
+					<Path>SFX\VO_welcomeIntro_1C9C67B2.wem</Path>
 				</File>
 				<File Id="533569097" Language="SFX">
 					<ShortName>VO_waitingRoom2.wav</ShortName>
@@ -172,7 +172,7 @@
 				</File>
 				<File Id="111231071" Language="SFX">
 					<ShortName>powerOutage.wav</ShortName>
-					<Path>SFX\powerOutage_84913147.wem</Path>
+					<Path>SFX\powerOutage_C5999ABB.wem</Path>
 				</File>
 				<File Id="337457353" Language="SFX">
 					<ShortName>powerOutage.wav</ShortName>
