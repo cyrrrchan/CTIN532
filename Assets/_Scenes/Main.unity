@@ -5523,6 +5523,7 @@ GameObject:
   - component: {fileID: 592973523}
   - component: {fileID: 592973522}
   - component: {fileID: 592973524}
+  - component: {fileID: 592973525}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5641,6 +5642,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &592973525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 592973521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63799fc7ebc60e419760cc37411b347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 1104343304}
+  _DistanceToPlayer: 0
+  _MaxAttenuation: 0
+  _player: {fileID: 1908046874}
 --- !u!1 &594789635
 GameObject:
   m_ObjectHideFlags: 0
@@ -9873,6 +9889,10 @@ Prefab:
     - {fileID: 8100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1104343304 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 1104343303}
 --- !u!1 &1105507446
 GameObject:
   m_ObjectHideFlags: 0
@@ -11704,7 +11724,7 @@ GameObject:
   - component: {fileID: 1250412074}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

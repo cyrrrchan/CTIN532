@@ -8,6 +8,7 @@ TagManager:
   - light
   - tube
   - ReflectionProbe
+  - Wall
   layers:
   - Default
   - TransparentFX
