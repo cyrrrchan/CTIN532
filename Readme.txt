@@ -4,7 +4,6 @@ Found Assets
 3D models, skybox, and camera effects from the Unity Asset Store
 Office chairs from Turbosquid (Royalty free license)
 One of the scripts, "math helper" was passed down from Julian Ceipek. 
-Audio files from Freesound.org (Creative Commons license).
 Fonts: VT323 (Google Fonts, SIL Open Font License, Version 1.1)
 
 
@@ -41,6 +40,40 @@ Paintings from Wikimedia commons:
 	https://upload.wikimedia.org/wikipedia/commons/e/e2/James_Ti	ssot_-_The_Farewell.jpg
 
 	https://upload.wikimedia.org/wikipedia/commons/5/50/James_Ti	ssot_-_A_Woman_of_Ambition.jpg
+
+
+Audio files from Freesound.org (Creative Commons license):
+	http://freesound.org/people/deleted_user_3277771/sounds/185244/download/185244__deleted-user-3277771__big-crash.wav
+	
+	http://freesound.org/people/sforsman/sounds/274082/download/274082__sforsman__rusty-creak-4.wav
+	
+	http://freesound.org/people/Macif/sounds/194365/download/194365__macif__door-knocking-angry.wav
+
+	http://freesound.org/people/Eneasz/sounds/161873/download/161873__eneasz__wooden-door-smash-open.wav
+
+	http://freesound.org/people/NoiseDrowning/sounds/109234/download/109234__noisedrowning__drag-a-brick-01.wav
+
+	http://freesound.org/people/Adam_N/sounds/166118/download/166118__adam-n__metal-concrete.wav
+
+	http://freesound.org/people/wilhelmsqueek/sounds/347391/download/347391__wilhelmsqueek__stone-on-stone-st.wav
+
+	http://freesound.org/people/PureAudioNinja/sounds/341612/download/341612__pureaudioninja__electricity-4.wav
+
+	http://freesound.org/people/deleted_user_7146007/sounds/383654/download/383654__deleted-user-7146007__electricity.wav
+
+	http://freesound.org/people/ElevatorProductions/sounds/69944/download/69944__elevatorproductions__laser-sound.mp3
+
+	http://freesound.org/people/Speedenza/sounds/203925/download/203925__speedenza__creaking-metal-soundscape-2.wav
+
+	http://freesound.org/people/ninjatrappeur/sounds/400194/download/400194__ninjatrappeur__power-cut.wav
+
+	http://freesound.org/people/ProjectsU012/sounds/340959/download/340959__projectsu012__scanning-sound.wav
+
+	http://freesound.org/people/spoonsandlessspoons/sounds/361332/download/361332__spoonsandlessspoons__computer-scan.wav
+
+	http://freesound.org/people/bigmanjoe/sounds/348032/download/348032__bigmanjoe__stuff-knocking-over-2.wav
+
+	http://freesound.org/people/Speedenza/sounds/223017/download/223017__speedenza__urgent-impacts-5.wav
 
 
 
