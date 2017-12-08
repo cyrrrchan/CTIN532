@@ -2,7 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2077253480	Room			\Default Work Unit\Room	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	741787105	HeatVent	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\HeatVent_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeatVent		2669514
-	798566368	RoomTone	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\RoomTone_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\RoomTone		6176832
-	799294439	Hvac	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Hvac_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hvac		43217036
+	529767979	Electricity	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Electricity_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electricity		389908
+	934008377	Robot Cicada	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Robot Cicada_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot Cicada		1404992
 

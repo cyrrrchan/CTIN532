@@ -19,17 +19,13 @@
 				<Event Id="2077253480" Name="Room" ObjectPath="\Events\Default Work Unit\Room"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="741787105" Language="SFX">
-					<ShortName>HeatVent.wav</ShortName>
-					<Path>SFX\HeatVent_F17FB28C.wem</Path>
+				<File Id="529767979" Language="SFX">
+					<ShortName>Electricity.wav</ShortName>
+					<Path>SFX\Electricity_F17FB28C.wem</Path>
 				</File>
-				<File Id="798566368" Language="SFX">
-					<ShortName>RoomTone.wav</ShortName>
-					<Path>SFX\RoomTone_F17FB28C.wem</Path>
-				</File>
-				<File Id="799294439" Language="SFX">
-					<ShortName>Hvac.wav</ShortName>
-					<Path>SFX\Hvac_F17FB28C.wem</Path>
+				<File Id="934008377" Language="SFX">
+					<ShortName>Robot Cicada.wav</ShortName>
+					<Path>SFX\Robot Cicada_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -57,7 +53,6 @@
 				<Event Id="611404299" Name="VO_HumDoor" ObjectPath="\Events\Default Work Unit\VO_HumDoor" MaxAttenuation="75.000000"/>
 				<Event Id="1011784067" Name="VO_HumIntro" ObjectPath="\Events\Default Work Unit\VO_HumIntro" MaxAttenuation="75.000000"/>
 				<Event Id="21641180" Name="VO_NewInstructions" ObjectPath="\Events\Default Work Unit\VO_NewInstructions" MaxAttenuation="75.000000"/>
-				<Event Id="3073818423" Name="VO_NewInstructionsOpt" ObjectPath="\Events\Default Work Unit\VO_NewInstructionsOpt" MaxAttenuation="75.000000"/>
 				<Event Id="2295317522" Name="VO_PlayerDeath" ObjectPath="\Events\Default Work Unit\VO_PlayerDeath" MaxAttenuation="75.000000"/>
 				<Event Id="1911092507" Name="VO_PowerOutage" ObjectPath="\Events\Default Work Unit\VO_PowerOutage" MaxAttenuation="75.000000"/>
 				<Event Id="2042003902" Name="VO_WaitingRoom1" ObjectPath="\Events\Default Work Unit\VO_WaitingRoom1"/>
@@ -129,10 +124,6 @@
 					<ShortName>VO_powerOutage.wav</ShortName>
 					<Path>SFX\VO_powerOutage_1C9C67B2.wem</Path>
 				</File>
-				<File Id="919316911" Language="SFX">
-					<ShortName>VO_newInstructionsOpt.wav</ShortName>
-					<Path>SFX\VO_newInstructionsOpt_1C9C67B2.wem</Path>
-				</File>
 				<File Id="955830675" Language="SFX">
 					<ShortName>Loud Crash (LPF).wav</ShortName>
 					<Path>SFX\Loud Crash (LPF)_1C9C67B2.wem</Path>
@@ -163,6 +154,8 @@
 				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="130561341" Name="PowerOutage" ObjectPath="\Events\Default Work Unit\PowerOutage"/>
 				<Event Id="1150325660" Name="PowerOutageEnd" ObjectPath="\Events\Default Work Unit\PowerOutageEnd"/>
+				<Event Id="3655227470" Name="Room_PowerOut" ObjectPath="\Events\Default Work Unit\Room_PowerOut"/>
+				<Event Id="1804752455" Name="Room_Stop" ObjectPath="\Events\Default Work Unit\Room_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -190,6 +183,10 @@
 					<ShortName>Ending.wav</ShortName>
 					<Path>SFX\Ending_1C9C67B2.wem</Path>
 				</File>
+				<File Id="724850063" Language="SFX">
+					<ShortName>Electric Sparks.wav</ShortName>
+					<Path>SFX\Electric Sparks_F17FB28C.wem</Path>
+				</File>
 				<File Id="892572012" Language="SFX">
 					<ShortName>eyeScan0.wav</ShortName>
 					<Path>SFX\eyeScan0_1C9C67B2.wem</Path>
@@ -197,6 +194,14 @@
 				<File Id="906311439" Language="SFX">
 					<ShortName>RISE_100.wav</ShortName>
 					<Path>SFX\RISE_100_0A263776.wem</Path>
+				</File>
+				<File Id="934008377" Language="SFX">
+					<ShortName>Robot Cicada.wav</ShortName>
+					<Path>SFX\Robot Cicada_F17FB28C.wem</Path>
+				</File>
+				<File Id="1044882616" Language="SFX">
+					<ShortName>Electric Sparks 2.wav</ShortName>
+					<Path>SFX\Electric Sparks 2_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -206,8 +211,6 @@
 			<Path>Footsteps.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
-				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
-				<Event Id="2548270042" Name="Landing" ObjectPath="\Events\Default Work Unit\Landing"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="112455662" Language="SFX">

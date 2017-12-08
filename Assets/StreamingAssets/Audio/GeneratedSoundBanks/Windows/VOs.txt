@@ -8,7 +8,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2042003901	VO_WaitingRoom2			\Default Work Unit\VO_WaitingRoom2	
 	2042003902	VO_WaitingRoom1			\Default Work Unit\VO_WaitingRoom1	
 	2295317522	VO_PlayerDeath			\Default Work Unit\VO_PlayerDeath	
-	3073818423	VO_NewInstructionsOpt			\Default Work Unit\VO_NewInstructionsOpt	
 	3234679781	VO_Welcome			\Default Work Unit\VO_Welcome	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -28,7 +27,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	724181308	VO_humIntro2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_humIntro2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_humIntro\VO_humIntro2		1715796
 	742143421	VO_newInstructions	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructions_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructions		6333116
 	887095040	VO_powerOutage	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_powerOutage_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_powerOutage		1200408
-	919316911	VO_newInstructionsOpt	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_newInstructionsOpt_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_newInstructionsOpt		958980
 	955830675	Loud Crash (LPF)	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\Loud Crash (LPF)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Loud Crash (LPF)		1071904
 	973637631	VO_waitingRoom1	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Windows\SFX\VO_waitingRoom1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_waitingRoom1		7739028
 

@@ -4,9 +4,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	964212030	EyeScan_Start			\Default Work Unit\EyeScan_Start	
 	1150325660	PowerOutageEnd			\Default Work Unit\PowerOutageEnd	
 	1751915814	Dragging			\Default Work Unit\Dragging	
+	1804752455	Room_Stop			\Default Work Unit\Room_Stop	
 	2908058974	EyeScan_Stop			\Default Work Unit\EyeScan_Stop	
 	3111569007	Charging_Pause			\Default Work Unit\Charging_Pause	
 	3625060726	Success			\Default Work Unit\Success	
+	3655227470	Room_PowerOut			\Default Work Unit\Room_PowerOut	
 	3794852078	EyeScan_Done			\Default Work Unit\EyeScan_Done	
 	3828622232	Charging			\Default Work Unit\Charging	
 	3966194980	Ending			\Default Work Unit\Ending	
@@ -18,6 +20,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	401681654	Dragging	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Dragging_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragging		2162616
 	536370990	Success	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Success		354604
 	561559066	Ending	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Ending_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ending		4334512
+	724850063	Electric Sparks	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Electric Sparks_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Sparks		864064
 	892572012	eyeScan0	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\eyeScan0_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\eyeScan0		720536
 	906311439	RISE_100	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\RISE_100_0A263776.wem		\Actor-Mixer Hierarchy\Default Work Unit\RISE_100		12215188
+	934008377	Robot Cicada_Powerout	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Robot Cicada_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robot Cicada_Powerout		1404992
+	1044882616	Electric Sparks 2	F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\.cache\Mac\SFX\Electric Sparks 2_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Sparks 2		2081584
 

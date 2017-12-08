@@ -102,6 +102,8 @@ public class OpenDoor : MonoBehaviour {
                 if (count >= duration)
                 {
                     AkSoundEngine.PostEvent("PowerOutage", gameObject);
+                    AkSoundEngine.PostEvent("Room_PowerOut", gameObject);
+                    AkSoundEngine.PostEvent("Room_Stop", gameObject);
                     chargedText.SetActive(false);
                     chargedUI.SetActive(false);
                     count = 0.0f;
